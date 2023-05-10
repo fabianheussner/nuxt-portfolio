@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/Inter-Regular.woff2') format("woff2"),
+       url('../fonts/Inter-Regular.woff') format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/Inter-SemiBold.woff2') format("woff2"),
+       url('../fonts/Inter-SemiBold.woff') format("woff");
+}
+
+/* @font-face {
+    font-display: swap;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Nunito Regular'), local('Nunito-Regular'),
+      url('~assets/fonts/Nunito-400-cyrillic-ext1.woff2') format('woff2');
+} */
+
+
+body {
+  background: #f5f5f5;
+}

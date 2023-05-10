@@ -3,7 +3,7 @@
         <ul class="rounded-full text-base bg-background inline-flex text-center">
             <li><NuxtLink to="/" class="tab rounded-full block p-5">Home</NuxtLink></li>            
             <li><NuxtLink to="work" class="tab rounded-full block p-5">Work</NuxtLink></li>            
-            <li><NuxtLink to="about" class="tab rounded-full block p-5 active:bg-accentBlue">About</NuxtLink></li>            
+            <li><NuxtLink to="about" class="tab rounded-full block p-5">About</NuxtLink></li>            
         </ul>
     </nav>
 </template>
@@ -23,8 +23,8 @@
     }
     .tab {
         width: 200px;
-    &.router-link-exact-active {
-        @apply bg-surface;
     }
+    .router-link-exact-active {
+        @apply bg-surface;
     }
 </style>

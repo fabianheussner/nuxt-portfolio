@@ -23,7 +23,7 @@ module.exports = {
       onBackground: '#1B1C1D',
       onBackgroundSubdued: '#585F66',
       onBackgroundBorder: '#D2D2D7',
-
+    
       backgroundVariant: '#1B1C1D',
       onBackgroundVariant: '#F5F5F7',
       onBackgroundVariantSubdued: '#C8C8CD',

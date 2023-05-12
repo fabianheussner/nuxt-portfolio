@@ -1,30 +1,40 @@
 <template lang="">
-    <nav class="tab-bar">
+    <nav class="tab-bar flex">
         <ul class="rounded-full text-base bg-background inline-flex text-center">
-            <li><NuxtLink to="/" class="tab rounded-full block p-5">Home</NuxtLink></li>            
-            <li><NuxtLink to="work" class="tab rounded-full block p-5">Work</NuxtLink></li>            
-            <li><NuxtLink to="about" class="tab rounded-full block p-5">About</NuxtLink></li>            
+            <li v-for="link in links" :key="link.label" class="grow">
+                <NuxtLink :to="link.url" class="tab h-16 px-4 py-5 rounded-full block align-center">
+                    <Icon :name="link.icon" />
+                    {{ link.label }}
+                </NuxtLink>
+            </li>
         </ul>
     </nav>
 </template>
 
 <script>
     export default {
-        props: {
-            to: String,
-            label: String
+        data() {
+            return {
+                links: [
+                    { label: 'Home', url: '/', icon: 'home' },
+                    { label: 'Work', url: '/work', icon: 'work' },
+                    { label: 'About', url: '/about', icon: 'about' },
+                ]
+            }
         }
     }
 </script>
 
 <style lang="scss" scoped>
     .tab-bar ul {
-        width: auto;
-    }
-    .tab {
-        width: 200px;
-    }
-    .router-link-exact-active {
-        @apply bg-surface;
+        width: 600px;
+        .tab {
+            // width: 200px;
+            // height: 64px;
+            // line-height: 64px;
+            &.router-link-exact-active {
+                @apply bg-surface;
+            }
+        }
     }
 </style>

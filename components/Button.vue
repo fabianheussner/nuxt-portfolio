@@ -1,4 +1,4 @@
-<template lang="">
+<template>
     <NuxtLink to={{props.link}} class="rounded-full p-5 bg-accentBlue inline-block">
         {{label}}
     </NuxtLink>

@@ -1,7 +1,8 @@
 <template>
     <div>
         <TabBar />
+        
         <Button link="about" label="Some label" />
-            <slot />
+        <slot />
     </div>
 </template>

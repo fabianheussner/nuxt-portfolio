@@ -24,10 +24,20 @@ module.exports = {
       onBackgroundSubdued: '#585F66',
       onBackgroundBorder: '#D2D2D7',
 
+      backgroundVariant: '#1B1C1D',
+      onBackgroundVariant: '#F5F5F7',
+      onBackgroundVariantSubdued: '#C8C8CD',
+      onBackgroundVariantBorder: '#585F66',
+
       surface: '#F5F5F7',
       onSurface: '#1B1C1D',
       onSurfaceSubdued: '#585F66',
       onSurfaceBorder: '#D2D2D7',
+
+      surfaceVariant: '#E1E2E6',
+      onSurfaceVariant: '#1B1C1D',
+      onSurfaceVariantSubdued: '#585F66',
+      onSurfaceVariantBorder: '#D2D2D7',
 
       error: '#BA1A1A',
       onError: '#1B1C1D',

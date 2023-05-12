@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto p-8 rounded-3xl text-center bg-accentPurple">
+    <div class="container mx-auto px-8 rounded-3xl text-center bg-accentPurple">
         <a href="" class="text-onAccentPurple">Don’t stay a stranger</a> 
       <slot />
     </div>

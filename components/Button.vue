@@ -1,16 +1,49 @@
 <template>
-    <NuxtLink to={{props.link}} class="rounded-full p-5 bg-accentBlue inline-block">
-        {{label}}
-    </NuxtLink>
-</template>
-<script>
-export default {
+    <nuxt-link :to="to" :class="['button', `button-${variant}`]">
+      <slot />
+    </nuxt-link>
+  </template>
+  
+  <script>
+  export default {
     props: {
-        link: String,
-        label: String,
+      variant: {
+        type: String,
+        default: "primary",
+        validator: (value) => {
+          return ["primary", "secondary", "outline"].includes(value);
+        },
+      },
+      to: {
+        type: String,
+        default: "/",
+      },
+    },
+  };
+  </script>
+  
+  <style>
+    .button {
+        display: inline-block;
+        @apply px-6 py-3;
+        @apply rounded-full;
+        font-size: 1rem;
+        cursor: pointer;
     }
-}
-</script>
-<style lang="">
     
-</style>
+    .button-primary {
+        @apply bg-backgroundVariant;
+        @apply text-onBackgroundVariant;
+    }
+    
+    .button-secondary {
+        @apply bg-surfaceVariant;
+        @apply text-onSurfaceVariant;
+    }
+
+    .button-outline {
+        @apply border border-onBackgroundVariant;
+        @apply text-onBackgroundVariant;
+    }
+  </style>
+  

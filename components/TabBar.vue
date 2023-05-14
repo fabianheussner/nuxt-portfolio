@@ -1,5 +1,5 @@
 <template lang="">
-    <nav class="tab-bar flex">
+    <nav class="tab-bar flex justify-center">
         <ul class="rounded-full text-base bg-background inline-flex text-center">
             <li v-for="link in links" :key="link.label" class="grow">
                 <NuxtLink :to="link.url" class="tab h-16 px-4 py-5 rounded-full block align-center">

@@ -50,7 +50,7 @@ module.exports = {
       ],
     },
     fontSize: {
-      xs: ['0.75rem', { lineHeight: '1rem' }],
+      xs: ['0.75rem', { lineHeight: '1rem' }, { letterSpacing: '-0.4rem' }],
       sm: ['0.875rem', { lineHeight: '1.25rem' }],
       base: ['1rem', { lineHeight: '1.5rem' }],
       lg: ['1.125rem', { lineHeight: '1.75rem' }],
@@ -62,7 +62,7 @@ module.exports = {
       '6xl': ['3.75rem', { lineHeight: '1' }],
       '7xl': ['4.5rem', { lineHeight: '1' }],
       '8xl': ['6rem', { lineHeight: '1' }],
-      '9xl': ['8rem', { lineHeight: '1' }],
+      '9xl': ['8rem', { lineHeight: '1' }, { letterSpacing: '-2rem0.4rem' }],
     },
   },
   plugins: [],

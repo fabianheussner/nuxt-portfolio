@@ -22,28 +22,46 @@
   };
   </script>
   
-  <style>
+  <style lang="scss" scoped>
     .button {
         display: inline-block;
         @apply px-6 py-3;
         @apply rounded-full;
-        font-size: 1rem;
+        @apply text-base;
+        @apply tracking-tight;
+        @apply font-medium;
         cursor: pointer;
+        transition: all 300ms ease-in-out;
     }
     
     .button-primary {
         @apply bg-backgroundVariant;
         @apply text-onBackgroundVariant;
+
+        &:hover {
+          @apply bg-background;
+          @apply text-onBackground;
+        }
     }
     
     .button-secondary {
-        @apply bg-surfaceVariant;
-        @apply text-onSurfaceVariant;
+        @apply bg-surface;
+        @apply text-onSurface;
+
+        &:hover {
+          @apply bg-surfaceVariant;
+          @apply text-onSurfaceVariant;
+        }
     }
 
     .button-outline {
         @apply border border-onBackgroundVariant;
         @apply text-onBackgroundVariant;
+
+        &:hover {
+          @apply bg-background;
+          @apply text-onBackground;
+        }
     }
   </style>
   

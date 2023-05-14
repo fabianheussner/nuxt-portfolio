@@ -6,27 +6,26 @@
   
   <script>
   const tags = {
-    display: "h1",
-    "title-medium": "h2",
-    "title-small": "h3",
-    "headline-medium": "h4",
-    "headline-small": "h5", 
-    "body-large": "p",
-    "body-medium": "p",
+    h1: "h1",
+    h2: "h2",
+    h3: "h3",
+    h4: "h4",
+    h5: "h5",
+    body: "p",
     "body-small": "p",
-    "label-large": "p",
-    "label-medium": "p",
-    "label-small": "p",
-    annotation: "p",
+    small: "span"
   };
   
   const sizes = {
     // Responsive Text Styles
-    display: "text-7xl md:text-8xl font-medium tracking-tighter",
-    "title-medium": "text-6xl md:text-7xl font-medium tracking-tighter",
-    "title-small": "text-5xl md:text-6xl font-medium tracking-tighter",
-    "headline-medium": "text-4xl md:text-5xl font-medium tracking-tighter",
-    "headline-small": "text-3xl md:text-4xl font-medium tracking-tighter",
+    h1: "text-5xl font-medium sm:text-4xl tracking-tighter",
+    h2: "text-4xl font-medium sm:text-3xl",
+    h3: "text-3xl font-medium sm:text-2xl",
+    h4: "text-2xl font-medium sm:text-1xl",
+    h5: "text-xl font-medium sm:text-lg",
+    body: "text-lg sm:text-md",
+    "body-small": "text-md sm:text-sm",
+    small: "text-sm sm:text-xs",
 
     // Global Text Styles
     "body-large": "text-lg tracking-tight",
@@ -35,7 +34,7 @@
     "label-large": "text-lg font-medium tracking-tight",
     "label-medium": "text-base font-medium tracking-tight",
     "label-small": "text-sm font-medium tracking-tight",
-    annotation: "text-xs tracking-tight",
+    "annotation": "text-xs tracking-tight",
   };
   
   export default {
@@ -44,20 +43,8 @@
       variant: {
         type: String,
         required: true,
-        // Might not be needed - seems to work without -> check!
         validator: (value) =>
-          ["display", 
-          "title-medium", 
-          "title-small", 
-          "headline-medium", 
-          "headline-small", 
-          "label-large", 
-          "label-medium", 
-          "label-small", 
-          "body-large", 
-          "body-medium", 
-          "body-small", 
-          "annotation"].includes(
+          ["h1", "h2", "h3", "h4", "h5", "body", "body-small", "small"].includes(
             value
           )
       },

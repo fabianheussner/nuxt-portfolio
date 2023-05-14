@@ -1,15 +1,59 @@
 <template>
-    <div class="stage-large">
-        <h1 class="text-9xl">Connecting people's needs with aesthetics.</h1>
-        <Button variant="primary" to="/">Home Button</Button>
-        <Button variant="secondary" to="/about">About Button</Button>
+    <div class="stage-large px-8 py-40 grid grid-cols-1 lg:grid-cols-2 gap-20">
+        <div class="stage-title">
+            <Type variant="body-large" class="ml-2 text-onSurfaceSubdued">Fabian Heußner &nbsp&nbsp –––– &nbsp&nbsp Senior UX / UI Designer</Type>
+            <Type variant="display" class="mt-4 mb-12">
+                I thrive to connect people's needs with aesthetics.
+                <!-- I thrive to connect <span class="highlight">people's needs</span> with <span class="highlight">aesthetics</span>. -->
+            </Type>
+            <Button variant="primary" to="/" class="mr-4">Home Button</Button>
+            <Button variant="secondary" to="/about">Get to know me</Button>
+        </div>
+        <div class="stage-details grid grid-cols-2 mt-20 text-onSurfaceSubdued">
+            <div class="job mr-6">
+                <Type variant="body-small">
+                    Currently, working for<br/>
+                    @Mobimeo
+                </Type>
+            </div>
+            <div class="details">
+                <Type variant="body-small">
+                    Hamburg, Germany<br/>
+                    Local time {{ currentTime }}
+                </Type>
+            </div>
+        </div>
     </div>
 </template>
 <script>
-export default {
-    
-}
+    export default {
+        data() {
+            return {
+            currentTime: ''
+            }
+        },
+        mounted() {
+            setInterval(() => {
+            const now = new Date()
+            this.currentTime = now.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Berlin' })
+            }, 1000)
+        }
+    }
 </script>
-<style lang="">
-    
+<style lang="scss" scoped>
+    .highlight {
+        display: inline-block;
+        @apply text-onAccentBlueContainer;
+        @apply bg-accentBlueContainer;
+        @apply p-4;
+        @apply rounded-xl;
+
+    }
+    .highlight:nth-child(2) {
+        @apply bg-accentPurpleContainer;
+        @apply text-onAccentPurpleContainer;
+    }
+    .stage-details {
+        text-transform: uppercase;
+    }
 </style>

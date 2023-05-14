@@ -1,6 +1,6 @@
 <template>
     <div>
-        <TabBar />
+        <Navigation />
         <slot />
         
         <Footer />

@@ -1,13 +1,14 @@
 <template>
     <footer class="footer px-8 py-8">
-        <div class="contact py-20 text-center">
-            <Type variant="h2">Test type component</Type>
-            <p>Don't be a stranger</p>
-            <h2>Drop me a line</h2>
+        <div class="contact py-40 text-center">
+            <Type variant="body-large">Don't be a stranger</Type>
+            <Type variant="headline-medium">Drop me a line</Type>
         </div>
         <div class="bottom-wrapper flex items-center justify-center">
             <div class="copyright column">
-                <p>© {{new Date().getFullYear()}}, Fabian Heussner</p>
+                <Type variant="body-small" class="text-onBackgroundVariantSubdued">
+                    © {{new Date().getFullYear()}}, Fabian Heussner
+                </Type>
             </div>
             <div class="social column">
                 <Button variant="outline" to="/">LinkedIn</Button>
@@ -44,6 +45,20 @@ export default {
             &.legal {
                 text-align: right;
             }
+        }
+
+        &::before {
+            content: '';
+            display: block;
+            position: relative;
+            top: 0;
+            width: calc(100% + 64px);
+            height: 40px;
+            margin-top: -32px;
+            margin-left: -32px;
+            margin-right: -32px;
+            @apply bg-background;
+            border-radius: 0 0 32px 32px;
         }
     }
 </style>

@@ -1,6 +1,6 @@
 <template>
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M3 6V18C3 18.5523 3.44772 19 4 19H20C20.5523 19 21 18.5523 21 18V8C21 7.44772 20.5523 7 20 7H12L10.2929 5.29289C10.1054 5.10536 9.851 5 9.58579 5H4C3.44772 5 3 5.44772 3 6Z" stroke="#1B1C1D" stroke-width="2"/>
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 4.89543 2.89543 4 4 4H9.58579C10.1162 4 10.6249 4.21071 11 4.58579L12.4142 6H20C21.1046 6 22 6.89543 22 8V18C22 19.1046 21.1046 20 20 20H4C2.89543 20 2 19.1046 2 18V6ZM9.58579 6L4 6V18H20V8H11.5858L9.58579 6Z" fill="currentColor"/>
     </svg>
 </template>
     

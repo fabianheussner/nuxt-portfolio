@@ -56,6 +56,7 @@
 
         &.scrolled .logo, &.scrolled .hire{
             opacity: 0;
+            pointer-events: none;
             // Disabling interactivity needed or something like display: none
         }
         &.scrolled .tab-bar {

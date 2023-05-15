@@ -1,8 +1,10 @@
 <template>
     <footer class="footer px-8 py-8">
         <div class="contact py-40 text-center">
-            <Type variant="body-large">Don't be a stranger</Type>
-            <Type variant="headline-medium">Drop me a line</Type>
+            <Type variant="body-large" class="mb-4 text-onBackgroundVariantSubdued">Don't be a stranger.</Type>
+            <a href="mailto:fabian.heussner@gmx.de" class="mailto underline-animation">
+                <Type variant="title-medium">Drop me a line</Type>
+            </a>
         </div>
         <div class="bottom-wrapper flex items-center justify-center">
             <div class="copyright column">
@@ -11,12 +13,12 @@
                 </Type>
             </div>
             <div class="social column">
-                <Button variant="outline" to="/">LinkedIn</Button>
+                <Button variant="outline" to="/" class="mr-4">LinkedIn</Button>
                 <Button variant="outline" to="/">Dribbble</Button>
             </div>
             <div class="legal column">
                 <NuxtLink to="/">Privacy policy</NuxtLink>
-                <NuxtLink to="legal/imprint">Imprint</NuxtLink>
+                <NuxtLink to="legal/imprint" class="ml-4">Imprint</NuxtLink>
             </div>
         </div>
     </footer>
@@ -31,8 +33,28 @@ export default {
         @apply bg-backgroundVariant;
         @apply text-onBackgroundVariant;
 
-        .contact p {
-            @apply text-onBackgroundVariantSubdued;
+        .contact {
+            .underline-animation {
+                display: inline-block;
+                position: relative;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    transform: scaleX(0);
+                    height: 3px;
+                    bottom: -12px;
+                    left: 0;
+                    @apply bg-onBackgroundVariant;
+                    transform-origin: bottom right;
+                    transition: transform 0.25s ease-out;
+                }
+                &:hover::after {
+                    transform: scaleX(1);
+                    transform-origin: bottom left;
+                }
+            }
         }
 
         .column {
@@ -53,7 +75,7 @@ export default {
             position: relative;
             top: 0;
             width: calc(100% + 64px);
-            height: 40px;
+            height: 32px;
             margin-top: -32px;
             margin-left: -32px;
             margin-right: -32px;

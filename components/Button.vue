@@ -39,8 +39,8 @@
         @apply text-onBackgroundVariant;
 
         &:hover {
-          @apply bg-background;
-          @apply text-onBackground;
+          @apply bg-onBackgroundVariantBorder;
+          @apply text-onBackgroundVariant;
         }
     }
     

@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mx-8 my-16">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mx-8 my-16 max-w-screen-2xl mx-auto">
         <div v-for="service in services" :key="service.title" class="column px-4 py-4 border-r border-onBackgroundBorder">
             <Type variant="headline-small" class="mb-4">
                 <span class="text-onBackgroundSubdued">

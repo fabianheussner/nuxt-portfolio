@@ -1,5 +1,5 @@
 <template>
-    <div class="stage-large px-8 py-40 grid grid-cols-1 lg:grid-cols-2 gap-20">
+    <div class="stage-large py-40 grid grid-cols-1 lg:grid-cols-2 gap-20 max-w-screen-2xl mx-auto">
         <div class="stage-title">
             <Type variant="body-large" class="ml-2 text-onSurfaceSubdued">
                 Fabian Heußner –––––– Senior UX / UI Designer

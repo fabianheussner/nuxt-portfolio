@@ -8,8 +8,10 @@
         <div class="column">
             <TabBar />
         </div>
-        <div class="column hire">
-            Hire me
+        <div class="column contact">
+            <a href="mailto:fabian.heussner@gmx.de?subject=Your Subject" class="px-4 py-2 rounded-full border border-onBackground text-base leading-4 box-border">
+              Contact
+            </a>
         </div>
     </div>
 </template>
@@ -49,12 +51,12 @@
         top: 0;
         opacity: 1;
         
-        .logo, .tab-bar, .hire {
+        .logo, .tab-bar, .contact {
             opacity: 1;
             transition: all 400ms ease-in-out;
         }
 
-        &.scrolled .logo, &.scrolled .hire{
+        &.scrolled .logo, &.scrolled .contact {
             opacity: 0;
             pointer-events: none;
             // Disabling interactivity needed or something like display: none
@@ -75,8 +77,16 @@
           @apply w-10 h-10;
         }
 
-        &.hire {
+        &.contact {
             text-align: right; 
+
+            a {
+              transition: all 200ms ease-in-out;
+              &:hover {
+                @apply bg-backgroundVariant text-onBackgroundVariant
+              }
+            }
+
         }
     }
 </style>

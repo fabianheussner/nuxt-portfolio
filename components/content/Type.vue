@@ -22,11 +22,11 @@
   
   const sizes = {
     // Responsive Text Styles
-    display: "text-7xl md:text-8xl font-medium tracking-tighter",
-    "title-medium": "text-6xl md:text-7xl font-medium tracking-tighter",
-    "title-small": "text-5xl md:text-6xl font-medium tracking-tighter",
-    "headline-medium": "text-4xl md:text-5xl font-medium tracking-tighter",
-    "headline-small": "text-3xl md:text-4xl font-medium tracking-tighter",
+    display: "text-6xl md:text-7xl font-medium tracking-tighter",
+    "title-medium": "text-5xl md:text-6xl font-medium tracking-tighter",
+    "title-small": "text-4xl md:text-5xl font-medium tracking-tighter",
+    "headline-medium": "text-3xl md:text-4xl font-medium tracking-tighter",
+    "headline-small": "text-2xl md:text-3xl font-medium tracking-tighter",
 
     // Global Text Styles
     "body-large": "text-lg tracking-tight",

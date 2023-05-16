@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-    .customClass {
-        @apply inline-flex
+    .wrapper {
+        @apply max-w-screen-2xl mx-auto px-6 py-8;
     } 
 }

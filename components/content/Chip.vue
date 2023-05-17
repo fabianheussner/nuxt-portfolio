@@ -1,6 +1,6 @@
 <template>
     <span class="chip inline-block bg-surface text-onSurface rounded-md">
-        <Type variant="label-small">Chip</Type>
+        <Type variant="label-small"><slot /></Type>
     </span>
 </template>
 

@@ -1,6 +1,6 @@
 
 
-::TypeTest
+::Type
 ::
 
 

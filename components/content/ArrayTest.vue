@@ -1,9 +1,5 @@
 <template>
-    <div class="case-details">
-        <ListItem />
-        <ListItem />
-        <ListItem />
-        <ListItem />
+    <div>
         <Chip v-for="service in services" :key="service">
             {{ service }}
         </Chip>
@@ -16,11 +12,11 @@
             services: {
                 type: Array,
                 required: true,
-            },
+            }
         },
     };
 </script>
 
-<style lang="scss" scoped>
-    
+<style>
+
 </style>

@@ -6,9 +6,10 @@ description: 'meta description of the page Osram Case 1'
 
 Test content
 
-::case-details
-
+::case-details{:services='["Nuxt", "Vue", "React"]'}
 ::
 
 
-::chip
+
+
+

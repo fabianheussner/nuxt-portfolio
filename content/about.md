@@ -1,7 +1,6 @@
-# About Content v2
 
-::jumbotron-contact
-Card content test
+
+::TypeTest
 ::
 
-[Back home](/)
+

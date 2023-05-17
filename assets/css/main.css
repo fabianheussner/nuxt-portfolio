@@ -21,7 +21,3 @@ body {
   @apply bg-background;
   @apply text-onBackground;
 }
-
-/* h1 {
-  @apply text-9xl font-medium
-} */

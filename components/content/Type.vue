@@ -7,9 +7,9 @@
   <script>
   const tags = {
     display: "h1",
-    "title-medium": "h2",
+    "title-large": "h2",
     "title-small": "h3",
-    "headline-medium": "h4",
+    "headline-large": "h4",
     "headline-small": "h5", 
     "body-large": "p",
     "body-medium": "p",
@@ -22,20 +22,20 @@
   
   const sizes = {
     // Responsive Text Styles
-    display: "text-6xl md:text-7xl font-medium tracking-tighter",
-    "title-medium": "text-5xl md:text-6xl font-medium tracking-tighter",
-    "title-small": "text-4xl md:text-5xl font-medium tracking-tighter",
-    "headline-medium": "text-3xl md:text-4xl font-medium tracking-tighter",
-    "headline-small": "text-2xl md:text-3xl font-medium tracking-tighter",
+    display: "text-5xl md:text-7xl font-medium leading-none tracking-tighter",
+    "title-large": "text-4xl md:text-6xl font-medium leading-tight tracking-tighter",
+    "title-small": "text-3xl md:text-5xl font-medium leading-tight tracking-tighter",
+    "headline-large": "text-2xl md:text-4xl font-medium leading-snug tracking-tighter",
+    "headline-small": "text-xl md:text-3xl font-medium leading-snug tracking-tighter",
 
     // Global Text Styles
-    "body-large": "text-lg tracking-tight",
-    "body-medium": "text base tracking-tight",
-    "body-small": "text-sm tracking-tight",
-    "label-large": "text-lg font-medium tracking-tight",
-    "label-medium": "text-base font-medium tracking-tight",
-    "label-small": "text-sm font-medium tracking-tight",
-    annotation: "text-xs tracking-tight",
+    "body-large": "text-lg leading-normal tracking-tight",
+    "body-medium": "text base leading-normal tracking-tight",
+    "body-small": "text-sm leading-normal tracking-tight",
+    "label-large": "text-lg font-medium leading-normal tracking-tight",
+    "label-medium": "text-base font-medium leading-normal tracking-tight",
+    "label-small": "text-sm font-medium leading-normal tracking-tight",
+    annotation: "text-xs leading-normal tracking-tight",
   };
   
   export default {
@@ -47,9 +47,9 @@
         // Might not be needed - seems to work without -> check!
         validator: (value) =>
           ["display", 
-          "title-medium", 
+          "title-large", 
           "title-small", 
-          "headline-medium", 
+          "headline-large", 
           "headline-small", 
           "label-large", 
           "label-medium", 

@@ -3,7 +3,7 @@
         <div class="contact py-40 text-center">
             <Type variant="body-large" class="mb-4 text-onBackgroundVariantSubdued">Don't be a stranger.</Type>
             <a href="mailto:fabian.heussner@gmx.de?subject=Your subject" class="mailto underline-animation">
-                <Type variant="title-medium">Drop me a line</Type>
+                <Type variant="title-large">Drop me a line</Type>
             </a>
         </div>
         <div class="bottom-wrapper flex items-center justify-center">

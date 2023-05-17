@@ -4,23 +4,23 @@
         <ListItem />
         <ListItem />
         <ListItem />
-        <Chip v-for="service in services" :key="service">
-            {{ service }}
+        <Chip v-for="skill in skills" :key="skill">
+            {{ skill }}
         </Chip>
     </div>
 </template>
 
-<script>
+<script lang="ts">
     export default {
         props: {
-            services: {
+            skills: {
                 type: Array,
                 required: true,
-            },
+            }
         },
     };
 </script>
 
-<style lang="scss" scoped>
+<!-- <style lang="scss" scoped>
     
-</style>
+</style> -->

@@ -30,7 +30,7 @@
 
     // Global Text Styles
     "body-large": "text-lg leading-normal tracking-tight",
-    "body-medium": "text base leading-normal tracking-tight",
+    "body-medium": "text-base leading-normal tracking-tight",
     "body-small": "text-sm leading-normal tracking-tight",
     "label-large": "text-lg font-medium leading-normal tracking-tight",
     "label-medium": "text-base font-medium leading-normal tracking-tight",

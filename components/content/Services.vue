@@ -7,7 +7,7 @@
                 </span> {{ service.title }}
             </Type>
             <Type variant="body-large">
-                <slot :name="service.title" />
+                <ContentSlot :use="$slots[service.title]" unwrap="p" />
             </Type>
         </div>
     </div>

@@ -1,6 +1,6 @@
 <template>
     <div class="section-header wrapper">
-        <Type variant="title-small">Selected work</Type>
+        <Type variant="title-small"><slot /></Type>
     </div>
 </template>
 

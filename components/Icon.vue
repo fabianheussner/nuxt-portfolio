@@ -13,8 +13,10 @@
   import AboutFilled from '~/assets/icons/AboutFilled.vue';
   import Work from '~/assets/icons/Work.vue';
   import WorkFilled from '~/assets/icons/WorkFilled.vue';
+  import ArrowRight from '~/assets/icons/ArrowRight.vue';
 
   import Logo from '~/assets/icons/Logo.vue';
+
   // ...
   
   const icons = {
@@ -24,6 +26,7 @@
     aboutfilled: AboutFilled,
     work: Work,
     workfilled: WorkFilled,
+    arrowright: ArrowRight,
 
     logo: Logo,
     // ...

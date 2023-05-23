@@ -3,11 +3,11 @@
         <NuxtLink to="/" class="mask grid grid-cols-1 md:grid-cols-2">
             <div class="pagination__title bg-surface px-4 md:px-12 py-10 md:py-20">
                 <Type variant="body-large" class="text-onSurfaceSubdued mb-2">Next project</Type>
-                <Type variant="title-small" class="mb-4 md:mb-8">Check in and out</Type>
+                <Type variant="title-small" class="mb-4 md:mb-8">{{ caseTitle }}</Type>
                 <Icon name="arrowright" class="w-8 h-8 md:w-12 md:h-12"/>
             </div>
             <div class="pagination__cover">
-                <img src="/img/img2.png" alt="" />
+                <img :src="imageSource" :alt="imageDescription" />
             </div>
         </NuxtLink>
     </div>
@@ -15,7 +15,20 @@
 
 <script>
     export default {
-        
+        props: {
+            caseTitle: {
+                type: String,
+                required: true
+            },
+            imageSource: {
+                type: String,
+                required: true
+            },
+            imageDescription: {
+                type: String,
+                required: true
+            },
+        }
     }
 </script>
 

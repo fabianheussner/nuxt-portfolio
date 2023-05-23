@@ -39,8 +39,20 @@ description3: another alt text
 ---
 ::
 
+::text
+#headline 
+Test headline
+#text 
+Lorem ipsum dolor sit amet consectetur. Eros nisl feugiat magna cras facilisis metus cursus dis. Ullamcorper orci fringilla nulla diam senectus. Condimentum viverra est gravida orci id libero pulvinar commodo.
+::
+
 
 ::pagination
+---
+caseTitle: Check in and out
+imageSource: /img/img2.png
+imageDescription: Some alt text
+---
 ::
 
 

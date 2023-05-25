@@ -1,14 +1,13 @@
 <template>
   <div class="accordion" v-for="service in services" :key="service.title">
-    <!-- <h5 class="accordion__title" @click="makeActive">
-      {{ service.title }}
-    </h5> -->
-    <div class="accordion__title" @click="makeActive">
+    <div class="accordion__title" @click="isSelected">
       <Type variant="headline-small">
-        <span class="highlight text-onBackgroundSubdued">
+        <span class="accordion__title-count text-onBackgroundSubdued">
           {{ service.count }}
         </span>
-        {{ service.title }}
+        <span class="accordion__title-default">
+          {{ service.title }}
+        </span>
       </Type>
       <Icon
         name="add"
@@ -38,7 +37,7 @@ export default {
   },
   mounted() {},
   methods: {
-    makeActive(event) {
+    isSelected(event) {
       const target = event.currentTarget; // Use currentTarget instead of target
 
       const nextNode = target.nextElementSibling;
@@ -69,30 +68,34 @@ export default {
 <style lang="scss" scoped>
 .accordion {
   @apply border-b border-onBackgroundBorder;
-}
-.accordion__title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  margin: 0;
-  border-radius: 3px;
-  @apply py-4 px-4;
-}
-.accordion__title.active {
-}
-.accordion__title:hover {
-}
-.accordion__content {
-  height: 0;
-  overflow: hidden;
-  transition: all 0.3s ease-in-out;
-}
-.accordion__content p {
-  padding: 20px;
-  margin-block: 5px 0;
-  border-radius: 3px;
-  text-align: start;
+
+  .accordion__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    @apply py-5 cursor-pointer;
+
+    .accordion__title-count {
+      @apply inline-block w-14;
+      transition: all 300ms ease-in-out;
+    }
+
+    &.active {
+    }
+    &:hover .accordion__title-count {
+      @apply text-onBackground;
+    }
+  }
+  .accordion__content {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+
+    p {
+      @apply px-14 pt-4 pb-10;
+    }
+  }
 }
 .accordion-icon {
   transition: all 0.3s ease-in-out;

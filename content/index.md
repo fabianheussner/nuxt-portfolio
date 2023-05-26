@@ -1,5 +1,5 @@
 ---
-title: 'Title of the page'
+title: 'Fabian Heußner Portfolio | Home'
 description: 'meta description of the page'
 ---
 

@@ -17,6 +17,7 @@
     "sass-loader": "10"
   },
   "dependencies": {
+    "@nuxt/image": "^0.7.1",
     "@nuxtjs/google-fonts": "^3.0.0"
   }
 }

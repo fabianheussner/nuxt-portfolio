@@ -1,17 +1,17 @@
 <template>
   <div
-    class="navigation__large flex items-center px-6 py-4"
+    class="navigation flex items-center px-8 py-4"
     :class="{ scrolled: isScrolled }"
   >
-    <div class="navigation__large-logo">
+    <div class="column logo">
       <NuxtLink to="/">
         <Icon name="logo" />
       </NuxtLink>
     </div>
-    <div class="navigation__large-menu mx-auto invisible lg:visible">
+    <div class="column">
       <TabBar />
     </div>
-    <div class="navigation__large-contact">
+    <div class="column contact">
       <a
         href="mailto:fabian.heussner@gmx.de?subject=Your Subject"
         class="px-4 py-2 rounded-full border border-onBackground text-base leading-4 box-border"
@@ -40,47 +40,54 @@ export default {
 
   methods: {
     onScroll() {
+      const el = this.$el;
+      const rect = el.getBoundingClientRect();
       const scrollTop =
         window.pageYOffset || document.documentElement.scrollTop;
-      this.isScrolled = scrollTop > 0;
+      const isVisible = rect.top + scrollTop < window.innerHeight;
+      const isAtTop = window.pageYOffset === 0;
+      this.isScrolled = isVisible && !isAtTop;
     },
   },
 };
 </script>
 
 <style lang="scss" scoped>
-.navigation__large {
-  z-index: 9999;
+.navigation {
   position: sticky;
   top: 0;
+  opacity: 1;
 
-  .navigation__large-menu {
-    transition: all 300ms ease-in-out;
-  }
-  &.scrolled .navigation__large-menu {
-    transform: scale(0.9);
-    @apply shadow-md rounded-full;
-  }
-
-  .navigation__large-logo,
-  .navigation__large-contact {
+  .logo,
+  .tab-bar,
+  .contact {
     opacity: 1;
-    transition: all 300ms ease-in-out;
+    transition: all 400ms ease-in-out;
   }
 
-  &.scrolled .navigation__large-logo,
-  &.scrolled .navigation__large-contact {
+  &.scrolled .logo,
+  &.scrolled .contact {
     opacity: 0;
     pointer-events: none;
+    // Disabling interactivity needed or something like display: none
+  }
+  &.scrolled .tab-bar {
+    @apply shadow rounded-full;
+  }
+}
+.logo a:hover svg {
+  fill: red !important;
+}
+.column {
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+
+  &.logo svg {
+    @apply w-10 h-10;
   }
 
-  .navigation__large-logo {
-    svg {
-      @apply w-10 h-10;
-    }
-  }
-
-  .navigation__large-contact {
+  &.contact {
     text-align: right;
 
     a {

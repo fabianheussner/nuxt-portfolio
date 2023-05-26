@@ -8,8 +8,11 @@
 ::about-process
 ::
 
-::section-header
-Work experience
+::image-full
+---
+source: /img/img3.png
+description: some alt text
+---
 ::
 
 ::about-experience

@@ -75,6 +75,7 @@ export default {
     align-items: center;
     margin: 0;
     @apply py-5 cursor-pointer;
+    transition: all 300ms ease-in-out;
 
     .accordion__title-count {
       @apply inline-block w-14;
@@ -83,9 +84,14 @@ export default {
 
     &.active {
     }
-    &:hover .accordion__title-count {
-      @apply text-onBackground;
+
+    &:hover {
+      @apply bg-background;
+      transform: scaleX(1.02);
     }
+    // &:hover .accordion__title-count {
+    //   @apply text-onBackground;
+    // }
   }
   .accordion__content {
     height: 0;

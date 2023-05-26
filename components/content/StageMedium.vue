@@ -1,5 +1,7 @@
 <template>
-  <div class="stage__about wrapper grid grid-cols-1 lg:grid-cols-12 py-40">
+  <div
+    class="stage__about wrapper grid grid-cols-1 lg:grid-cols-12 py-40 items-center"
+  >
     <div class="stage__about-title lg:col-span-6">
       <Type variant="display" class="title">
         Hey, I'm Fabian. I help startups and established businesses to grow and

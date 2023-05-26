@@ -11,7 +11,7 @@
             :name="$route.path === link.url ? link.activeIcon : link.icon"
             class="mr-2"
           />
-          <Type variant="label-small">
+          <Type variant="label-medium">
             {{ link.label }}
           </Type>
         </NuxtLink>
@@ -53,7 +53,7 @@ export default {
     }
 
     svg {
-      @apply w-5 h-5;
+      // @apply w-5 h-5;
     }
   }
 }

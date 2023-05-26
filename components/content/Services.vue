@@ -1,11 +1,11 @@
 <template>
   <div
-    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 my-16 max-w-screen-2xl mx-auto"
+    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 my-16 bg-surface wrapper rounded-3xl"
   >
     <div
       v-for="service in services"
       :key="service.title"
-      class="column px-4 py-4 border-r border-onBackgroundBorder"
+      class="column my-6 px-4 py-4 border-r border-onBackgroundBorder"
     >
       <Type variant="headline-small" class="mb-2">
         <span class="text-onBackgroundSubdued">

@@ -14,7 +14,7 @@
     </div>
     <div class="stage__large-hero lg:col-span-5 lg:col-end-13">
       <!-- <img src="/img/hero-4.png" alt="Workflow illustration" /> -->
-      <video autoplay muted loop>
+      <video autoplay muted loop playsinline>
         <source src="/video/stage-new.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>

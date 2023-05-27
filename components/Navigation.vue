@@ -8,7 +8,7 @@
         <Icon name="logo" />
       </NuxtLink>
     </div>
-    <div class="navigation__large-menu mx-auto invisible lg:visible">
+    <div class="navigation__large-menu mx-auto hidden lg:block">
       <TabBar />
     </div>
     <div class="navigation__large-contact">

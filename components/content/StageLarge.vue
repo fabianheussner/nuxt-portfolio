@@ -7,7 +7,7 @@
         Fabian Heußner –––––– Senior UX / UI Designer
       </Type>
       <Type variant="display" class="mt-4 mb-12">
-        I strive to connect people's needs with aesthetics.
+        I connect people's needs with aesthetics.
       </Type>
       <Button variant="primary" to="/" class="mr-4">Discover work</Button>
       <Button variant="secondary" to="/about">Get to know me</Button>
@@ -15,7 +15,7 @@
     <div class="stage__large-hero lg:col-span-5 lg:col-end-13">
       <!-- <img src="/img/hero-4.png" alt="Workflow illustration" /> -->
       <video autoplay muted loop>
-        <source src="/video/stage.mp4" type="video/mp4" />
+        <source src="/video/stage-new.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>

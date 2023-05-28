@@ -4,5 +4,6 @@
     <slot />
 
     <Footer />
+    <TabBarMobile />
   </div>
 </template>

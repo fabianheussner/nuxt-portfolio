@@ -1,6 +1,6 @@
 <template>
   <div
-    class="stage__large wrapper py-28 grid grid-cols-1 lg:grid-cols-12 gap-x-8 items-center"
+    class="stage__large wrapper py-10 lg:py-20 grid grid-cols-1 lg:grid-cols-12 gap-x-8 items-center"
   >
     <div class="stage__large-title lg:col-span-6 order-last lg:order-first">
       <Type variant="headline-small" class="mt-6 ml-2 text-onSurfaceSubdued">
@@ -9,7 +9,7 @@
       <Type variant="display" class="mt-4 mb-12">
         I connect people's needs with aesthetics.
       </Type>
-      <Button variant="primary" to="/" class="mr-4">Discover work</Button>
+      <Button variant="primary" to="/" class="mr-4">See work</Button>
       <Button variant="secondary" to="/about">Get to know me</Button>
     </div>
     <div class="stage__large-hero lg:col-span-5 lg:col-end-13">

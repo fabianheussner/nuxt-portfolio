@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer px-8 py-8">
+  <footer class="footer px-6 pt-8 pb-28 lg:pt-8 lg:pb-8">
     <div class="contact py-40 text-center">
       <Type variant="body-large" class="mb-4 text-onBackgroundVariantSubdued"
         >Don't be a stranger.</Type
@@ -8,29 +8,37 @@
         href="mailto:fabian.heussner@gmx.de?subject=Your subject"
         class="mailto underline-animation"
       >
-        <Type variant="title-large">Drop me a line</Type>
+        <Type variant="display">Drop me a line</Type>
       </a>
     </div>
-    <div class="bottom-wrapper flex items-center justify-center">
-      <div class="copyright column">
+    <div
+      class="bottom-wrapper grid grid-cols-1 md:grid-cols-3 items-center justify-center"
+    >
+      <div class="copyright column order-3 md:order-1">
         <Type variant="body-small" class="text-onBackgroundVariantSubdued">
           © {{ new Date().getFullYear() }}, Fabian Heussner
         </Type>
       </div>
-      <div class="social column">
+      <div class="social column order-1 md:order-2">
         <Button variant="outline" to="/" class="mr-4">LinkedIn</Button>
         <Button variant="outline" to="/">Dribbble</Button>
       </div>
-      <div class="legal column">
-        <NuxtLink to="/">Privacy policy</NuxtLink>
-        <NuxtLink to="legal/imprint" class="ml-4">Imprint</NuxtLink>
+      <div class="legal column order-2 md:order-3">
+        <NuxtLink to="/" class="inline-block p-4">
+          <Type variant="label-small">Privacy Policy</Type>
+        </NuxtLink>
+        <NuxtLink to="legal/imprint" class="inline-block ml-4 p-4">
+          <Type variant="label-small">Imprint</Type>
+        </NuxtLink>
       </div>
     </div>
   </footer>
 </template>
+
 <script>
 export default {};
 </script>
+
 <style lang="scss">
 .footer {
   @apply bg-backgroundVariant;
@@ -61,14 +69,14 @@ export default {};
   }
 
   .column {
-    flex-grow: 1;
-    flex-basis: 0;
-    min-width: 0;
+    &.copyright {
+      @apply text-center md:text-left;
+    }
     &.social {
-      text-align: center;
+      @apply text-center mb-20 md:mb-0;
     }
     &.legal {
-      text-align: right;
+      @apply text-center md:text-right;
     }
   }
 
@@ -77,13 +85,12 @@ export default {};
     display: block;
     position: relative;
     top: 0;
-    width: calc(100% + 64px);
+    width: calc(100% + 48px);
     height: 32px;
     margin-top: -32px;
-    margin-left: -32px;
-    margin-right: -32px;
-    @apply bg-background rounded-b-3xl;
-    // border-radius: 0 0 32px 32px;
+    margin-left: -24px;
+    margin-right: -24px;
+    @apply bg-background rounded-b-2xl;
   }
 }
 </style>

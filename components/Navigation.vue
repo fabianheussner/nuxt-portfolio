@@ -1,6 +1,6 @@
 <template>
   <div
-    class="navigation__large flex items-center px-6 py-4"
+    class="navigation__large flex justify-between items-center px-6 py-4"
     :class="{ scrolled: isScrolled }"
   >
     <div class="navigation__large-logo">

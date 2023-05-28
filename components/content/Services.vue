@@ -1,11 +1,11 @@
 <template>
   <div
-    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 my-16 bg-surface wrapper rounded-3xl"
+    class="service__overview wrapper grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 py-12"
   >
     <div
       v-for="service in services"
       :key="service.title"
-      class="column my-6 px-4 py-4 border-r border-onBackgroundBorder"
+      class="service__overview-column p-4 border-r border-onBackgroundBorder"
     >
       <Type variant="headline-small" class="mb-2">
         <span class="text-onBackgroundSubdued">
@@ -13,7 +13,7 @@
         </span>
         {{ service.title }}
       </Type>
-      <Type variant="body-large">
+      <Type variant="body-medium">
         <ContentSlot :use="$slots[service.title]" unwrap="p" />
       </Type>
     </div>
@@ -36,7 +36,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.column:last-child {
-  border-right: none;
+.service__overview {
+  .service__overview-column {
+    position: relative;
+    left: -16px;
+  }
+  .service__overview-column:first-child {
+  }
+  .service__overview-column:last-child {
+    border-right: none;
+  }
 }
 </style>

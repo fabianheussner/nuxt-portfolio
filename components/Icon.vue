@@ -14,6 +14,9 @@ import Add from "~/assets/icons/Add.vue";
 
 import Logo from "~/assets/icons/Logo.vue";
 
+import Leaf from "~/assets/icons/illustrative/Leaf.vue";
+import Star from "~/assets/icons/illustrative/Star.vue";
+import Waves from "~/assets/icons/illustrative/Waves.vue";
 // ...
 
 const icons = {
@@ -27,6 +30,10 @@ const icons = {
   add: Add,
 
   logo: Logo,
+
+  leaf: Leaf,
+  star: Star,
+  waves: Waves,
   // ...
 };
 

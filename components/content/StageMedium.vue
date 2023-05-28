@@ -3,9 +3,9 @@
     class="stage__about wrapper grid grid-cols-1 lg:grid-cols-12 py-40 items-center"
   >
     <div class="stage__about-title lg:col-span-6">
-      <Type variant="title-large" class="title">
-        Hey, I'm Fabian. Nice to see that you made it so far ;)
-      </Type>
+      <Type variant="display" class="title mb-8">
+        Hey there, I'm Fabian. I love to design services that work.</Type
+      >
       <Button variant="primary" to="/" class="mr-4">Discover my process</Button>
     </div>
     <div
@@ -59,10 +59,10 @@ export default {
       content: "";
       position: relative;
       display: inline-block;
-      margin-right: 16px;
-      top: 0.2em;
-      width: 1.1em;
-      height: 1.1em;
+      // margin-right: 0.1em;
+      top: 0.1em;
+      width: 1em;
+      height: 1em;
       background-image: url(/img/Avatar.png);
       background-size: cover;
     }

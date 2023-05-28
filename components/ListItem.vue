@@ -1,10 +1,10 @@
 <template>
-  <div class="list__item grid grid-cols-1 lg:grid-cols-3 items-center">
+  <div class="list__item grid grid-cols-1 lg:grid-cols-3 gap-x-4 items-center">
     <div class="list__item-primary">
-      <Type variant="label-medium">{{ primary }}</Type>
+      <Type variant="label-large">{{ primary }}</Type>
     </div>
     <div class="list__item-secondary">
-      <Type variant="body-medium">{{ secondary }}</Type>
+      <Type variant="body-large">{{ secondary }}</Type>
     </div>
     <div class="list__item-tertiary text-onBackgroundSubdued text-right">
       <Type variant="body-small">{{ tertiary }}</Type>

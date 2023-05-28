@@ -3,8 +3,8 @@
     class="stage__large wrapper py-28 grid grid-cols-1 lg:grid-cols-12 gap-x-8 items-center"
   >
     <div class="stage__large-title lg:col-span-6 order-last lg:order-first">
-      <Type variant="body-large" class="mt-6 ml-2 text-onSurfaceSubdued">
-        Fabian Heußner –––––– Senior UX / UI Designer
+      <Type variant="headline-small" class="mt-6 ml-2 text-onSurfaceSubdued">
+        Fabian Heussner | Digital Product Designer
       </Type>
       <Type variant="display" class="mt-4 mb-12">
         I connect people's needs with aesthetics.

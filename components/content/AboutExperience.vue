@@ -29,27 +29,27 @@ export default {
         {
           position: "Senior UX / UI Designer",
           company: "Mobimeo GmbH",
-          year: "09/21 - today",
+          year: "9/21 - today",
         },
         {
           position: "Product Designer",
           company: "Cellular GmbH",
-          year: "10/20 - 08/21",
+          year: "10/20 - 8/21",
         },
         {
           position: "Art Director UX / UI",
           company: "Mutabor AG",
-          year: "6/20 - 09/20",
+          year: "6/20 - 9/20",
         },
         {
           position: "Interaction Designer",
           company: "Deepblue Networks AG",
-          year: "4/16 - 04/20",
+          year: "4/16 - 4/20",
         },
         {
           position: "BA Communication Design",
           company: "Fachhochschule Trier",
-          year: "4/16 - 04/20",
+          year: "4/16 - 4/20",
         },
       ],
     };

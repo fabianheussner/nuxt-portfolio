@@ -1,5 +1,10 @@
 
 ::stage-medium
+---
+title: Hey there, I'm Fabian. I love to build services that work.
+cta: Discover my process
+employer: Mobimeo GmbH
+---
 ::
 
 ::about-process
@@ -9,4 +14,9 @@
 ::
 
 ::text-image-right
+---
+label: Besides work…
+title: I love cycling, vietnamese coconut coffee and plants.
+message: Outside of work you can often meet me on my road bike in the greater Hamburg area or even crossing the Alps. I draw inspiration and strength primarily from nature, my love for mountaineering and the photography of impressive architecture. 
+---
 ::

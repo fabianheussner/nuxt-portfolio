@@ -4,9 +4,9 @@
   >
     <div class="stage__about-title lg:col-span-6">
       <Type variant="display" class="title mb-8">
-        Hey there, I'm Fabian. I love to design services that work.</Type
-      >
-      <Button variant="primary" to="/" class="mr-4">Discover my process</Button>
+        {{ title }}
+      </Type>
+      <Button variant="primary" to="/" class="mr-4">{{ cta }}</Button>
     </div>
     <div
       class="stage__about-current lg:col-span-5 lg:col-end-13 grid grid-cols-2 gap-x-8 text-onBackgroundSubdued"
@@ -14,7 +14,7 @@
       <div class="job">
         <Type variant="body-medium">
           I currently work for<br />
-          @Mobimeo GmbH
+          @{{ employer }}
         </Type>
       </div>
       <div class="details">
@@ -29,6 +29,21 @@
 
 <script>
 export default {
+  props: {
+    title: {
+      type: String,
+      required: true,
+    },
+    cta: {
+      type: String,
+      required: true,
+    },
+    employer: {
+      type: String,
+      required: true,
+    },
+  },
+
   data() {
     return {
       currentTime: "",
@@ -59,7 +74,7 @@ export default {
       content: "";
       position: relative;
       display: inline-block;
-      // margin-right: 0.1em;
+      margin-right: 0.2em;
       top: 0.1em;
       width: 1em;
       height: 1em;

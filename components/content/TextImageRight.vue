@@ -8,31 +8,43 @@
         <Icon name="waves" />
         <Icon name="leaf" />
       </div>
-      <Type variant="label-large" class="text-onSurfaceSubdued mb-2"
-        >Besides work…
+      <Type variant="label-large" class="text-onSurfaceSubdued mb-2">
+        {{ label }}
       </Type>
-      <Type variant="title-small" class="mb-4"
-        >I love cycling, vietnamese coconut coffee and plants.
+      <Type variant="title-small" class="mb-4">
+        {{ title }}
       </Type>
       <Type variant="body-large">
-        Outside of work you can often meet me on my road bike in the greater
-        Hamburg area or even crossing the Alps. I draw inspiration and strength
-        primarily from nature, my love for mountaineering and the photography of
-        impressive architecture.
+        {{ message }}
       </Type>
     </div>
     <div class="image md:col-span-6 lg:col-span-4 order-1 md:order-2">
       <img
         src="/img/img3.png"
         alt=""
-        class="h-full rounded-t-2xl md:rounded-r-2xl md:rounded-l-none object-cover"
+        class="md:h-full rounded-t-2xl md:rounded-r-2xl md:rounded-l-none object-cover"
       />
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    label: {
+      type: String,
+      required: true,
+    },
+    title: {
+      type: String,
+      required: true,
+    },
+    message: {
+      type: String,
+      required: true,
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -45,7 +57,7 @@ export default {};
 
   .image {
     img {
-      min-height: 400px;
+      min-height: 320px;
     }
   }
 }

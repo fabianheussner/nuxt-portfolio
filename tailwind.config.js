@@ -75,6 +75,11 @@ module.exports = {
       // '6xl': '3.75rem',
       // '7xl': '4.5rem',
     },
+    fontWeight: {
+      normal:'400',
+      medium:'450',
+      semibold:'550',
+    }
   },
   plugins: [],
 }

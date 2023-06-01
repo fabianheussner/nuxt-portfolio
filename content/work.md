@@ -1,7 +1,17 @@
-# Selected works
 
+::stage-work
+I have worked for both agencies and corporates.
+::
+
+::section-header
+Selected clients
+::
 
 ::clients
 ::
 
-[Osram](work/osram-1)
+::section-header
+Selected work
+::
+
+

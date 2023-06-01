@@ -8,31 +8,48 @@ description: 'meta description of the page'
 ::
 
 ::services
-Test stuff
-
-#Research
-Folly words widow one downs few age every seven. If miss part by fact he park just shew.
-
-#UX
-Necessary up knowledge it tolerably. Unwilling departure education is be dashwoods or an.
-
-#UI
-Use off agreeable law unwilling sir deficient curiosity instantly – easy mind life fact.
-
-#Illustration
-Parish any chatty can elinor direct for former. Up as meant widow equal an share least.
-
+---
+data:
+    services:
+      - count: '01'
+        title: Experience Design
+        message: Folly words widow one downs few age every seven. If miss part by fact he park just shew.
+      - count: '02'
+        title: Interface Design
+        message: Folly words widow one downs few age every seven. If miss part by fact he park just shew.
+      - count: '03'
+        title: UX Writing
+        message: Folly words widow one downs few age every seven. If miss part by fact he park just shew.
+      - count: '04'
+        title: Design Systems
+        message: Folly words widow one downs few age every seven. If miss part by fact he park just shew.
+---
 ::
 
 
 ::section-header
-Selected work
+---
+title: Selected work
+counter: (2)
+---
 ::
 
-<!-- This page corresponds to the `/` route of your website. You can delete it or create another file in the `content/` directory.
-
-Try to navigate to [/about](/about). These 2 pages are rendered by the `pages/[...slug].vue` component.
-
+::case-teaser
 ---
+type: Mobile app
+title: Scan and Go
+subtitle: Convience when doing grocery shopping
+imageSource: /img/img3.png
+imageDescription: Some alt text goes here
+---
+::
+::case-teaser
+---
+type: Mobile app
+title: Scan and Go
+subtitle: Convience when doing grocery shopping
+imageSource: /img/img3.png
+imageDescription: Some alt text goes here
+---
+::
 
-Look at the [Content documentation](https://content.nuxtjs.org/) to learn more. -->

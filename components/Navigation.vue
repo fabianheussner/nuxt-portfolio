@@ -1,6 +1,6 @@
 <template>
   <div
-    class="navigation__large flex justify-between items-center px-6 py-4"
+    class="navigation__large flex w-full justify-between items-center px-6 py-4"
     :class="{ scrolled: isScrolled }"
   >
     <div class="navigation__large-logo">
@@ -16,7 +16,7 @@
         href="mailto:fabian.heussner@gmx.de?subject=Your Subject"
         class="px-4 py-2 rounded-full border border-onBackground text-base leading-4 box-border"
       >
-        Contact
+        Let's talk
       </a>
     </div>
   </div>

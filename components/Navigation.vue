@@ -14,9 +14,10 @@
     <div class="navigation__large-contact">
       <a
         href="mailto:fabian.heussner@gmx.de?subject=Your Subject"
-        class="px-4 py-2 rounded-full border border-onBackground text-base leading-4 box-border"
+        class="px-4 py-2 rounded-full border border-onBackground text-base font-medium leading-4 tracking-tight box-border"
       >
         Let's talk
+        <!-- <Type variant="label-medium" unwrap="p">Let's talk</Type> -->
       </a>
     </div>
   </div>

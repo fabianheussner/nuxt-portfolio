@@ -1,6 +1,6 @@
 <template>
-  <SectionHeader title="Selected work" counter="(2)" />
-  <div class="case__overview wrapper mb-40">
+  <SectionHeader :title="sectionTitle" :counter="sectionCounter" />
+  <div class="case__overview wrapper mb-10 md:mb-40">
     <CaseTeaser
       v-for="project in data.projects"
       :key="project.title"
@@ -18,6 +18,13 @@
 <script>
 export default {
   props: {
+    sectionTitle: {
+      type: String,
+      required: true,
+    },
+    sectionCounter: {
+      type: String,
+    },
     data: {
       type: Object,
       required: true,

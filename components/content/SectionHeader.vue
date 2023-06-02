@@ -1,5 +1,5 @@
 <template>
-  <div class="section__header wrapper mt-20 mb-10">
+  <div class="section__header wrapper mt-10 md:mt-20 mb-5 md:mb-10">
     <Type variant="headline-large" class="section__header-title">
       {{ title }}
       <span v-if="counter" class="superscript">{{ counter }}</span>
@@ -27,8 +27,9 @@ export default {
   .superscript {
     position: absolute;
     margin-left: 4px;
-    top: 8px;
-    @apply text-xl;
+    top: 4px;
+    transform: scale(0.6);
+    transform-origin: 0 0;
   }
 }
 </style>

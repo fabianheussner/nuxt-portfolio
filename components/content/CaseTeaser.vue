@@ -3,15 +3,21 @@
     :to="link"
     class="case__teaser grid grid-cols-1 md:grid-cols-2 my-12"
   >
-    <div class="case__teaser-body p-12 bg-surface order-2 md:order-1">
-      <Type variant="label-large" class="text-onSurfaceSubdued mt-10 mb-4">
+    <div class="case__teaser-body p-6 md:p-12 bg-surface order-2 md:order-1">
+      <Type
+        variant="label-large"
+        class="text-onSurfaceSubdued mt-2 md:mt-10 mb-2 md:mb-4"
+      >
         {{ type }}
       </Type>
       <Type variant="title-small">{{ title }}</Type>
-      <Type variant="headline-small" class="text-onSurfaceSubdued mb-12">
+      <Type
+        variant="headline-small"
+        class="text-onSurfaceSubdued mb-8 md:mb-12"
+      >
         {{ subtitle }}
       </Type>
-      <Icon name="arrowright" class="w-10 h-10" />
+      <Icon name="arrowright" class="w-8 h-8 md:w-10 md:h-10" />
     </div>
     <div class="case__teaser-preview order-1 md:order-2">
       <img :src="imageSource" :alt="imageDescription" />

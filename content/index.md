@@ -29,6 +29,9 @@ data:
 
 ::case-overview
 ---
+sectionTitle: Selected work
+sectionCounter: (02)
+
 data:
     projects:
       - link: /work/check-in-check-out

@@ -70,17 +70,6 @@ export default {
 <style lang="scss" scoped>
 .stage__about {
   .stage__about-title .title {
-    &::before {
-      content: "";
-      position: relative;
-      display: inline-block;
-      margin-right: 0.2em;
-      top: 0.1em;
-      width: 1em;
-      height: 1em;
-      background-image: url(/img/Avatar.png);
-      background-size: cover;
-    }
   }
   .stage__about-current {
     text-transform: uppercase;

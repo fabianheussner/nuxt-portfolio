@@ -14,7 +14,7 @@
       <Type variant="headline-small" class="mb-2">
         {{ service.title }}
       </Type>
-      <Type variant="body-medium">
+      <Type variant="body-large">
         {{ service.message }}
         <!-- <ContentSlot :use="$slots[service.title]" unwrap="p" /> -->
       </Type>

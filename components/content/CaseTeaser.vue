@@ -1,7 +1,7 @@
 <template>
   <NuxtLink
-    to="/work/osram-1"
-    class="case__teaser wrapper grid grid-cols-1 md:grid-cols-2 my-12"
+    :to="link"
+    class="case__teaser grid grid-cols-1 md:grid-cols-2 my-12"
   >
     <div class="case__teaser-body p-12 bg-surface order-2 md:order-1">
       <Type variant="label-large" class="text-onSurfaceSubdued mt-10 mb-4">
@@ -23,6 +23,10 @@
 <script>
 export default {
   props: {
+    link: {
+      type: String,
+      required: true,
+    },
     type: {
       type: String,
       required: true,

@@ -14,6 +14,10 @@
           <Type variant="label-medium">
             {{ link.label }}
           </Type>
+          <Badge
+            v-if="link.label === 'Work' && $route.path !== link.url"
+            class="badge__counter"
+          />
         </NuxtLink>
       </li>
     </ul>
@@ -25,8 +29,18 @@ export default {
   data() {
     return {
       links: [
-        { label: "Home", url: "/", icon: "home", activeIcon: "homefilled" },
-        { label: "Work", url: "/work", icon: "work", activeIcon: "workfilled" },
+        {
+          label: "Home",
+          url: "/",
+          icon: "home",
+          activeIcon: "homefilled",
+        },
+        {
+          label: "Work",
+          url: "/work",
+          icon: "work",
+          activeIcon: "workfilled",
+        },
         {
           label: "About",
           url: "/about",
@@ -43,6 +57,7 @@ export default {
 .tab__bar ul {
   width: 600px;
   .tab {
+    position: relative;
     transition: all 200ms ease-in-out;
     &.router-link-exact-active {
       @apply bg-surfaceVariant text-onSurfaceVariant;
@@ -54,6 +69,12 @@ export default {
 
     svg {
       // @apply w-5 h-5;
+    }
+
+    .badge__counter {
+      position: absolute;
+      top: 16px;
+      right: 40px;
     }
   }
 }

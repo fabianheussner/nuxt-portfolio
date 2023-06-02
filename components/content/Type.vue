@@ -33,12 +33,12 @@ const sizes = {
     "text-xl md:text-3xl font-medium leading-snug tracking-tighter",
 
   // Global Text Styles
-  "body-large": "text-lg leading-normal tracking-tight",
-  "body-medium": "text-base leading-normal tracking-tight",
-  "body-small": "text-sm leading-normal tracking-tight",
   "label-large": "text-lg font-medium leading-normal tracking-tight",
+  "body-large": "text-lg leading-normal tracking-tight",
   "label-medium": "text-base font-medium leading-normal tracking-tight",
+  "body-medium": "text-base leading-normal tracking-tight",
   "label-small": "text-sm font-medium leading-normal tracking-tight",
+  "body-small": "text-sm leading-normal tracking-tight",
   annotation: "text-xs leading-normal tracking-tight",
 };
 

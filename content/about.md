@@ -1,7 +1,7 @@
 
 ::stage-medium
 ---
-title: Hey there, I'm Fabian. I love to build services that work.
+title: I have a passion for illustration and I'm fascinated by writing code.
 cta: Discover my process
 employer: Mobimeo GmbH
 ---

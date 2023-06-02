@@ -1,18 +1,13 @@
 <template>
   <footer class="footer px-6 pt-8 pb-28 lg:pt-8 lg:pb-8">
-    <div class="contact py-40 text-center">
-      <Type variant="body-large" class="mb-4 text-onBackgroundVariantSubdued"
-        >Don't be a stranger.</Type
-      >
-      <a
-        href="mailto:fabian.heussner@gmx.de?subject=Your subject"
-        class="mailto underline-animation"
-      >
-        <Type variant="display">Drop me a line</Type>
-      </a>
+    <div class="footer__contact wrapper grid grid-cols-1 md:grid-cols-12 py-40">
+      <Type variant="title-large" class="md:col-span-7 footer__contact-title">
+        You got something to collaborate on? Then don't be a stranger and drop
+        me a line.
+      </Type>
     </div>
     <div
-      class="bottom-wrapper grid grid-cols-1 md:grid-cols-3 items-center justify-center"
+      class="bottom-wrapper grid grid-cols-1 md:grid-cols-3 items-center justify-center border-t border-onBackgroundVariantBorder py-4"
     >
       <div class="copyright column order-3 md:order-1">
         <Type variant="body-small" class="text-onBackgroundVariantSubdued">
@@ -39,31 +34,23 @@
 export default {};
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .footer {
   @apply bg-backgroundVariant;
   @apply text-onBackgroundVariant;
 
-  .contact {
-    .underline-animation {
-      display: inline-block;
-      position: relative;
-
-      &::after {
+  .footer__contact {
+    .footer__contact-title {
+      &::before {
         content: "";
-        position: absolute;
-        width: 100%;
-        transform: scaleX(0);
-        height: 3px;
-        bottom: -12px;
-        left: 0;
-        @apply bg-onBackgroundVariant;
-        transform-origin: bottom right;
-        transition: transform 0.25s ease-out;
-      }
-      &:hover::after {
-        transform: scaleX(1);
-        transform-origin: bottom left;
+        position: relative;
+        display: inline-block;
+        margin-right: 0.2em;
+        top: 0.1em;
+        width: 1em;
+        height: 1em;
+        background-image: url(/img/Avatar.png);
+        background-size: cover;
       }
     }
   }

@@ -4,14 +4,19 @@ I have worked for both agencies and corporates.
 ::
 
 ::section-header
-Selected clients
+---
+title: Selected clients
+---
 ::
 
 ::clients
 ::
 
 ::section-header
-Selected work
+---
+title: Selected work
+counter: (5)
+---
 ::
 
 

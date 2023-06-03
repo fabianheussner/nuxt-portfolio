@@ -13,13 +13,13 @@ data:
     services:
       - count: '01'
         title: Experience Design
-        message: Folly words widow one downs few age every seven. If miss part by fact he park just shew.
+        message: I create services that seamlessly blend user needs and business objectives for impactful experiences.
       - count: '02'
         title: Interface Design
-        message: Folly words widow one downs few age every seven. If miss part by fact he park just shew.
+        message: I craft concise and goal-oriented copy that guides users towards successful task completion.
       - count: '03'
         title: UX Writing
-        message: Folly words widow one downs few age every seven. If miss part by fact he park just shew.
+        message: I craft concise and goal-oriented copy that guides users towards successful task completion.
       - count: '04'
         title: Design Systems
         message: Folly words widow one downs few age every seven. If miss part by fact he park just shew.

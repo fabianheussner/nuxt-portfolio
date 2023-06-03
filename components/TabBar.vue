@@ -59,7 +59,8 @@ export default {
   .tab {
     position: relative;
     transition: all 200ms ease-in-out;
-    &.router-link-exact-active {
+    &.router-link-exact-active,
+    &.router-link-active {
       @apply bg-surfaceVariant text-onSurfaceVariant;
     }
 
@@ -67,9 +68,9 @@ export default {
       @apply text-onSurface;
     }
 
-    svg {
-      // @apply w-5 h-5;
-    }
+    // svg {
+    //   @apply w-5 h-5;
+    // }
 
     .badge__counter {
       position: absolute;

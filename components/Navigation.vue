@@ -1,24 +1,22 @@
 <template>
-  <div
-    class="navigation__large flex w-full justify-between items-center px-6 py-4"
-    :class="{ scrolled: isScrolled }"
-  >
-    <div class="navigation__large-logo">
-      <NuxtLink to="/">
-        <Icon name="logo" />
-      </NuxtLink>
-    </div>
-    <div class="navigation__large-menu mx-auto hidden lg:block">
-      <TabBar />
-    </div>
-    <div class="navigation__large-contact">
-      <a
-        href="mailto:fabian.heussner@gmx.de?subject=Your Subject"
-        class="px-4 py-2 rounded-full border border-onBackground text-base font-medium leading-4 tracking-tight box-border"
-      >
-        Let's talk
-        <!-- <Type variant="label-medium" unwrap="p">Let's talk</Type> -->
-      </a>
+  <div class="navigation__large sticky" :class="{ scrolled: isScrolled }">
+    <div class="relative flex w-full items-center px-6 py-4">
+      <div class="navigation__large-logo absolute left-6">
+        <NuxtLink to="/">
+          <Icon name="logo" />
+        </NuxtLink>
+      </div>
+      <div class="navigation__large-menu mx-auto hidden lg:block">
+        <TabBar />
+      </div>
+      <div class="navigation__large-contact absolute right-6">
+        <a
+          href="mailto:fabian.heussner@gmx.de?subject=Your Subject"
+          class="px-4 py-2 rounded-full border border-onBackground text-base font-medium leading-4 tracking-tight box-border"
+        >
+          Let's talk
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -52,7 +50,6 @@ export default {
 <style lang="scss" scoped>
 .navigation__large {
   z-index: 9999;
-  position: sticky;
   top: 0;
 
   .navigation__large-menu {

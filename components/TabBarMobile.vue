@@ -1,7 +1,5 @@
 <template>
-  <nav
-    class="tab__bar flex justify-center fixed bottom-0 w-full block lg:hidden"
-  >
+  <nav class="tab__bar flex justify-center fixed bottom-0 w-full lg:hidden">
     <ul
       class="rounded-full bg-surface text-base inline-flex text-center max-w-sm"
     >

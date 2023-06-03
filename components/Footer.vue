@@ -2,9 +2,19 @@
   <footer class="footer px-6 pt-8 pb-28 lg:pt-8 lg:pb-8">
     <div class="footer__contact wrapper grid grid-cols-1 md:grid-cols-12 py-40">
       <Type variant="title-large" class="md:col-span-7 footer__contact-title">
-        You got something to collaborate on? Then don't be a stranger and drop
-        me a line.
+        Let’s talk about a project, collaboration or an idea you have in mind.
       </Type>
+      <div class="footer_contact-button md:col-span-5">
+        <a
+          href=""
+          class="button pl-8 pr-1 rounded-full bg-background text-onBackground text-xl tracking-tight font-medium items-center"
+        >
+          Drop me a line
+          <span class="icon">
+            <Icon name="arrowright" />
+          </span>
+        </a>
+      </div>
     </div>
     <div
       class="bottom-wrapper grid grid-cols-1 md:grid-cols-3 items-center justify-center border-t border-onBackgroundVariantBorder py-4"
@@ -51,6 +61,32 @@ export default {};
         height: 1em;
         background-image: url(/img/Avatar.png);
         background-size: cover;
+      }
+    }
+
+    .footer_contact-button {
+      .button {
+        display: inline-flex;
+        line-height: 64px;
+        span {
+          transition: all 300ms ease-in-out;
+          display: inherit;
+          // display: none;
+          width: 0;
+          height: 0;
+          opacity: 0;
+          margin-left: 16px;
+          transform: scale(0);
+          transform-origin: center center;
+          @apply bg-backgroundVariant rounded-full text-onBackgroundVariant items-center justify-center;
+        }
+        &:hover span {
+          transform: scale(1);
+          // display: inline-flex;
+          opacity: 1;
+          width: 56px;
+          height: 56px;
+        }
       }
     }
   }

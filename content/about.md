@@ -1,16 +1,17 @@
 
 ::stage-medium
 ---
-title: I've a passion for illustration and enjoy writing code.
+title: I've a passion for illustration and enjoy coding.
 cta: Discover my process
 employer: Mobimeo GmbH
 ---
+<!-- I've a passion for illustration and enjoy writing code. -->
 ::
 
 ::about-process
 ---
 title: Holistic approach
-message: Fast bla blu …
+message: With my expertise in a diverse set of skills and my holistic approach, I create seamless user experiences and services that work. 
 
 data:
     services:
@@ -35,7 +36,7 @@ data:
 ::about-experience
 ---
 title: Experience gained
-message: Fast bla blu …
+message: With over a decade of experience in designing, my classic background has provided me with a strong foundation.
 
 data:
     employers:

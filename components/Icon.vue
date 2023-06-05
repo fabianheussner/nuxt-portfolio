@@ -18,6 +18,8 @@ import Logo from "~/assets/icons/Logo.vue";
 import Leaf from "~/assets/icons/illustrative/Leaf.vue";
 import Star from "~/assets/icons/illustrative/Star.vue";
 import Waves from "~/assets/icons/illustrative/Waves.vue";
+import Signature from "~/assets/icons/illustrative/Signature.vue";
+import Location from "~/assets/icons/illustrative/Location.vue";
 // ...
 
 const icons = {
@@ -36,6 +38,8 @@ const icons = {
   leaf: Leaf,
   star: Star,
   waves: Waves,
+  signature: Signature,
+  location: Location,
   // ...
 };
 

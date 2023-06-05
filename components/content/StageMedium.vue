@@ -1,6 +1,6 @@
 <template>
   <div
-    class="stage__about wrapper grid grid-cols-1 md:grid-cols-12 md:gap-x-8 py-20 md:py-40 items-center"
+    class="stage__about wrapper grid grid-cols-1 md:grid-cols-12 gap-y-12 md:gap-x-8 py-20 md:py-40 items-center"
   >
     <div class="stage__about-title md:col-span-6">
       <Type variant="display" class="title mb-8">
@@ -9,16 +9,18 @@
       <Button variant="primary" to="/" class="mr-4">{{ cta }}</Button>
     </div>
     <div
-      class="stage__about-current md:col-span-6 grid grid-cols-2 gap-x-8 text-onBackgroundSubdued"
+      class="stage__about-current md:col-span-6 grid grid-cols-2 gap-x-4 text-onBackgroundSubdued"
     >
       <div class="job">
-        <Type variant="body-medium">
+        <!-- <Icon name="star" class="w-8 h-8 text-onBackground mb-4" /> -->
+        <Type variant="body-small">
           I currently work for<br />
           @{{ employer }}
         </Type>
       </div>
       <div class="details">
-        <Type variant="body-medium">
+        <!-- <Icon name="location" class="w-8 h-8 text-onBackground mb-4" /> -->
+        <Type variant="body-small">
           Hamburg, Germany<br />
           Local time {{ currentTime }}
         </Type>
@@ -69,9 +71,8 @@ export default {
 
 <style lang="scss" scoped>
 .stage__about {
-  .stage__about-title .title {
-  }
   .stage__about-current {
+    // text-align: right;
     text-transform: uppercase;
   }
 }

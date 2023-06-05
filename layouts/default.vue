@@ -2,7 +2,6 @@
   <div>
     <Navigation />
     <slot />
-
     <Footer />
     <TabBarMobile />
   </div>

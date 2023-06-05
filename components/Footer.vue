@@ -11,12 +11,12 @@
       </Type>
       <div class="footer_contact-button lg:col-span-6">
         <a
-          href=""
-          class="button pl-8 pr-1 rounded-full bg-background text-onBackground text-xl tracking-tight font-medium items-center"
+          href="mailto:fabian.heussner@gmx.de?subject=Your Subject"
+          class="button pl-8 pr-1 rounded-full bg-background text-onBackgroundSubdued text-xl tracking-tight font-medium items-center"
         >
           Say hello…
           <span class="icon">
-            <Icon name="plane" />
+            <Icon name="plane" class="w-8 h-8" />
           </span>
         </a>
       </div>
@@ -30,8 +30,19 @@
         </Type>
       </div>
       <div class="social column order-1 lg:order-2">
-        <Button variant="outline" to="/" class="mr-4">LinkedIn</Button>
-        <Button variant="outline" to="/">Dribbble</Button>
+        <Button
+          variant="outline"
+          to="https://www.linkedin.com/in/fabian-heussner-91a0a5104"
+          target="_blank"
+          class="mr-4"
+          >LinkedIn</Button
+        >
+        <Button
+          variant="outline"
+          to="https://www.linkedin.com/in/fabian-heussner-91a0a5104"
+          target="_blank"
+          >Dribbble</Button
+        >
       </div>
       <div class="legal column order-2 lg:order-3">
         <NuxtLink to="/" class="inline-block p-4">
@@ -61,29 +72,58 @@ export default {};
         position: relative;
         display: inline-block;
         margin-right: 0.2em;
-        top: 0.1em;
-        width: 1em;
-        height: 1em;
+        top: 0.2em;
+        width: 1.2em;
+        height: 1.2em;
         background-image: url(/img/Avatar.png);
         background-size: cover;
       }
     }
 
     .footer_contact-button {
-      @apply text-left lg:text-right;
+      // @apply text-left lg:text-right;
+      @apply text-center;
       .button {
+        justify-content: space-between;
+        width: 100%;
+        max-width: 360px;
         display: inline-flex;
         line-height: 4rem;
         span {
           display: inherit;
           width: 3.5rem;
           height: 3.5rem;
-          margin-left: 5rem;
           transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-          @apply bg-backgroundVariant text-onBackgroundVariant items-center justify-center rounded-full;
+          @apply bg-background text-onBackground items-center justify-center rounded-full;
+        }
+
+        &::before {
+          content: "";
+          position: absolute;
+          display: block;
+          margin-left: -3px;
+          width: 2px;
+          height: 24px;
+          opacity: 0;
+          @apply bg-accentBlue;
+        }
+        &:hover::before {
+          animation: caret 1s infinite;
         }
         &:hover span {
-          margin-left: 4rem;
+          @apply bg-backgroundVariant text-onBackgroundVariant;
+        }
+
+        @keyframes caret {
+          0% {
+            opacity: 0;
+          }
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
         }
       }
     }

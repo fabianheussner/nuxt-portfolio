@@ -22,15 +22,15 @@ const tags = {
 
 const sizes = {
   // Responsive Text Styles
-  display: "text-5xl md:text-7xl font-medium leading-none tracking-tighter",
+  display: "text-5xl lg:text-7xl font-medium leading-none tracking-tighter",
   "title-large":
-    "text-4xl md:text-6xl font-medium leading-tight tracking-tighter",
+    "text-4xl lg:text-6xl font-medium leading-tight tracking-tighter",
   "title-small":
-    "text-3xl md:text-5xl font-medium leading-tight tracking-tighter",
+    "text-3xl lg:text-5xl font-medium leading-tight tracking-tighter",
   "headline-large":
-    "text-2xl md:text-4xl font-medium leading-snug tracking-tighter",
+    "text-2xl lg:text-4xl font-medium leading-snug tracking-tighter",
   "headline-small":
-    "text-xl md:text-3xl font-medium leading-snug tracking-tighter",
+    "text-xl lg:text-3xl font-medium leading-snug tracking-tighter",
 
   // Global Text Styles
   "label-large": "text-lg font-medium leading-normal tracking-tight",

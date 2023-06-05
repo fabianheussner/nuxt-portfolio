@@ -1,12 +1,12 @@
 <template>
-  <div class="accordion">
+  <div class="accordion" v-for="service in services" :key="service.title">
     <div class="accordion__title" @click="isSelected">
       <Type variant="headline-small">
         <span class="accordion__title-count text-onBackgroundSubdued">
-          {{ count }}
+          {{ service.count }}
         </span>
         <span class="accordion__title-default">
-          {{ title }}
+          {{ service.title }}
         </span>
       </Type>
       <Icon
@@ -16,7 +16,7 @@
     </div>
     <div class="accordion__content">
       <Type variant="body-large">
-        {{ body }}
+        {{ service.text }}
       </Type>
     </div>
   </div>
@@ -25,16 +25,8 @@
 <script>
 export default {
   props: {
-    count: {
-      type: String,
-      required: true,
-    },
-    title: {
-      type: String,
-      required: true,
-    },
-    body: {
-      type: String,
+    services: {
+      type: Array,
       required: true,
     },
   },
@@ -94,8 +86,8 @@ export default {
     }
 
     &:hover {
-      // @apply bg-background;
-      // transform: scaleX(1.02);
+      @apply bg-background;
+      transform: scaleX(1.02);
     }
     // &:hover .accordion__title-count {
     //   @apply text-onBackground;

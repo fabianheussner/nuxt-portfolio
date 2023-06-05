@@ -1,20 +1,20 @@
 <template>
   <div
-    class="stage__large wrapper py-10 lg:py-20 grid grid-cols-1 lg:grid-cols-12 gap-x-8 items-center"
+    class="stage__large wrapper py-10 md:py-20 grid grid-cols-1 md:grid-cols-12 gap-x-8 items-center"
   >
-    <div class="stage__large-title lg:col-span-6 order-last lg:order-first">
+    <div class="stage__large-title md:col-span-6 order-2 md:order-1">
       <Type variant="display" class="mt-6">
         I connect people's needs with aesthetics.
       </Type>
       <Type variant="body-large" class="mt-4 mb-12 ml-2 text-onSurfaceSubdued">
         Hey, I'm Fabian and digital Product Designer by heart.
-        <!-- Currently, I'm disrupting the German mobility landscape @Mobimeo. -->
       </Type>
       <Button variant="primary" to="/work" class="mr-4">See work</Button>
       <Button variant="secondary" to="/about">Get to know me</Button>
     </div>
-    <div class="stage__large-hero lg:col-span-5 lg:col-end-13">
-      <!-- <img src="/img/hero-4.png" alt="Workflow illustration" /> -->
+    <div
+      class="stage__large-hero md:col-span-6 lg:col-span-5 lg:col-end-13 mx-auto order-1 md:order-2"
+    >
       <video autoplay muted loop playsinline>
         <source src="/video/stage-new.mp4" type="video/mp4" />
         Your browser does not support the video tag.
@@ -28,19 +28,9 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-// .stage__large-hero {
-//   height: 0;
-//   width: 0;
-//   padding-bottom: 93.75%; /* 16:9 aspect ratio, adjust as needed */
-//   padding-right: 106.66%; /* 16:9 aspect ratio, adjust as needed */
-//   position: relative;
-// }
-
 // video {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
 //   width: 100%;
-//   height: 100%;
+//   max-width: 500px;
+//   height: auto;
 // }
 </style>

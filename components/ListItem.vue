@@ -1,13 +1,17 @@
 <template>
-  <div class="list__item grid grid-cols-1 lg:grid-cols-3 gap-x-4 items-center">
-    <div class="list__item-primary">
-      <Type variant="label-large">{{ primary }}</Type>
+  <div class="list__item grid grid-cols-12 gap-x-4 items-center">
+    <div class="col-span-8 md:grid md:grid-cols-2 gap-x-4">
+      <div class="list__item-primary md:col-span-1">
+        <Type variant="label-large">{{ primary }}</Type>
+      </div>
+      <div class="list__item-secondary md:col-span-1">
+        <Type variant="body-large">{{ secondary }}</Type>
+      </div>
     </div>
-    <div class="list__item-secondary">
-      <Type variant="body-large">{{ secondary }}</Type>
-    </div>
-    <div class="list__item-tertiary text-onBackgroundSubdued text-right">
-      <Type variant="body-small">{{ tertiary }}</Type>
+    <div class="col-span-4">
+      <div class="list__item-tertiary text-onBackgroundSubdued text-right">
+        <Type variant="body-small">{{ tertiary }}</Type>
+      </div>
     </div>
   </div>
 </template>

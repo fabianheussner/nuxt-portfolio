@@ -7,7 +7,7 @@
         variant="title-large"
         class="footer__contact-title lg:col-span-6 mb-8 lg:mb-0"
       >
-        Let’s talk about a job, collaboration or an idea you may have in mind.
+        Let’s talk about a job, collaboration or any idea you may have in mind.
       </Type>
       <div class="footer_contact-button lg:col-span-6">
         <a

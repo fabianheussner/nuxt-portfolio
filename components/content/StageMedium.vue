@@ -1,15 +1,15 @@
 <template>
   <div
-    class="stage__about wrapper grid grid-cols-1 lg:grid-cols-12 lg:gap-x-8 py-40 items-center"
+    class="stage__about wrapper grid grid-cols-1 md:grid-cols-12 md:gap-x-8 py-20 md:py-40 items-center"
   >
-    <div class="stage__about-title lg:col-span-6">
+    <div class="stage__about-title md:col-span-6">
       <Type variant="display" class="title mb-8">
         {{ title }}
       </Type>
       <Button variant="primary" to="/" class="mr-4">{{ cta }}</Button>
     </div>
     <div
-      class="stage__about-current lg:col-span-6 grid grid-cols-2 gap-x-8 text-onBackgroundSubdued"
+      class="stage__about-current md:col-span-6 grid grid-cols-2 gap-x-8 text-onBackgroundSubdued"
     >
       <div class="job">
         <Type variant="body-medium">

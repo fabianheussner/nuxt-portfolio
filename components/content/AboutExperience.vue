@@ -3,15 +3,14 @@
     class="work__experience wrapper grid grid-cols-1 lg:grid-cols-12 gap-x-8 py-20"
   >
     <div class="lg:col-span-5">
-      <Type variant="title-small" class="pb-4 pt-2">Experience</Type>
-      <Type variant="body-large" class="text-onBackgroundSubdued"
-        >Fast and transparent, the path to owning a website that will represent
-        your brand in the best of light is only 4 weeks away.
+      <Type variant="title-small" class="pb-4 pt-2">{{ title }}</Type>
+      <Type variant="body-large" class="text-onBackgroundSubdued">
+        {{ message }}
       </Type>
     </div>
     <div class="lg:col-start-7 lg:col-span-6">
       <ListItem
-        v-for="employer in employers"
+        v-for="employer in data.employers"
         :key="employer.title"
         :primary="employer.position"
         :secondary="employer.company"
@@ -23,36 +22,19 @@
 
 <script>
 export default {
-  data() {
-    return {
-      employers: [
-        {
-          position: "Senior UX / UI Designer",
-          company: "Mobimeo GmbH",
-          year: "9/21 - today",
-        },
-        {
-          position: "Product Designer",
-          company: "Cellular GmbH",
-          year: "10/20 - 8/21",
-        },
-        {
-          position: "Art Director UX / UI",
-          company: "Mutabor AG",
-          year: "6/20 - 9/20",
-        },
-        {
-          position: "Interaction Designer",
-          company: "Deepblue Networks AG",
-          year: "4/16 - 4/20",
-        },
-        {
-          position: "BA Communication Design",
-          company: "Fachhochschule Trier",
-          year: "4/16 - 4/20",
-        },
-      ],
-    };
+  props: {
+    title: {
+      type: String,
+      required: true,
+    },
+    message: {
+      type: String,
+      required: true,
+    },
+    data: {
+      type: Object,
+      required: true,
+    },
   },
 };
 </script>

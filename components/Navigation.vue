@@ -1,6 +1,6 @@
 <template>
   <div class="navigation__large sticky" :class="{ scrolled: isScrolled }">
-    <div class="relative flex w-full items-center px-6 py-4">
+    <div class="relative flex w-full h-16 items-center px-6 my-4">
       <div class="navigation__large-logo absolute left-6">
         <NuxtLink to="/">
           <Icon name="logo" />
@@ -49,6 +49,7 @@ export default {
 
 <style lang="scss" scoped>
 .navigation__large {
+  // height: 80px;
   z-index: 9999;
   top: 0;
 

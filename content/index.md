@@ -16,13 +16,13 @@ data:
         message: I create services that seamlessly blend user needs and business objectives for impactful experiences.
       - count: '02'
         title: Interface Design
-        message: I craft concise and goal-oriented copy that guides users towards successful task completion.
+        message: I design user interfaces that are stripped down to the essentials and always strive for ease of use.
       - count: '03'
         title: UX Writing
         message: I craft concise and goal-oriented copy that guides users towards successful task completion.
       - count: '04'
         title: Design Systems
-        message: I managed and migrated several complex Design Systems and seek for better in file docs.
+        message: I managed and migrated several complex Design Systems and seek for better in-file documentation.
 ---
 ::
 

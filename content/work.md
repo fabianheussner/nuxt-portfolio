@@ -1,6 +1,6 @@
 
 ::stage-work
-I have worked for both agencies and corporates.
+I've worked for both agencies and corporates.
 ::
 
 ::section-header

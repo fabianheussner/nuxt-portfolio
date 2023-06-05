@@ -1,7 +1,7 @@
 
 ::stage-medium
 ---
-title: I have a passion for illustration and I'm fascinated by writing code.
+title: I've a passion for illustration and enjoy writing code.
 cta: Discover my process
 employer: Mobimeo GmbH
 ---

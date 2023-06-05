@@ -11,6 +11,7 @@ import Work from "~/assets/icons/Work.vue";
 import WorkFilled from "~/assets/icons/WorkFilled.vue";
 import ArrowRight from "~/assets/icons/ArrowRight.vue";
 import Add from "~/assets/icons/Add.vue";
+import Plane from "~/assets/icons/Plane.vue";
 
 import Logo from "~/assets/icons/Logo.vue";
 
@@ -28,6 +29,7 @@ const icons = {
   workfilled: WorkFilled,
   arrowright: ArrowRight,
   add: Add,
+  plane: Plane,
 
   logo: Logo,
 

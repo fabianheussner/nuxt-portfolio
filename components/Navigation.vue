@@ -14,7 +14,7 @@
           href="mailto:fabian.heussner@gmx.de?subject=Your Subject"
           class="px-4 py-2 rounded-full border border-onBackground text-base font-medium leading-4 tracking-tight box-border"
         >
-          Let's talk
+          Say hello
         </a>
       </div>
     </div>

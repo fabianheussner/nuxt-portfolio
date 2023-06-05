@@ -28,12 +28,19 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.separator {
-  // this creates an unfortunate duplicate of the content Oo
-  @apply inline-block w-10 mx-4 align-middle;
-}
+// .stage__large-hero {
+//   height: 0;
+//   width: 0;
+//   padding-bottom: 93.75%; /* 16:9 aspect ratio, adjust as needed */
+//   padding-right: 106.66%; /* 16:9 aspect ratio, adjust as needed */
+//   position: relative;
+// }
 
-.stage-details {
-  text-transform: uppercase;
-}
+// video {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+// }
 </style>

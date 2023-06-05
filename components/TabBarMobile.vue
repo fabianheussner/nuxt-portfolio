@@ -56,7 +56,8 @@ export default {
 
 <style lang="scss" scoped>
 .tab__bar {
-  @apply pt-4 pb-6;
+  @apply pt-4 pb-6 px-4;
+
   ul {
     @apply mx-auto shadow-md;
     width: 100%;

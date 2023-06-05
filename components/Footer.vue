@@ -1,34 +1,39 @@
 <template>
-  <footer class="footer px-6 pt-8 pb-28 lg:pt-8 lg:pb-8">
-    <div class="footer__contact wrapper grid grid-cols-1 md:grid-cols-12 py-40">
-      <Type variant="title-large" class="md:col-span-7 footer__contact-title">
-        Let’s talk about a project, collaboration or an idea you have in mind.
+  <footer class="footer">
+    <div
+      class="footer__contact wrapper grid grid-cols-1 lg:grid-cols-12 py-40 items-end"
+    >
+      <Type
+        variant="title-large"
+        class="footer__contact-title lg:col-span-6 mb-8 lg:mb-0"
+      >
+        Let’s talk about a job, collaboration or an idea you may have in mind.
       </Type>
-      <div class="footer_contact-button md:col-span-5">
+      <div class="footer_contact-button lg:col-span-6">
         <a
           href=""
           class="button pl-8 pr-1 rounded-full bg-background text-onBackground text-xl tracking-tight font-medium items-center"
         >
-          Drop me a line
+          Say hello…
           <span class="icon">
-            <Icon name="arrowright" />
+            <Icon name="plane" />
           </span>
         </a>
       </div>
     </div>
     <div
-      class="bottom-wrapper grid grid-cols-1 md:grid-cols-3 items-center justify-center border-t border-onBackgroundVariantBorder py-4"
+      class="bottom-wrapper grid grid-cols-1 lg:grid-cols-3 items-center justify-center border-t border-onBackgroundVariantBorder"
     >
-      <div class="copyright column order-3 md:order-1">
+      <div class="copyright column order-3 lg:order-1">
         <Type variant="body-small" class="text-onBackgroundVariantSubdued">
           © {{ new Date().getFullYear() }}, Fabian Heussner
         </Type>
       </div>
-      <div class="social column order-1 md:order-2">
+      <div class="social column order-1 lg:order-2">
         <Button variant="outline" to="/" class="mr-4">LinkedIn</Button>
         <Button variant="outline" to="/">Dribbble</Button>
       </div>
-      <div class="legal column order-2 md:order-3">
+      <div class="legal column order-2 lg:order-3">
         <NuxtLink to="/" class="inline-block p-4">
           <Type variant="label-small">Privacy Policy</Type>
         </NuxtLink>
@@ -65,41 +70,37 @@ export default {};
     }
 
     .footer_contact-button {
+      @apply text-left lg:text-right;
       .button {
         display: inline-flex;
-        line-height: 64px;
+        line-height: 4rem;
         span {
-          transition: all 300ms ease-in-out;
           display: inherit;
-          // display: none;
-          width: 0;
-          height: 0;
-          opacity: 0;
-          margin-left: 16px;
-          transform: scale(0);
-          transform-origin: center center;
-          @apply bg-backgroundVariant rounded-full text-onBackgroundVariant items-center justify-center;
+          width: 3.5rem;
+          height: 3.5rem;
+          margin-left: 5rem;
+          transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          @apply bg-backgroundVariant text-onBackgroundVariant items-center justify-center rounded-full;
         }
         &:hover span {
-          transform: scale(1);
-          // display: inline-flex;
-          opacity: 1;
-          width: 56px;
-          height: 56px;
+          margin-left: 4rem;
         }
       }
     }
   }
 
-  .column {
-    &.copyright {
-      @apply text-center md:text-left;
-    }
-    &.social {
-      @apply text-center mb-20 md:mb-0;
-    }
-    &.legal {
-      @apply text-center md:text-right;
+  .bottom-wrapper {
+    @apply px-6 pt-8 pb-28 lg:py-8;
+    .column {
+      &.copyright {
+        @apply text-center lg:text-left;
+      }
+      &.social {
+        @apply text-center mb-20 lg:mb-0;
+      }
+      &.legal {
+        @apply text-center lg:text-right;
+      }
     }
   }
 
@@ -108,11 +109,10 @@ export default {};
     display: block;
     position: relative;
     top: 0;
-    width: calc(100% + 48px);
-    height: 32px;
-    margin-top: -32px;
-    margin-left: -24px;
-    margin-right: -24px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1rem;
     @apply bg-background rounded-b-2xl;
   }
 }

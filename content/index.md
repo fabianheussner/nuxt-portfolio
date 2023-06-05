@@ -22,7 +22,7 @@ data:
         message: I craft concise and goal-oriented copy that guides users towards successful task completion.
       - count: '04'
         title: Design Systems
-        message: Folly words widow one downs few age every seven. If miss part by fact he park just shew.
+        message: I managed and migrated several complex Design Systems and seek for better in file docs.
 ---
 ::
 
@@ -30,7 +30,7 @@ data:
 ::case-overview
 ---
 sectionTitle: Selected work
-sectionCounter: (02)
+sectionCounter: (2)
 
 data:
     projects:

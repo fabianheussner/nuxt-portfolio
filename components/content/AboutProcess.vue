@@ -1,7 +1,7 @@
 <template>
   <div
     id="process"
-    class="wrapper grid grid-cols-1 gap-x-8 gap-y-12 lg:grid-cols-12 py-20"
+    class="wrapper grid grid-cols-1 gap-x-8 gap-y-12 lg:grid-cols-12 padding__v-large"
   >
     <div class="lg:col-span-5">
       <Type variant="title-small" class="pb-4 pt-2">{{ title }}</Type>

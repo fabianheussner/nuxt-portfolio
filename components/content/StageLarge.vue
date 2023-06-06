@@ -1,6 +1,6 @@
 <template>
   <div
-    class="stage__large wrapper py-10 md:py-20 grid grid-cols-1 md:grid-cols-12 gap-x-8 items-center"
+    class="stage__large wrapper grid grid-cols-1 md:grid-cols-12 gap-x-8 items-center padding__v-large"
   >
     <div class="stage__large-title md:col-span-6 order-2 md:order-1">
       <Type variant="display" class="mt-6">
@@ -16,7 +16,7 @@
       class="stage__large-hero md:col-span-6 lg:col-span-5 lg:col-end-13 mx-auto order-1 md:order-2"
     >
       <video autoplay muted loop playsinline>
-        <source src="/video/stage-new.mp4" type="video/mp4" />
+        <source src="/video/Stage.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>

@@ -1,6 +1,6 @@
 <template>
-  <SectionHeader :title="sectionTitle" :counter="sectionCounter" />
-  <div class="case__overview wrapper mb-10 md:mb-40">
+  <div class="case__overview wrapper padding__v-large">
+    <SectionHeader :title="sectionTitle" :counter="sectionCounter" />
     <CaseTeaser
       v-for="project in data.projects"
       :key="project.title"

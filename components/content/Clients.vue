@@ -1,17 +1,29 @@
 <template>
-  <div class="client__table wrapper grid grid-cols-12">
-    <div
-      v-for="client in clients"
-      :key="client.name"
-      class="client__table-logo col-span-6 md:col-span-3 h-24 md:h-40 flex justify-center items-center"
-    >
-      <img :src="client.logo" alt="some alt text" class="logo" />
+  <div class="clients wrapper padding__v-large">
+    <SectionHeader :title="sectionTitle" :counter="sectionCounter" />
+    <div class="client__table grid grid-cols-12">
+      <div
+        v-for="client in clients"
+        :key="client.name"
+        class="client__table-logo col-span-6 md:col-span-3 h-24 md:h-40 flex justify-center items-center"
+      >
+        <img :src="client.logo" alt="some alt text" class="logo" />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
+  props: {
+    sectionTitle: {
+      type: String,
+      required: true,
+    },
+    sectionCounter: {
+      type: String,
+    },
+  },
   data() {
     return {
       clients: [

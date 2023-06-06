@@ -1,16 +1,17 @@
 
 ::stage-work
-I've worked for agencies and corporates.
+---
+title: I've worked for agencies and corporates.
+cta: See all work
+---
 <!-- I've worked for both agencies and corporates. -->
 ::
 
-::section-header
----
-title: Selected clients
----
-::
 
 ::clients
+---
+sectionTitle: Selected clients
+---
 ::
 
 ::case-overview

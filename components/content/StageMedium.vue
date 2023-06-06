@@ -1,6 +1,6 @@
 <template>
   <div
-    class="stage__about wrapper grid grid-cols-1 md:grid-cols-12 gap-y-12 md:gap-x-8 py-20 md:py-40 items-center"
+    class="stage__about wrapper grid grid-cols-1 md:grid-cols-12 gap-y-12 md:gap-x-8 items-center padding__stage-v-large"
   >
     <div class="stage__about-title md:col-span-6">
       <Type variant="display" class="title mb-8">

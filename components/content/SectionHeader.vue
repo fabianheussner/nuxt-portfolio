@@ -1,5 +1,5 @@
 <template>
-  <div class="section__header wrapper mt-10 md:mt-20 mb-5 md:mb-10">
+  <div class="section__header mt-4 md:mt-8 mb-8 md:mb-12">
     <Type variant="headline-large" class="section__header-title">
       {{ title }}
       <span v-if="counter" class="superscript">{{ counter }}</span>

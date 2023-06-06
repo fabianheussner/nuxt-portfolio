@@ -1,7 +1,7 @@
 <template>
   <NuxtLink
     :to="link"
-    class="case__teaser grid grid-cols-1 md:grid-cols-2 my-12"
+    class="case__teaser grid grid-cols-1 md:grid-cols-2 mb-8 md:mb-12"
   >
     <div class="case__teaser-body p-6 md:p-12 bg-surface order-2 md:order-1">
       <Type

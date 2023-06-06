@@ -37,7 +37,7 @@ data:
       - link: /work/check-in-check-out
         type: Mobile app
         title: Check in check out
-        subtitle: Convience when doing grocery shopping
+        subtitle: Local public transport at ease
         imageSource: /img/img3.png
         imageDescription: Some alt text goes here
       - link: /work/osram-1
@@ -46,6 +46,8 @@ data:
         subtitle: Convience when doing grocery shopping
         imageSource: /img/img3.png
         imageDescription: Some alt text goes here
+
+cta: Discover all
 ---
 ::
 

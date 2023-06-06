@@ -76,8 +76,10 @@ Lorem ipsum dolor sit amet consectetur. Eros nisl feugiat magna cras facilisis m
 ::pagination
 ---
 caseTitle: Check in and out
+url: check-in-check-out
 imageSource: /img/img2.png
 imageDescription: Some alt text
+
 ---
 ::
 

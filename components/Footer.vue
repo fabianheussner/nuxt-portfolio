@@ -30,22 +30,23 @@
         </Type>
       </div>
       <div class="social column order-1 lg:order-2">
-        <Button
-          variant="outline"
-          to="https://www.linkedin.com/in/fabian-heussner-91a0a5104"
+        <a
+          href="https://www.linkedin.com/in/fabian-heussner-91a0a5104/"
           target="_blank"
-          class="mr-4"
-          >LinkedIn</Button
+          class="button__link mr-4"
         >
-        <Button
-          variant="outline"
-          to="https://www.linkedin.com/in/fabian-heussner-91a0a5104"
+          LinkedIn
+        </a>
+        <a
+          href="https://dribbble.com/FabianH"
           target="_blank"
-          >Dribbble</Button
+          class="button__link"
         >
+          Dribbble
+        </a>
       </div>
       <div class="legal column order-2 lg:order-3">
-        <NuxtLink to="/" class="inline-block p-4">
+        <NuxtLink to="legal/privacy-policy" class="inline-block p-4">
           <Type variant="label-small">Privacy Policy</Type>
         </NuxtLink>
         <NuxtLink to="legal/imprint" class="inline-block ml-4 p-4">
@@ -94,24 +95,21 @@ export default {};
           width: 3.5rem;
           height: 3.5rem;
           transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-          @apply bg-background text-onBackground items-center justify-center rounded-full;
+          @apply bg-backgroundVariant text-onBackgroundVariant items-center justify-center rounded-full;
         }
 
         &::before {
           content: "";
           position: absolute;
           display: block;
-          margin-left: -3px;
+          margin-left: -4px;
           width: 2px;
           height: 24px;
           opacity: 0;
-          @apply bg-accentBlue;
+          @apply bg-onBackground;
         }
         &:hover::before {
           animation: caret 1s infinite;
-        }
-        &:hover span {
-          @apply bg-backgroundVariant text-onBackgroundVariant;
         }
 
         @keyframes caret {
@@ -140,6 +138,21 @@ export default {};
       }
       &.legal {
         @apply text-center lg:text-right;
+
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .button__link {
+        display: inline-block;
+        @apply px-6 py-3 rounded-full border border-onBackgroundVariant text-base font-medium tracking-tight text-onBackgroundVariant;
+        cursor: pointer;
+        transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+        &:hover {
+          @apply bg-background text-onBackground;
+        }
       }
     }
   }

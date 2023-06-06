@@ -11,7 +11,9 @@
       :imageSource="project.imageSource"
       :imageDescription="project.imageDescription"
     />
-    <Button variant="primary" to="/" class="mr-4">Discover all</Button>
+    <Button v-if="cta" variant="primary" to="work" class="mr-4">{{
+      cta
+    }}</Button>
   </div>
 </template>
 
@@ -28,6 +30,9 @@ export default {
     data: {
       type: Object,
       required: true,
+    },
+    cta: {
+      type: String,
     },
   },
 };

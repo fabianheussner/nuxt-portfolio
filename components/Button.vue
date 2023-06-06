@@ -1,67 +1,56 @@
 <template>
-    <nuxt-link :to="to" :class="['button', `button-${variant}`]">
-      <slot />
-    </nuxt-link>
-  </template>
-  
-  <script>
-  export default {
-    props: {
-      variant: {
-        type: String,
-        default: "primary",
-        validator: (value) => {
-          return ["primary", "secondary", "outline"].includes(value);
-        },
-      },
-      to: {
-        type: String,
-        default: "/",
+  <nuxt-link :to="to" :class="['button', `button-${variant}`]">
+    <slot />
+  </nuxt-link>
+</template>
+
+<script>
+export default {
+  props: {
+    variant: {
+      type: String,
+      default: "primary",
+      validator: (value) => {
+        return ["primary", "secondary"].includes(value);
       },
     },
-  };
-  </script>
-  
-  <style lang="scss" scoped>
-    .button {
-        display: inline-block;
-        @apply px-6 py-3;
-        @apply rounded-full;
-        @apply text-base;
-        @apply tracking-tight;
-        @apply font-medium;
-        cursor: pointer;
-        transition: all 300ms ease-in-out;
-    }
-    
-    .button-primary {
-        @apply bg-backgroundVariant;
-        @apply text-onBackgroundVariant;
+    to: {
+      type: String,
+      default: "/",
+    },
+  },
+};
+</script>
 
-        &:hover {
-          @apply bg-onBackgroundVariantBorder;
-          @apply text-onBackgroundVariant;
-        }
-    }
-    
-    .button-secondary {
-        @apply bg-surface;
-        @apply text-onSurface;
+<style lang="scss" scoped>
+.button {
+  display: inline-block;
+  @apply px-6 py-3;
+  @apply rounded-full;
+  @apply text-base;
+  @apply tracking-tight;
+  @apply font-medium;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
 
-        &:hover {
-          @apply bg-surfaceVariant;
-          @apply text-onSurfaceVariant;
-        }
-    }
+.button-primary {
+  @apply bg-backgroundVariant;
+  @apply text-onBackgroundVariant;
 
-    .button-outline {
-        @apply border border-onBackgroundVariant;
-        @apply text-onBackgroundVariant;
+  &:hover {
+    @apply bg-onBackgroundVariantBorder;
+    @apply text-onBackgroundVariant;
+  }
+}
 
-        &:hover {
-          @apply bg-background;
-          @apply text-onBackground;
-        }
-    }
-  </style>
-  
+.button-secondary {
+  @apply bg-surface;
+  @apply text-onSurface;
+
+  &:hover {
+    @apply bg-surfaceVariant;
+    @apply text-onSurfaceVariant;
+  }
+}
+</style>

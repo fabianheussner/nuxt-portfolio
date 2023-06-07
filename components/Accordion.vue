@@ -107,7 +107,7 @@ export default {
     transition: all 0.3s ease-in-out;
 
     p {
-      @apply px-14 pt-4 pb-10;
+      @apply lg:px-14 pt-4 pb-10;
     }
   }
 }

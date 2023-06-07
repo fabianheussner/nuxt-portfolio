@@ -3,7 +3,7 @@
     class="text__image-right wrapper grid grid-cols-1 md:grid-cols-12 padding__v-large"
   >
     <div
-      class="text md:col-span-6 lg:col-span-7 bg-surface p-6 lg:p-12 rounded-b-2xl md:rounded-l-2xl md:rounded-r-none order-2 md:order-1"
+      class="text md:col-span-6 lg:col-span-6 bg-surface p-6 lg:p-12 rounded-b-2xl md:rounded-l-2xl md:rounded-r-none order-2 md:order-1"
     >
       <div class="icons flex mb-8 md:mb-12">
         <Icon name="star" />
@@ -20,10 +20,10 @@
         {{ message }}
       </Type>
     </div>
-    <div class="image md:col-span-6 lg:col-span-5 order-1 md:order-2">
+    <div class="image md:col-span-6 lg:col-span-6 order-1 md:order-2">
       <img
-        src="/img/img3.png"
-        alt=""
+        :src="imageSource"
+        :alt="imageDescription"
         class="md:h-full rounded-t-2xl md:rounded-r-2xl md:rounded-l-none object-cover"
       />
     </div>
@@ -42,6 +42,14 @@ export default {
       required: true,
     },
     message: {
+      type: String,
+      required: true,
+    },
+    imageSource: {
+      type: String,
+      required: true,
+    },
+    imageDescription: {
       type: String,
       required: true,
     },

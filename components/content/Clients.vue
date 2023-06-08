@@ -1,5 +1,5 @@
 <template>
-  <div class="clients wrapper padding__v-large">
+  <div class="clients padding__v-large">
     <SectionHeader :title="sectionTitle" :counter="sectionCounter" />
     <div class="client__table grid grid-cols-12">
       <div

@@ -1,5 +1,5 @@
 <template>
-  <div class="pagination wrapper">
+  <div class="pagination">
     <NuxtLink :to="url" class="mask grid grid-cols-1 md:grid-cols-2">
       <div class="pagination__title bg-surface px-4 md:px-12 py-10 md:py-20">
         <Type variant="body-large" class="text-onSurfaceSubdued mb-2"

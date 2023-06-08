@@ -1,5 +1,5 @@
 <template>
-  <div class="case__overview wrapper padding__v-large">
+  <div class="case__overview padding__v-large">
     <SectionHeader :title="sectionTitle" :counter="sectionCounter" />
     <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-20">
       <CaseTeaserSmall

@@ -1,5 +1,5 @@
 <template>
-  <div class="service wrapper padding__v-medium">
+  <div class="service padding__v-medium">
     <SectionHeader title="I'm specialized in…" />
     <div
       class="service__overview grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-6"

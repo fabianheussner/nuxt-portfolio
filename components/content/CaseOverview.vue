@@ -1,5 +1,5 @@
 <template>
-  <div class="case__overview wrapper padding__v-large">
+  <div class="case__overview padding__v-large">
     <SectionHeader :title="sectionTitle" :counter="sectionCounter" />
     <CaseTeaser
       v-for="project in data.projects"

@@ -1,10 +1,10 @@
 <template>
   <div
-    class="navigation__large sticky top-4 mx-6 my-4 z-50"
+    class="navigation__large sticky w-full h-16 py-4"
     :class="{ scrolled: isScrolled }"
   >
-    <div class="relative flex h-16 items-center">
-      <div class="navigation__large-logo absolute left-0">
+    <div class="relative flex items-center">
+      <div class="navigation__large-logo absolute left-6">
         <NuxtLink to="/">
           <Icon name="logo" />
         </NuxtLink>
@@ -12,7 +12,7 @@
       <div class="navigation__large-menu mx-auto hidden lg:block">
         <TabBar />
       </div>
-      <div class="navigation__large-contact absolute right-0">
+      <div class="navigation__large-contact absolute right-6">
         <a
           href="mailto:fabian.heussner@gmx.de?subject=Your Subject"
           class="px-4 py-2 rounded-full border border-onBackground text-base font-medium leading-4 tracking-tight box-border"
@@ -52,6 +52,9 @@ export default {
 
 <style lang="scss" scoped>
 .navigation__large {
+  z-index: 9999;
+  top: 0;
+
   .navigation__large-menu {
     transition: all 300ms ease-in-out;
   }
@@ -59,24 +62,30 @@ export default {
     transform: scale(0.9);
     @apply shadow-md rounded-full;
   }
+
   .navigation__large-logo,
   .navigation__large-contact {
     opacity: 1;
-    transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 300ms ease-in-out;
   }
+
   &.scrolled .navigation__large-logo,
   &.scrolled .navigation__large-contact {
     opacity: 0;
     pointer-events: none;
   }
+
   .navigation__large-logo {
     svg {
       @apply w-10 h-10;
     }
   }
+
   .navigation__large-contact {
+    text-align: right;
+
     a {
-      transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: all 200ms ease-in-out;
       &:hover {
         @apply bg-backgroundVariant text-onBackgroundVariant;
       }

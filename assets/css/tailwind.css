@@ -32,19 +32,19 @@
     } */
 
 
-    .display {
+    .display, h1 {
         @apply text-5xl md:text-7xl font-medium leading-none tracking-tighter;
     }
-    .title-large {
+    .title-large, h2 {
         @apply text-4xl md:text-6xl font-medium leading-tight tracking-tighter;
     }
-    .title-small {
+    .title-small, h3 {
         @apply text-3xl md:text-5xl font-medium leading-tight tracking-tighter;
     }
-    .headline-large {
+    .headline-large, h4 {
         @apply text-2xl md:text-4xl font-medium leading-snug tracking-tighter;
     }
-    .headline-small {
+    .headline-small, h5 {
         @apply text-xl md:text-3xl font-medium leading-snug tracking-tighter;
     }
 

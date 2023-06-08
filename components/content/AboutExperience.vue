@@ -1,6 +1,6 @@
 <template>
   <div
-    class="work__experience wrapper grid grid-cols-1 lg:grid-cols-12 gap-x-8 gap-y-12 padding__v-large"
+    class="work__experience grid grid-cols-1 lg:grid-cols-12 gap-x-8 gap-y-12 padding__v-large"
   >
     <div class="lg:col-span-5">
       <Type variant="title-small" class="pb-4 pt-2">{{ title }}</Type>

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="text__image-right wrapper grid grid-cols-1 md:grid-cols-12 padding__v-large"
+    class="text__image-right grid grid-cols-1 md:grid-cols-12 padding__v-large"
   >
     <div
       class="text md:col-span-6 lg:col-span-6 bg-surface p-6 lg:p-12 rounded-b-2xl md:rounded-l-2xl md:rounded-r-none order-2 md:order-1"

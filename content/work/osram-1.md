@@ -1,6 +1,7 @@
 ---
 title: 'Osram Case 1'
 description: 'meta description of the page Osram Case 1'
+layout: project
 ---
 
 

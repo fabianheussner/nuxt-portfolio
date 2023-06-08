@@ -1,3 +1,9 @@
+---
+layout: project
+---
+
+
+
 ::case-intro
 ---
 title: Check in check out

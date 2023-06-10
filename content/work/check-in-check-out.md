@@ -42,3 +42,34 @@ company: Test Props Name
 description: Lorem ipsum dolor sit amet consectetur. Eros nisl feugiat magna cras facilisis metus cursus dis. Ullamcorper orci fringilla nulla diam senectus. Condimentum viverra est gravida orci id libero pulvinar commodo.
 ---
 ::
+
+
+::image
+---
+images:
+  - source: /img/img1.png
+    description: Some alt text
+---
+::
+
+::image
+---
+images:
+  - source: /img/img1.png
+    description: Some alt text
+  - source: /img/img2.png
+    description: Some alt text
+---
+::
+
+::image
+---
+images:
+  - source: /img/img1.png
+    description: Some alt text
+  - source: /img/img2.png
+    description: Some alt text
+  - source: /img/img3.png
+    description: Some alt text
+---
+::

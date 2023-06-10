@@ -13,14 +13,14 @@
     >
       <div class="job">
         <!-- <Icon name="star" class="w-8 h-8 text-onBackground mb-4" /> -->
-        <Type variant="body-small">
+        <Type variant="body-small" class="md:inline-block md:float-right">
           I currently work for<br />
           @{{ employer }}
         </Type>
       </div>
       <div class="details">
         <!-- <Icon name="location" class="w-8 h-8 text-onBackground mb-4" /> -->
-        <Type variant="body-small">
+        <Type variant="body-small" class="md:inline-block md:float-right">
           Hamburg, Germany<br />
           Local time {{ currentTime }}
         </Type>

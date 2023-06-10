@@ -11,6 +11,7 @@ const tags = {
   "title-small": "h3",
   "headline-large": "h4",
   "headline-small": "h5",
+  subline: "p",
   "body-large": "p",
   "body-medium": "p",
   "body-small": "p",
@@ -31,6 +32,8 @@ const sizes = {
     "text-2xl lg:text-4xl font-medium leading-snug tracking-tighter",
   "headline-small":
     "text-xl lg:text-3xl font-medium leading-snug tracking-tighter",
+
+  subline: "text-xl lg:text-2xl leading-normal tracking-tighter",
 
   // Global Text Styles
   "label-large": "text-lg font-medium leading-normal tracking-tight",
@@ -56,6 +59,7 @@ export default {
           "title-small",
           "headline-large",
           "headline-small",
+          "subline",
           "label-large",
           "label-medium",
           "label-small",

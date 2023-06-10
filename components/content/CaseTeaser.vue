@@ -11,10 +11,7 @@
         {{ type }}
       </Type>
       <Type variant="title-small">{{ title }}</Type>
-      <Type
-        variant="headline-small"
-        class="text-onSurfaceSubdued mb-8 md:mb-12"
-      >
+      <Type variant="subline" class="text-onSurfaceSubdued mb-8 md:mb-12">
         {{ subtitle }}
       </Type>
       <Icon name="arrowright" class="w-8 h-8 md:w-10 md:h-10" />

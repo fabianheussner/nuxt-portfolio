@@ -6,7 +6,7 @@
       <Type variant="display" class="mt-6">
         I connect people's needs with aesthetics.
       </Type>
-      <Type variant="body-large" class="mt-4 mb-12 ml-2 text-onSurfaceSubdued">
+      <Type variant="subline" class="mt-4 mb-12 ml-2 text-onSurfaceSubdued">
         Hey, I'm Fabian and digital Product Designer by heart.
       </Type>
       <Button variant="primary" to="/work" class="mr-4">See work</Button>

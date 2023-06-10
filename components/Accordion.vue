@@ -104,7 +104,7 @@ export default {
   .accordion__content {
     height: 0;
     overflow: hidden;
-    transition: all 0.3s ease-in-out;
+    transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
     p {
       @apply lg:px-14 pt-4 pb-10;
@@ -112,7 +112,7 @@ export default {
   }
 }
 .accordion-icon {
-  transition: all 0.3s ease-in-out;
+  transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .active .accordion-icon {
   transform: rotate(135deg);

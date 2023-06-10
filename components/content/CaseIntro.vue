@@ -1,5 +1,5 @@
 <template>
-  <div class="case__intro grid md:grid-cols-12 mt-20 md:mt-48 mb-4 md:mb-6">
+  <div class="case__intro grid md:grid-cols-12 mt-20 md:mt-48 mb-10 md:mb-12">
     <div class="case__intro-title md:col-span-8 order-2 md:order-1">
       <Type variant="display">
         {{ title }}

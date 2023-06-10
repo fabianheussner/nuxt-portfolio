@@ -1,6 +1,6 @@
 <template>
-  <div class="image__full py-6">
-    <img :src="source" :alt="description" class="rounded-2xl" />
+  <div class="image__full -ml-6 lg:-ml-0 -mr-6 lg:-mr-0">
+    <img :src="source" :alt="description" class="lg:rounded-2xl" />
   </div>
 </template>
 

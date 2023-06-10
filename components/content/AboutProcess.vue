@@ -5,7 +5,7 @@
   >
     <div class="lg:col-span-5">
       <Type variant="title-small" class="pb-4 pt-2">{{ title }}</Type>
-      <Type variant="body-large" class="text-onBackgroundSubdued">
+      <Type variant="subline" class="text-onBackgroundSubdued">
         {{ message }}
       </Type>
     </div>

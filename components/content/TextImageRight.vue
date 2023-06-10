@@ -10,7 +10,7 @@
         <Icon name="waves" />
         <Icon name="leaf" />
       </div>
-      <Type variant="label-large" class="text-onSurfaceSubdued mb-2">
+      <Type variant="body-medium" class="text-onSurfaceSubdued mb-2">
         {{ label }}
       </Type>
       <Type variant="title-small" class="mb-4">

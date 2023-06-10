@@ -1,5 +1,5 @@
 
-::stage-medium
+::stage-about
 ---
 title: I've a passion for illustration and enjoy coding.
 cta: Discover my process
@@ -37,7 +37,7 @@ data:
 ::text-image-right
 ---
 label: Besides work…
-title: I love cycling, vietnamese coconut coffee and plants.
+title: I love cycling, coconut coffee and greenery.
 message: Outside of work you can often meet me on my road bike in the greater Hamburg area or even crossing the Alps. I draw inspiration and strength primarily from nature, my love for mountaineering and the photography of impressive architecture. 
 imageSource: /img/Portrait_BG-Edit-S.png
 imageDescription: Profile picture Fabian Heußner

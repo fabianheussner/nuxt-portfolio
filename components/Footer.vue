@@ -1,13 +1,11 @@
 <template>
   <footer class="footer">
     <div
-      class="footer__contact wrapper grid grid-cols-1 lg:grid-cols-12 py-40 items-end"
+      class="footer__contact wrapper grid grid-cols-1 lg:grid-cols-12 gap-y-16 py-40 items-end"
     >
-      <Type
-        variant="title-large"
-        class="footer__contact-title lg:col-span-6 mb-8 lg:mb-0"
-      >
-        Let’s talk about a job, collaboration or any idea you may have in mind.
+      <Type variant="title-large" class="footer__contact-title lg:col-span-6">
+        <!-- Let’s talk about a job, collaboration or any idea you may have in mind. -->
+        Let's talk about opportunities or any idea you may have in mind.
       </Type>
       <div class="footer_contact-button lg:col-span-6">
         <a

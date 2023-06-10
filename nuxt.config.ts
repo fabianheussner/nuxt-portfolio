@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
+    '@vueuse/motion/nuxt',
   ],
 
   content: {
@@ -24,6 +25,23 @@ export default defineNuxtConfig({
     pageTransition: { 
       name: 'page', 
       mode: 'out-in' 
-    }
+    },
+  },
+
+  motion: {
+    directives: {
+      'pop-bottom': {
+        initial: {
+          scale: 0,
+          opacity: 0,
+          y: 100
+        },
+        visible: {
+          scale: 1,
+          opacity: 1,
+          y: 0
+        },
+      },
+    },
   },
 })

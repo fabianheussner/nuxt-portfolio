@@ -8,6 +8,19 @@
         v-for="service in data.services"
         :key="service.title"
         class="service__overview-column pb-6 sm:pb-0 sm:px-6 border-b border-l-0 sm:border-b-0 sm:border-l border-onBackgroundBorder"
+        v-motion
+        :initial="{
+          opacity: 0,
+          x: 100,
+        }"
+        :enter="{
+          opacity: 1,
+          x: 0,
+          transition: {
+            duration: 1000,
+            delay: 100,
+          },
+        }"
       >
         <Type variant="title-small" class="text-surfaceVariant mb-4 sm:mb-8">
           {{ service.count }}
@@ -31,36 +44,6 @@ export default {
       required: true,
     },
   },
-  // data() {
-  //   return {
-  //     services: [
-  //       {
-  //         title: "Experience Design",
-  //         count: "01",
-  //         message:
-  //           "Lorem ipsum dolor sit amet consectetur. Turpis suscipit arcu diam odio porttitor.",
-  //       },
-  //       {
-  //         title: "Interface Design",
-  //         count: "02",
-  //         message:
-  //           "Lorem ipsum dolor sit amet consectetur. Turpis suscipit arcu diam odio porttitor.",
-  //       },
-  //       {
-  //         title: "UX Writing",
-  //         count: "03",
-  //         message:
-  //           "Lorem ipsum dolor sit amet consectetur. Turpis suscipit arcu diam odio porttitor.",
-  //       },
-  //       {
-  //         title: "Design Systems",
-  //         count: "04",
-  //         message:
-  //           "Lorem ipsum dolor sit amet consectetur. Turpis suscipit arcu diam odio porttitor.",
-  //       },
-  //     ],
-  //   };
-  // },
 };
 </script>
 

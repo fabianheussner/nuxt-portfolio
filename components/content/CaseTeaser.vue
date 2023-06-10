@@ -2,6 +2,19 @@
   <NuxtLink
     :to="link"
     class="case__teaser grid grid-cols-1 md:grid-cols-2 mb-8 md:mb-12"
+    v-motion
+    :initial="{
+      opacity: 0,
+      y: 100,
+    }"
+    :visibleOnce="{
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 1000,
+        delay: 300,
+      },
+    }"
   >
     <div class="case__teaser-body p-6 md:p-12 bg-surface order-2 md:order-1">
       <Type

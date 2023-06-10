@@ -1,5 +1,20 @@
 <template>
-  <div class="list__item grid grid-cols-12 gap-x-4 items-center">
+  <div
+    class="list__item grid grid-cols-12 gap-x-4 items-center"
+    v-motion
+    :initial="{
+      opacity: 0,
+      y: 100,
+    }"
+    :visibleOnce="{
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 1000,
+        delay: 300,
+      },
+    }"
+  >
     <div class="col-span-8 md:grid md:grid-cols-2 gap-x-4">
       <div class="list__item-primary md:col-span-1">
         <Type variant="label-large">{{ primary }}</Type>

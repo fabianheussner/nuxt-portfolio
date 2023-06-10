@@ -25,13 +25,13 @@ export default {
 <style lang="scss" scoped>
 .button {
   display: inline-block;
-  @apply px-6 py-3;
+  @apply px-8 py-4;
   @apply rounded-full;
   @apply text-base;
   @apply tracking-tight;
   @apply font-medium;
   cursor: pointer;
-  transition: all 300ms ease-in-out;
+  transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .button-primary {

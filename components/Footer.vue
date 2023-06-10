@@ -44,10 +44,10 @@
         </a>
       </div>
       <div class="legal column order-2 lg:order-3">
-        <NuxtLink to="legal/privacy-policy" class="inline-block p-4">
+        <NuxtLink to="privacy-policy" class="inline-block p-4">
           <Type variant="label-small">Privacy Policy</Type>
         </NuxtLink>
-        <NuxtLink to="legal/imprint" class="inline-block ml-4 p-4">
+        <NuxtLink to="imprint" class="inline-block ml-4 p-4">
           <Type variant="label-small">Imprint</Type>
         </NuxtLink>
       </div>

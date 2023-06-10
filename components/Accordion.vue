@@ -3,10 +3,10 @@
     <div class="accordion__title" @click="isSelected">
       <Type variant="headline-small">
         <span class="accordion__title-count text-onBackgroundSubdued">
-          {{ count }}
+          {{ leading }}
         </span>
         <span class="accordion__title-default">
-          {{ title }}
+          {{ primary }}
         </span>
       </Type>
       <Icon
@@ -16,7 +16,7 @@
     </div>
     <div class="accordion__content">
       <Type variant="body-large">
-        {{ body }}
+        {{ expanded }}
       </Type>
     </div>
   </div>
@@ -25,15 +25,15 @@
 <script>
 export default {
   props: {
-    count: {
+    leading: {
       type: String,
       required: true,
     },
-    title: {
+    primary: {
       type: String,
       required: true,
     },
-    body: {
+    expanded: {
       type: String,
       required: true,
     },
@@ -43,7 +43,6 @@ export default {
       activePanel: null,
     };
   },
-  mounted() {},
   methods: {
     isSelected(event) {
       const target = event.currentTarget; // Use currentTarget instead of target
@@ -90,16 +89,12 @@ export default {
       transition: all 300ms ease-in-out;
     }
 
-    &.active {
-    }
-
     &:hover {
-      // @apply bg-background;
-      // transform: scaleX(1.02);
+      @apply bg-surface;
     }
-    // &:hover .accordion__title-count {
-    //   @apply text-onBackground;
-    // }
+    &:hover .accordion__title-count {
+      @apply text-onBackground;
+    }
   }
   .accordion__content {
     height: 0;

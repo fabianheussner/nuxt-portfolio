@@ -14,7 +14,7 @@
         >
           Say hello…
           <span class="icon">
-            <Icon name="plane" class="w-8 h-8" />
+            <Icon name="plane" class="w-7 h-7" />
           </span>
         </a>
       </div>
@@ -80,18 +80,17 @@ export default {};
     }
 
     .footer_contact-button {
-      // @apply text-left lg:text-right;
       @apply text-center;
       .button {
         justify-content: space-between;
-        width: 100%;
-        max-width: 360px;
         display: inline-flex;
         line-height: 4rem;
+        @apply w-full max-w-xs sm:w-auto;
         span {
           display: inherit;
           width: 3.5rem;
           height: 3.5rem;
+          margin-left: 4rem;
           transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
           @apply bg-backgroundVariant text-onBackgroundVariant items-center justify-center rounded-full;
         }
@@ -108,6 +107,9 @@ export default {};
         }
         &:hover::before {
           animation: caret 1s infinite;
+        }
+        &:hover span {
+          margin-left: 8rem;
         }
 
         @keyframes caret {

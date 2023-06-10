@@ -42,8 +42,7 @@ export default {
 
   methods: {
     onScroll() {
-      const scrollTop =
-        window.pageYOffset || document.documentElement.scrollTop;
+      const scrollTop = window.scrollY || window.pageYOffset;
       this.isScrolled = scrollTop > 0;
     },
   },

@@ -1,6 +1,5 @@
 <template>
   <div
-    id="process"
     class="grid grid-cols-1 gap-x-8 gap-y-12 lg:grid-cols-12 padding__v-large"
   >
     <div class="lg:col-span-5">
@@ -13,9 +12,9 @@
       <Accordion
         v-for="service in data.services"
         :key="service.title"
-        :count="service.count"
-        :title="service.title"
-        :body="service.body"
+        :leading="service.counter"
+        :primary="service.title"
+        :expanded="service.body"
       />
     </div>
   </div>
@@ -36,36 +35,5 @@ export default {
       type: Object,
     },
   },
-  // data() {
-  //   return {
-  //     services: [
-  //       {
-  //         count: "01",
-  //         title: "Design Thinking",
-  //         text: "Lorem ipsum dolor sit amet…",
-  //       },
-  //       {
-  //         count: "02",
-  //         title: "Research and Validation",
-  //         text: "Sed aliquam sodales mi…",
-  //       },
-  //       {
-  //         count: "03",
-  //         title: "UX and Wireframes",
-  //         text: "Morbi quis nunc diam…",
-  //       },
-  //       {
-  //         count: "04",
-  //         title: "Design System Management",
-  //         text: "Morbi quis nunc diam…",
-  //       },
-  //       {
-  //         count: "05",
-  //         title: "Illustration",
-  //         text: "Morbi quis nunc diam…",
-  //       },
-  //     ],
-  //   };
-  // },
 };
 </script>

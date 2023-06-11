@@ -1,6 +1,21 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 
 export default defineNuxtConfig({
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'en',
+      },
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+    },
+
+    pageTransition: { 
+      name: 'page', 
+      mode: 'out-in' 
+    },
+  },
+
   modules: [
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
@@ -14,10 +29,24 @@ export default defineNuxtConfig({
     },
   },
 
+  tailwindcss: {
+    cssPath: '~/assets/css/tailwind.css',
+    configPath: 'tailwind.config',
+    exposeConfig: false,
+    exposeLevel: 2,
+    config: {},
+    injectPosition: 'first',
+    viewer: true,
+  },
+
   googleFonts: {
     families: {
       'Inter': [400, 500],
     },
+    display: 'swap',
+    // subsets: 'Latin',
+    // text: 'los müssen',
+    download: true,
   },
 
   css: ['~/assets/css/main.css'],
@@ -37,13 +66,6 @@ export default defineNuxtConfig({
           },
         },
       },
-    },
-  },
-
-  app: {
-    pageTransition: { 
-      name: 'page', 
-      mode: 'out-in' 
     },
   },
 })

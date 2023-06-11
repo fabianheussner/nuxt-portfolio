@@ -1,3 +1,24 @@
+---
+title: 'About · Fabian Heussner Senior UX/UI Designer Hamburg'
+description: "Hey there, I'm Fabian, Product Designer based in sunny Hamburg."
+image:
+  src: '/img/fabian-heussner_og-image.png'
+  alt: 'Fabian Heussner · Portfolio Website Preview'
+  width: 1200
+  height: 630
+head:
+  meta:
+    - name: 'keywords'
+      content: 'about, service design, feature, design thinking, design, ux, ui, ux/ui, product design, designer, agile, ux research, wireframes, prototyping, ux writing, design systems, components, figma, hamburg'
+    - name: 'robots'
+      content: 'index, follow'
+    - name: 'author'
+      content: 'Fabian Heußner'
+    - name: 'copyright'
+      content: '© 2023 Fabian Heußner'
+---
+
+
 
 ::stage-about
 ---

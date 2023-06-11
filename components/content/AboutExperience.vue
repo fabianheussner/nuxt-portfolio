@@ -1,15 +1,14 @@
 <template>
   <div
     class="work__experience grid grid-cols-1 lg:grid-cols-12 gap-x-8 gap-y-12 padding__v-large"
-    v-motion="motionFadeUp"
   >
-    <div class="lg:col-span-5">
+    <div class="lg:col-span-5" v-motion="motionFadeUp">
       <Type variant="title-small" class="pb-4 pt-2">{{ title }}</Type>
       <Type variant="subline" class="text-onBackgroundSubdued">
         {{ message }}
       </Type>
     </div>
-    <div class="lg:col-start-7 lg:col-span-6">
+    <div class="lg:col-start-7 lg:col-span-6" v-motion="motionFadeUp">
       <ListItem
         v-for="employer in data.employers"
         :key="employer.title"

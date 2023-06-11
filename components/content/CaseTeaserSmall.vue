@@ -4,10 +4,10 @@
       <img :src="imageSource" :alt="imageDescription" />
     </div>
     <div class="case__teaser-body flex-grow p-6 sm:p-8 lg:p-12 bg-surface">
-      <Type variant="label-large" class="mb-4 text-onSurfaceSubdued">
+      <Type variant="body-medium" class="mb-4 text-onSurfaceSubdued">
         {{ type }}
       </Type>
-      <Type variant="title-small">{{ title }}</Type>
+      <Type variant="headline-large">{{ title }}</Type>
       <Type variant="subline" class="text-onSurfaceSubdued mb-8 md:mb-12">
         {{ subtitle }}
       </Type>
@@ -77,7 +77,7 @@ export default {
     }
     .case__teaser-preview {
       img {
-        transform: scale(1.25);
+        transform: scale(1.1);
       }
     }
   }

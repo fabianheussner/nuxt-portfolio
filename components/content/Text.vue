@@ -11,7 +11,7 @@
       >
         <ContentSlot :use="$slots.label" unwrap="p" />
       </Type>
-      <Type variant="headline-small" v-if="$slots.headline" class="mb-4">
+      <Type variant="headline-large" v-if="$slots.headline" class="mb-4">
         <ContentSlot :use="$slots.headline" unwrap="p" />
       </Type>
       <Type variant="body-large" class="md:col-span-1 md:col-end-3">

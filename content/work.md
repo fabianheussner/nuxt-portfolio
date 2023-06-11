@@ -41,11 +41,11 @@ sectionCounter: (5)
 
 data:
     projects:
-      - link: /work/check-in-check-out
-        type: Mobile app
-        title: Check in check out
-        subtitle: Convience when
-        imageSource: /img/img3.png
+      - link: /work/zusammen-gegen-corona
+        type: Web portal
+        title: Zusammen gegen Corona
+        subtitle: Only 52 hours to launch
+        imageSource: /img/cases/zgc/test-preview-hover.png
         imageDescription: Some alt text goes here
       - link: /work/osram-1
         type: Mobile app

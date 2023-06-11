@@ -20,6 +20,10 @@ head:
 
 
 ::stage-large
+---
+subline: Hey, I'm Fabian and Product Designer by heart.
+title: I strive to connect people's needs with aesthetics.
+---
 ::
 
 ::services

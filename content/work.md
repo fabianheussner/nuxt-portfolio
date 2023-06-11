@@ -21,7 +21,8 @@ head:
 
 ::stage-work
 ---
-title: I've worked with both agencies and corporates.
+subline: I translate intents to interfaces.
+title: I'd the chance to work on a variety of features and services.
 cta: See all work
 ---
 ::

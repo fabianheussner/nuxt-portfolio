@@ -4,8 +4,12 @@
     v-motion="motionFadeEnter"
   >
     <div class="stage__work-title md:col-span-6">
-      <Type variant="display" class="mb-8">
+      <Type variant="subline" class="mt-6 ml-1 text-onSurfaceSubdued">
+        {{ subline }}
+      </Type>
+      <Type variant="display" class="mt-4 mb-12">
         {{ title }}
+        <!-- Ich übersetze Absichten in Schnittstellen -->
       </Type>
       <Button v-if="cta" variant="primary" to="/" class="mr-4">
         {{ cta }}
@@ -19,6 +23,10 @@ import { motionFadeEnter } from "./scrollmotion";
 
 export default {
   props: {
+    subline: {
+      type: String,
+      required: true,
+    },
     title: {
       type: String,
       required: true,

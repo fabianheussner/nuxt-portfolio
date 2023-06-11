@@ -4,11 +4,11 @@
     v-motion="motionFadeEnter"
   >
     <div class="stage__large-title md:col-span-6 order-2 md:order-1">
-      <Type variant="display" class="mt-6">
-        I connect people's needs with aesthetics.
+      <Type variant="subline" class="subline mt-6 ml-1 text-onSurfaceSubdued">
+        {{ subline }}
       </Type>
-      <Type variant="subline" class="mt-4 mb-12 ml-2 text-onSurfaceSubdued">
-        Hey, I'm Fabian and digital Product Designer by heart.
+      <Type variant="display" class="mt-4 mb-12">
+        {{ title }}
       </Type>
       <Button variant="primary" to="/work" class="mr-4">See work</Button>
       <Button variant="secondary" to="/about">Get to know me</Button>
@@ -28,6 +28,17 @@
 import { motionFadeEnter } from "./scrollmotion.js";
 
 export default {
+  props: {
+    subline: {
+      type: String,
+      required: true,
+    },
+    title: {
+      type: String,
+      required: true,
+    },
+  },
+
   data() {
     return {
       motionFadeEnter,
@@ -36,10 +47,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-// video {
-//   width: 100%;
-//   max-width: 500px;
-//   height: auto;
-// }
-</style>
+<style lang="scss" scoped></style>

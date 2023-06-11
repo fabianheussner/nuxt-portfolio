@@ -11,8 +11,8 @@
       opacity: 1,
       y: 0,
       transition: {
-        duration: 1000,
-        delay: 300,
+        duration: 800,
+        delay: 100,
       },
     }"
   >
@@ -31,7 +31,6 @@
     </div>
     <div class="case__teaser-preview order-1 md:order-2">
       <img :src="imageSource" :alt="imageDescription" />
-      <!-- <img src="/img/cases/lightelligence/lightelligence-preview.png" alt="" /> -->
     </div>
   </NuxtLink>
 </template>

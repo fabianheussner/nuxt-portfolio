@@ -1,4 +1,5 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
+
 export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
@@ -21,13 +22,6 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
   
-  app: {
-    pageTransition: { 
-      name: 'page', 
-      mode: 'out-in' 
-    },
-  },
-
   motion: {
     directives: {
       'custom': {
@@ -42,7 +36,14 @@ export default defineNuxtConfig({
             duration: 1000,
           },
         },
-      }
-    }
-  }
+      },
+    },
+  },
+
+  app: {
+    pageTransition: { 
+      name: 'page', 
+      mode: 'out-in' 
+    },
+  },
 })

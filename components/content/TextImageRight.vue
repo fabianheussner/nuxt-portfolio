@@ -1,6 +1,7 @@
 <template>
   <div
     class="text__image-right grid grid-cols-1 md:grid-cols-12 padding__v-large"
+    v-motion="motionFadeUp"
   >
     <div
       class="text md:col-span-6 lg:col-span-6 bg-surface p-6 lg:p-12 rounded-b-2xl md:rounded-l-2xl md:rounded-r-none order-2 md:order-1"
@@ -31,6 +32,8 @@
 </template>
 
 <script>
+import { motionFadeUp } from "./scrollmotion.js";
+
 export default {
   props: {
     label: {
@@ -53,6 +56,11 @@ export default {
       type: String,
       required: true,
     },
+  },
+  data() {
+    return {
+      motionFadeUp,
+    };
   },
 };
 </script>

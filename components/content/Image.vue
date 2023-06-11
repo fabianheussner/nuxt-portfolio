@@ -1,5 +1,5 @@
 <template>
-  <div :class="containerClass" class="margin__v-large">
+  <div :class="containerClass" class="margin__v-large" v-motion="motionFadeUp">
     <img
       v-for="(image, index) in images"
       :key="index"
@@ -11,12 +11,19 @@
 </template>
 
 <script>
+import { motionFadeUp } from "./scrollmotion";
+
 export default {
   props: {
     images: {
       type: Object,
       required: true,
     },
+  },
+  data() {
+    return {
+      motionFadeUp,
+    };
   },
   computed: {
     containerClass() {

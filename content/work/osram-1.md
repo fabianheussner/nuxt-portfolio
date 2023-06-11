@@ -47,6 +47,8 @@ description: Lorem ipsum dolor sit amet consectetur. Eros nisl feugiat magna cra
 
 
 ::text
+#label
+The challenge
 #headline 
 Migration and Integration
 #text 

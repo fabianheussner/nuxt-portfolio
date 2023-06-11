@@ -1,7 +1,11 @@
 <template>
   <div class="clients padding__v-large">
-    <SectionHeader :title="sectionTitle" :counter="sectionCounter" />
-    <div class="client__table grid grid-cols-12">
+    <SectionHeader
+      :title="sectionTitle"
+      :counter="sectionCounter"
+      v-motion="motionFadeUp"
+    />
+    <div class="client__table grid grid-cols-12" v-motion="motionFadeUp">
       <div
         v-for="client in clients"
         :key="client.name"
@@ -14,6 +18,8 @@
 </template>
 
 <script>
+import { motionFadeUp } from "./scrollmotion";
+
 export default {
   props: {
     sectionTitle: {
@@ -68,6 +74,8 @@ export default {
           description: "Client Logo - Schwarzkopf",
         },
       ],
+
+      motionFadeUp,
     };
   },
 };

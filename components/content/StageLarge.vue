@@ -1,7 +1,7 @@
 <template>
   <div
     class="stage__large grid grid-cols-1 md:grid-cols-12 gap-x-8 items-center padding__v-large"
-    v-motion-fade-visible
+    v-motion="motionFadeEnter"
   >
     <div class="stage__large-title md:col-span-6 order-2 md:order-1">
       <Type variant="display" class="mt-6">
@@ -25,7 +25,15 @@
 </template>
 
 <script>
-export default {};
+import { motionFadeEnter } from "./scrollmotion.js";
+
+export default {
+  data() {
+    return {
+      motionFadeEnter,
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>

@@ -1,6 +1,7 @@
 <template>
   <div
     class="stage__about grid grid-cols-1 md:grid-cols-12 gap-y-12 md:gap-x-8 items-center padding__stage-v-large"
+    v-motion="motionFadeEnter"
   >
     <div class="stage__about-title md:col-span-6">
       <Type variant="display" class="title mb-8">
@@ -28,6 +29,8 @@
 </template>
 
 <script>
+import { motionFadeEnter } from "./scrollmotion";
+
 export default {
   props: {
     title: {
@@ -47,6 +50,7 @@ export default {
   data() {
     return {
       currentTime: "",
+      motionFadeEnter,
     };
   },
   created() {

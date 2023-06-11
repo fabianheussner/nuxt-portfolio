@@ -1,10 +1,15 @@
 <template>
-  <div class="image__full -ml-6 lg:-ml-0 -mr-6 lg:-mr-0">
+  <div
+    class="image__full -ml-6 lg:-ml-0 -mr-6 lg:-mr-0"
+    v-motion="motionFadeEnter"
+  >
     <img :src="source" :alt="description" class="lg:rounded-2xl" />
   </div>
 </template>
 
 <script>
+import { motionFadeEnter } from "./scrollmotion";
+
 export default {
   props: {
     source: {
@@ -15,6 +20,11 @@ export default {
       type: String,
       required: true,
     },
+  },
+  data() {
+    return {
+      motionFadeEnter,
+    };
   },
 };
 </script>

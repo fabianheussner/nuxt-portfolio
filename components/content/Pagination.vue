@@ -1,5 +1,5 @@
 <template>
-  <div class="pagination padding__v-large">
+  <div class="pagination padding__v-large" v-motion="motionFadeUp">
     <NuxtLink :to="url" class="mask grid grid-cols-1 md:grid-cols-2">
       <div class="pagination__title bg-surface px-4 md:px-12 py-10 md:py-20">
         <Type variant="subline" class="text-onSurfaceSubdued mb-2"
@@ -16,6 +16,8 @@
 </template>
 
 <script>
+import { motionFadeUp } from "./scrollmotion";
+
 export default {
   props: {
     url: {
@@ -34,6 +36,11 @@ export default {
       type: String,
       required: true,
     },
+  },
+  data() {
+    return {
+      motionFadeUp,
+    };
   },
 };
 </script>

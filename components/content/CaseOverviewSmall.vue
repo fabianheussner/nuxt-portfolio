@@ -1,6 +1,10 @@
 <template>
   <div class="case__overview padding__v-large">
-    <SectionHeader :title="sectionTitle" :counter="sectionCounter" />
+    <SectionHeader
+      :title="sectionTitle"
+      :counter="sectionCounter"
+      v-motion="motionFadeUp"
+    />
     <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-20">
       <CaseTeaserSmall
         v-for="project in data.projects"
@@ -11,15 +15,23 @@
         :subtitle="project.subtitle"
         :imageSource="project.imageSource"
         :imageDescription="project.imageDescription"
+        v-motion="motionFadeUp"
       />
     </div>
-    <Button v-if="cta" variant="primary" to="work" class="mr-4">{{
-      cta
-    }}</Button>
+    <Button
+      v-if="cta"
+      variant="primary"
+      to="work"
+      class="mr-4"
+      v-motion="motionFadeUp"
+      >{{ cta }}</Button
+    >
   </div>
 </template>
 
 <script>
+import { motionFadeUp } from "./scrollmotion";
+
 export default {
   props: {
     sectionTitle: {
@@ -36,6 +48,11 @@ export default {
     cta: {
       type: String,
     },
+  },
+  data() {
+    return {
+      motionFadeUp,
+    };
   },
 };
 </script>

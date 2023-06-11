@@ -3,19 +3,7 @@
     <SectionHeader
       :title="sectionTitle"
       :counter="sectionCounter"
-      v-motion
-      :initial="{
-        opacity: 0,
-        y: 100,
-      }"
-      :visibleOnce="{
-        opacity: 1,
-        y: 0,
-        transition: {
-          duration: 800,
-          delay: 100,
-        },
-      }"
+      v-motion="motionFadeUp"
     />
     <CaseTeaser
       v-for="project in data.projects"
@@ -26,25 +14,14 @@
       :subtitle="project.subtitle"
       :imageSource="project.imageSource"
       :imageDescription="project.imageDescription"
+      v-motion="motionFadeUp"
     />
     <Button
       v-if="cta"
       variant="primary"
       to="work"
       class="mr-4"
-      v-motion
-      :initial="{
-        opacity: 0,
-        y: 100,
-      }"
-      :visibleOnce="{
-        opacity: 1,
-        y: 0,
-        transition: {
-          duration: 800,
-          delay: 100,
-        },
-      }"
+      v-motion="motionFadeUp"
     >
       {{ cta }}
     </Button>
@@ -52,6 +29,8 @@
 </template>
 
 <script>
+import { motionFadeUp } from "./scrollmotion.js";
+
 export default {
   props: {
     sectionTitle: {
@@ -68,6 +47,11 @@ export default {
     cta: {
       type: String,
     },
+  },
+  data() {
+    return {
+      motionFadeUp,
+    };
   },
 };
 </script>

@@ -1,20 +1,5 @@
 <template>
-  <div
-    class="accordion"
-    v-motion
-    :initial="{
-      opacity: 0,
-      y: 100,
-    }"
-    :visibleOnce="{
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 1000,
-        delay: 300,
-      },
-    }"
-  >
+  <div class="accordion">
     <div class="accordion__title" @click="isSelected">
       <Type variant="headline-small">
         <span class="accordion__title-count text-onBackgroundSubdued">

@@ -23,7 +23,7 @@ head:
 ::stage-about
 ---
 subline: A decade experience in design.
-title: I've a passion for illustration and enjoy writing code.
+title: I've a passion for illustration and enjoy writing some code.
 cta: Discover my process
 employer: Mobimeo GmbH
 ---

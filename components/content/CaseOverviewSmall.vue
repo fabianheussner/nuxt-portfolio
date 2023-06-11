@@ -5,7 +5,7 @@
       :counter="sectionCounter"
       v-motion="motionFadeUp"
     />
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12 md:gap-y-20">
       <CaseTeaserSmall
         v-for="project in data.projects"
         :key="project.title"
@@ -17,6 +17,7 @@
         :imageDescription="project.imageDescription"
         v-motion="motionFadeUp"
       />
+      <AddTeaser />
     </div>
     <Button
       v-if="cta"

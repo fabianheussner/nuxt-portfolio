@@ -20,6 +20,7 @@ import Star from "~/assets/icons/illustrative/Star.vue";
 import Waves from "~/assets/icons/illustrative/Waves.vue";
 import Signature from "~/assets/icons/illustrative/Signature.vue";
 import Location from "~/assets/icons/illustrative/Location.vue";
+import Website from "~/assets/icons/illustrative/Website.vue";
 // ...
 
 const icons = {
@@ -40,6 +41,7 @@ const icons = {
   waves: Waves,
   signature: Signature,
   location: Location,
+  website: Website,
   // ...
 };
 

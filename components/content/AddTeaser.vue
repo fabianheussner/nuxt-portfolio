@@ -14,7 +14,7 @@
         <a
           href="mailto:fabian.heussner@gmx.de?subject=Your Subject"
           class="button__link"
-          >Add now</a
+          >Add project</a
         >
       </div>
     </div>

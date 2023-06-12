@@ -23,7 +23,8 @@ head:
 ---
 subline: I translate intents to interfaces.
 title: I'd the chance to work on a variety of features and services.
-cta: See all work
+primaryLabel: Discover process
+primaryLink: /about
 ---
 ::
 

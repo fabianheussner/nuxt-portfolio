@@ -23,6 +23,10 @@ head:
 ---
 subline: I'm Fabian – Product Designer by heart.
 title: I strive to connect people's needs with aesthetics.
+primaryLabel: Discover work
+primaryLink: /work
+secondaryLabel: Get to know me
+secondaryLink: /about
 ---
 ::
 

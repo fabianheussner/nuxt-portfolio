@@ -10,8 +10,13 @@
       <Type variant="display" class="mt-4 mb-12">
         {{ title }}
       </Type>
-      <Button variant="primary" to="/work" class="mr-4">See work</Button>
-      <Button variant="secondary" to="/about">Get to know me</Button>
+      <Button variant="primary" :to="primaryLink" class="mr-4">
+        {{ primaryLabel }}
+      </Button>
+      <Button variant="secondary" :to="secondaryLink">
+        {{ secondaryLabel }}
+      </Button>
+      <!-- Get to know me -->
     </div>
     <div
       class="stage__large-hero md:col-span-6 lg:col-span-5 lg:col-end-13 mx-auto order-1 md:order-2"
@@ -34,6 +39,22 @@ export default {
       required: true,
     },
     title: {
+      type: String,
+      required: true,
+    },
+    primaryLabel: {
+      type: String,
+      required: true,
+    },
+    secondaryLabel: {
+      type: String,
+      required: true,
+    },
+    primaryLink: {
+      type: String,
+      required: true,
+    },
+    secondaryLink: {
       type: String,
       required: true,
     },

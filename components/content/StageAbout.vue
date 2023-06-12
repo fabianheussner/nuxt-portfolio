@@ -10,7 +10,9 @@
       <Type variant="display" class="mt-4 mb-12">
         {{ title }}
       </Type>
-      <Button variant="primary" to="/" class="mr-4">{{ cta }}</Button>
+      <Button variant="primary" :to="primaryLink" class="mr-4">
+        {{ primaryLabel }}
+      </Button>
     </div>
     <div
       class="stage__about-current md:col-span-6 grid grid-cols-2 gap-x-4 text-onBackgroundSubdued"
@@ -44,9 +46,11 @@ export default {
       type: String,
       required: true,
     },
-    cta: {
+    primaryLabel: {
       type: String,
-      required: true,
+    },
+    primaryLink: {
+      type: String,
     },
     employer: {
       type: String,

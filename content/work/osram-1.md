@@ -60,7 +60,7 @@ Lorem ipsum dolor sit amet consectetur. Eros nisl feugiat magna cras facilisis m
 ---
 caseTitle: Check in and out
 url: check-in-check-out
-imageSource: /img/img2.png
+imageSource: /img/cases/cico/cico-case-preview.png
 imageDescription: Some alt text
 ---
 ::

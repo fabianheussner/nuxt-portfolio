@@ -11,8 +11,13 @@
         {{ title }}
         <!-- Ich übersetze Absichten in Schnittstellen -->
       </Type>
-      <Button v-if="cta" variant="primary" to="/" class="mr-4">
-        {{ cta }}
+      <Button
+        v-if="primaryLabel"
+        variant="primary"
+        :to="primaryLink"
+        class="mr-4"
+      >
+        {{ primaryLabel }}
       </Button>
     </div>
   </div>
@@ -31,7 +36,10 @@ export default {
       type: String,
       required: true,
     },
-    cta: {
+    primaryLabel: {
+      type: String,
+    },
+    primaryLink: {
       type: String,
     },
   },

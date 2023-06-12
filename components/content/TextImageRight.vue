@@ -1,12 +1,12 @@
 <template>
   <div
-    class="text__image-right grid grid-cols-1 md:grid-cols-12 padding__v-large"
+    class="text__image-right grid grid-cols-1 md:grid-cols-12 margin__v-large bg-surface rounded-2xl overflow-hidden"
     v-motion="motionFadeUp"
   >
     <div
-      class="text md:col-span-6 lg:col-span-6 bg-surface p-6 lg:p-12 rounded-b-2xl md:rounded-l-2xl md:rounded-r-none order-2 md:order-1"
+      class="text md:col-span-6 lg:col-span-6 my-8 p-6 lg:p-12 order-2 md:order-1"
     >
-      <div class="icons flex mb-8 md:mb-12">
+      <div class="icons flex mb-6 md:mb-10">
         <Icon name="star" />
         <Icon name="waves" />
         <Icon name="leaf" />
@@ -25,7 +25,7 @@
       <img
         :src="imageSource"
         :alt="imageDescription"
-        class="md:h-full rounded-t-2xl md:rounded-r-2xl md:rounded-l-none object-cover"
+        class="md:h-full object-cover"
       />
     </div>
   </div>

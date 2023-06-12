@@ -1,5 +1,8 @@
 <template>
-  <div class="teaser__add flex flex-grow bg-surface rounded-2xl">
+  <div
+    class="teaser__add flex flex-grow bg-surface rounded-2xl"
+    v-motion="motionFadeUp"
+  >
     <div
       class="teaser__add-frame flex flex-grow items-center m-4 md:m-12 border-2 border-dashed border-onSurfaceBorder rounded-xl"
     >
@@ -8,14 +11,28 @@
         <Type variant="subline" class="mb-8"
           >Add your project to the list.</Type
         >
-        <a href="" class="button__link">Add now</a>
+        <a
+          href="mailto:fabian.heussner@gmx.de?subject=Your Subject"
+          class="button__link"
+          >Add now</a
+        >
       </div>
     </div>
   </div>
 </template>
+
 <script>
-export default {};
+import { motionFadeUp } from "./scrollmotion";
+
+export default {
+  data() {
+    return {
+      motionFadeUp,
+    };
+  },
+};
 </script>
+
 <style lang="scss" scoped>
 .button__link {
   display: inline-block;

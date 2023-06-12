@@ -49,9 +49,9 @@ data:
         imageDescription: Some alt text goes here
       - link: /work/osram-1
         type: Mobile app
-        title: Scan and Go
-        subtitle: Convience when doing grocery shopping
-        imageSource: /img/img3.png
+        title: Check in, check out
+        subtitle: Post paid ticketing for convinient travel
+        imageSource: /img/cases/cico/cico-case-preview.png
         imageDescription: Some alt text goes here
       - link: /work/osram-1
         type: Mobile app

@@ -21,7 +21,7 @@ head:
 
 ::stage-large
 ---
-subline: Hey, I'm Fabian and Product Designer by heart.
+subline: I'm Fabian – Product Designer by heart.
 title: I strive to connect people's needs with aesthetics.
 ---
 ::
@@ -53,17 +53,17 @@ sectionCounter: (2)
 
 data:
     projects:
-      - link: /work/check-in-check-out
-        type: Mobile app
-        title: Check in check out
-        subtitle: Local public transport at ease
-        imageSource: /img/img3.png
+      - link: /work/zusammen-gegen-corona
+        type: Web portal
+        title: Zusammen gegen Corona
+        subtitle: Only 52 hours to launch
+        imageSource: /img/cases/zgc/test-preview-hover.png
         imageDescription: Some alt text goes here
       - link: /work/osram-1
         type: Mobile app
-        title: Scan and Go
-        subtitle: Convience when doing grocery shopping
-        imageSource: /img/img3.png
+        title: Check in, check out
+        subtitle: Post paid ticketing for convinient travel
+        imageSource: /img/cases/cico/cico-case-preview.png
         imageDescription: Some alt text goes here
 
 cta: Discover all

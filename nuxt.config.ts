@@ -1,6 +1,13 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 
 export default defineNuxtConfig({
+  modules: [
+    '@nuxt/content',
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts',
+    '@vueuse/motion/nuxt',
+  ],
+
   app: {
     head: {
       htmlAttrs: {
@@ -16,12 +23,6 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: [
-    '@nuxt/content',
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-fonts',
-    '@vueuse/motion/nuxt',
-  ],
 
   content: {
     markdown: {
@@ -41,12 +42,10 @@ export default defineNuxtConfig({
 
   googleFonts: {
     families: {
-      'Inter': [400, 500],
+      Inter: [400, 500],
     },
     display: 'swap',
-    // subsets: 'Latin',
-    // text: 'los müssen',
-    download: true,
+    download: false,
   },
 
   css: ['~/assets/css/main.css'],

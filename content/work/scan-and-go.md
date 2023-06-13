@@ -57,3 +57,45 @@ data:
 description: The Corona pandemic has significantly changed consumer behaviour. To quickly keep up with the changing environment, a self-checkout service with Scan and Go has been integrated into existing apps to keep pace with the ever-increasing digitalisation and to respond to changing market shares.
 ---
 ::
+
+::image
+---
+images:
+  - source: /img/cases/budni/sco-case-illustration-3.png
+    description: Scan and Go scan store check in 
+  - source: /img/cases/budni/sco-case-illustration-2.png
+    description: Scan and Go scan articles illustration 
+  - source: /img/cases/budni/sco-case-illustration-1.png
+    description: Scan and Go basket illustration 
+  - source: /img/cases/budni/sco-case-illustration-4.png
+    description: Scan and Go scan self checkout illustration 
+---
+::
+
+::image
+---
+images:
+  - source: /img/cases/budni/sco-case-flow-1.png
+    description: Scan and Go wireframes flow
+---
+::
+
+::text
+#label
+My Role
+#headline 
+From migration to integration
+#text 
+Digital transformation is not just about leveraging new technologies. It is a cultural shift and a journey that many traditional FMCG brands must undertake to compete in a market that now sees more and more direct-to-consumer startups. Taking over the project I faced various challenges: Getting to know the client, conceptualizing and designing the feature, and doing it during a migration from Sketch to Figma - without an existing component library, which is absolutely mandatory.
+::
+
+
+::image
+---
+images:
+  - source: /img/cases/budni/sco-case-wireframes-1.png
+    description: Scan and Go wireframes 1
+  - source: /img/cases/budni/sco-case-wireframes-2.png
+    description: Scan and Go wireframes 2
+---
+::

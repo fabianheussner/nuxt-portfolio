@@ -31,8 +31,10 @@ export default {
         return "w-full rounded-lg lg:rounded-2xl overflow-hidden";
       } else if (this.images.length === 2) {
         return "grid grid-cols-1 lg:grid-cols-2 rounded-lg lg:rounded-2xl overflow-hidden";
-      } else {
+      } else if (this.images.length === 3) {
         return "grid grid-cols-1 lg:grid-cols-3 rounded-lg lg:rounded-2xl overflow-hidden";
+      } else {
+        return "grid grid-cols-2 lg:grid-cols-4 rounded-lg lg:rounded-2xl overflow-hidden";
       }
     },
   },

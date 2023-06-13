@@ -10,7 +10,7 @@
       <div class="footer_contact-button lg:col-span-6">
         <a
           href="mailto:fabian.heussner@gmx.de?subject=Your Subject"
-          class="button pl-8 pr-1 rounded-full bg-background text-onBackgroundSubdued text-xl tracking-tight font-medium items-center"
+          class="button pl-8 pr-1 rounded-full bg-background text-onBackgroundSubdued text-lg tracking-tight font-medium items-center"
         >
           Say hello…
           <span class="icon">

@@ -28,7 +28,6 @@ primaryLabel: Discover work
 primaryLink: /work
 employer: Mobimeo GmbH
 ---
-<!-- I've a passion for illustration and enjoy writing code. -->
 ::
 
 ::about-process

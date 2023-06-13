@@ -42,23 +42,23 @@ sectionCounter: (5)
 
 data:
     projects:
-      - link: /work/zusammen-gegen-corona
-        type: Web portal
-        title: Zusammen gegen Corona
-        subtitle: Only 52 hours to launch
-        imageSource: /img/cases/zgc/test-preview-hover.png
-        imageDescription: Some alt text goes here
       - link: /work/osram-1
         type: Mobile app
         title: Check in, check out
         subtitle: Post paid ticketing for convinient travel
         imageSource: /img/cases/cico/cico-case-preview.png
         imageDescription: Some alt text goes here
-      - link: /work/osram-1
+      - link: /work/scan-and-go
         type: Mobile app
         title: Scan and Go
-        subtitle: Convience when doing grocery shopping
-        imageSource: /img/img3.png
+        subtitle: Adoption to market transformation
+        imageSource: /img/cases/budni/sco-case-preview.png
+        imageDescription: Some alt text goes here
+      - link: /work/zusammen-gegen-corona
+        type: Web portal
+        title: Zusammen gegen Corona
+        subtitle: Only 52 hours to launch
+        imageSource: /img/cases/zgc/test-preview-hover.png
         imageDescription: Some alt text goes here
       - link: /work/osram-1
         type: Mobile app

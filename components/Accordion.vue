@@ -85,7 +85,7 @@ export default {
     transition: all 300ms ease-in-out;
 
     .accordion__title-count {
-      @apply inline-block w-14;
+      @apply inline-block w-8 lg:w-14;
       transition: all 300ms ease-in-out;
     }
 

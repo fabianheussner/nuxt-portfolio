@@ -21,7 +21,7 @@ head:
 
 ::stage-large
 ---
-subline: I'm Fabian – Product Designer by heart.
+subline: I'm Fabian 👋 Product Designer by heart.
 title: I strive to connect people's needs with aesthetics.
 primaryLabel: Discover work
 primaryLink: /work

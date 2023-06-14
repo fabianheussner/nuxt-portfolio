@@ -1,8 +1,8 @@
 <template>
+  <!-- class="lg:-mx-4" -->
   <div
     :class="[containerClass, presetClass]"
     :style="{ background }"
-    class="lg:-mx-4"
     v-motion="motionFadeIn"
   >
     <img

@@ -17,6 +17,9 @@
     .margin__v-large {
         @apply my-12 md:my-16 lg:my-20;
     }
+    .margin__vt-large {
+        @apply mb-12 md:mb-16 lg:mb-20 mt-16 md:mt-20 lg:mt-40;
+    }
     .wrapper {
         @apply max-w-screen-2xl mx-auto px-6;
     }

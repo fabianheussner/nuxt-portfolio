@@ -14,7 +14,7 @@
         {{ subtitle }}
       </Type>
       <div class="read-more inline-flex items-center">
-        <Icon name="arrowright" class="w-6 h-6 md:w-8 md:h-8" />
+        <Icon name="arrowright" class="w-8 h-8" />
         <Type variant="label-large" class="discover mr-4">Discover</Type>
       </div>
     </div>

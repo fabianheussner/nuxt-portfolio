@@ -15,7 +15,7 @@
         {{ subtitle }}
       </Type>
       <div class="read-more inline-flex items-center">
-        <Icon name="arrowright" class="w-6 h-6 md:w-8 md:h-8" />
+        <Icon name="arrowright" class="w-8 h-8" />
         <Type variant="label-large" class="discover mr-4">Discover</Type>
       </div>
     </div>
@@ -72,15 +72,15 @@ export default {
   .case__teaser-preview {
     picture {
       @apply block rounded-2xl overflow-hidden;
-      transition: all 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
       width: 100%;
       height: 100%;
+      transition: all 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
       img {
         width: 100%;
         height: 100%;
-        transition: all 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
         object-fit: cover;
+        transition: all 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
       }
     }
   }

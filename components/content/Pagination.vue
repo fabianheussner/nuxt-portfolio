@@ -1,7 +1,7 @@
 <template>
   <NuxtLink
     :to="url"
-    class="pagination grid grid-cols-1 sm:grid-cols-12 rounded-2xl overflow-hidden margin__v-large bg-surface items-center"
+    class="pagination grid grid-cols-1 sm:grid-cols-12 rounded-2xl overflow-hidden margin__vt-large bg-surface items-center"
     v-motion="motionFadeUp"
   >
     <div class="pagination__body sm:col-span-6 md:col-span-7 my-4 p-6 md:p-12">
@@ -10,12 +10,14 @@
       </Type>
       <Type variant="title-small" class="mb-4 md:mb-8">{{ caseTitle }}</Type>
       <div class="read-more inline-flex items-center">
-        <Icon name="arrowright" class="w-6 h-6 md:w-8 md:h-8" />
+        <Icon name="arrowright" class="w-8 h-8" />
         <Type variant="label-large" class="discover mr-4">Proceed</Type>
       </div>
     </div>
     <div class="pagination__preview flex flex-grow sm:col-span-6 md:col-span-5">
-      <img :src="imageSource" :alt="imageDescription" />
+      <picture>
+        <img :src="imageSource" :alt="imageDescription" />
+      </picture>
     </div>
   </NuxtLink>
 </template>
@@ -63,10 +65,19 @@ export default {
 
   .pagination__preview {
     height: 100%;
-    img {
+
+    picture {
+      @apply block rounded-2xl overflow-hidden;
+      transition: all 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
       width: 100%;
       height: 100%;
-      object-fit: cover;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      }
     }
   }
 
@@ -74,6 +85,15 @@ export default {
     .discover {
       margin-bottom: 0;
       opacity: 1;
+    }
+
+    picture {
+      transform: scaleX(0.95) scaleY(0.92);
+      @apply rounded-lg;
+
+      img {
+        transform: scaleX(1.15) scaleY(1.18);
+      }
     }
   }
 }

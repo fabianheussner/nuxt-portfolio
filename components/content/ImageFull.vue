@@ -1,8 +1,5 @@
 <template>
-  <div
-    class="image__full -ml-6 lg:-ml-0 -mr-6 lg:-mr-0"
-    v-motion="motionFadeEnter"
-  >
+  <div class="image__full -mx-6 lg:-mx-4" v-motion="motionFadeEnter">
     <img :src="source" :alt="description" class="lg:rounded-2xl" />
   </div>
 </template>

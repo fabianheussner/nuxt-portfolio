@@ -30,7 +30,22 @@ export const motionFadeUp = {
     opacity: 1,
     transition: {
       duration: 800,
-      delay: 200,
+      // delay: 200,
+      type: 'spring',
+      stiffness: 200,
+      damping: 50,
+      mass: 0.5,
+    },
+  },
+};
+export const motionFadeIn = {
+  initial: {
+    opacity: 0,
+  },
+  visibleOnce: {
+    opacity: 1,
+    transition: {
+      duration: 800,
       type: 'spring',
       stiffness: 200,
       damping: 50,

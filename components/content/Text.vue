@@ -1,9 +1,9 @@
 <template>
   <div
-    class="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8 padding__v-medium"
+    class="grid grid-cols-1 lg:grid-cols-4 lg:gap-x-8 padding__v-medium"
     v-motion="motionFadeUp"
   >
-    <div class="md:col-span-1 md:col-end-3">
+    <div class="md:col-span-2 md:col-end-4">
       <Type
         variant="body-medium"
         v-if="$slots.label"

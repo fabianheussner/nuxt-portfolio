@@ -47,11 +47,11 @@ data:
         title: UX and Wireframes
         body: Lorem ipsum dolor sit amet…
       - counter: "04"
-        title: Design System Management
+        title: Design Systems
         body: Lorem ipsum dolor sit amet…
       - counter: "05"
         title: Illustration
-        body: Lorem ipsum dolor sit amet…     
+        body: Even though illustrations aren't my main focus, I love creating them when the need arises. Illustrations play a crucial role in enhancing various aspects of design. In particular, they have been incredibly useful in crafting engaging onboarding experiences, transforming empty states into delightful moments, and evoking emotions that resonate with users when interacting with a service or a brand.   
 ---
 ::
 

@@ -1,6 +1,21 @@
 ---
-title: 'Imrpint'
-description: 'meta description of the page'
+title: 'Imprint · Fabian Heussner Senior UX/UI Designer Hamburg'
+description: "Hey, I'm Fabian and digital Product Designer by heart. I connect people's needs with aesthetics."
+image:
+  src: '/img/fabian-heussner_og-image.png'
+  alt: 'Fabian Heussner · Portfolio Website Preview'
+  width: 1200
+  height: 630
+head:
+  meta:
+    - name: 'keywords'
+      content: 'imprint, service design, feature, design thinking, design, ux, ui, ux/ui, product design, designer, agile, ux research, wireframes, prototyping, ux writing, design systems, components, figma, hamburg'
+    - name: 'robots'
+      content: 'noindex, nofollow'
+    - name: 'author'
+      content: 'Fabian Heußner'
+    - name: 'copyright'
+      content: '© 2023 Fabian Heußner'
 ---
 
 

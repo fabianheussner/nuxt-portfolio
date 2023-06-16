@@ -6,7 +6,7 @@ layout: project
 
 ::case-intro
 ---
-title: Check in check out
+title: Check in, be out
 year: /21-22
 ---
 ::
@@ -47,18 +47,22 @@ description: Lorem ipsum dolor sit amet consectetur. Eros nisl feugiat magna cra
 ::image
 ---
 images:
-  - source: /img/img1.png
+  - source: /img/cases/cico/cico-first-concepts.png
     description: Some alt text
+
+preset: top
 ---
 ::
 
 ::image
 ---
 images:
-  - source: /img/img1.png
+  - source: /img/cases/cico/cico-wireframes-1.png
     description: Some alt text
-  - source: /img/img2.png
+  - source: /img/cases/cico/cico-wireframes-2.png
     description: Some alt text
+
+preset: bottom
 ---
 ::
 

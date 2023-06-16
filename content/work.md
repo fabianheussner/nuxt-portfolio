@@ -42,9 +42,9 @@ sectionCounter: (5)
 
 data:
     projects:
-      - link: /work/osram-1
+      - link: /work/check-in-check-out
         type: Mobile app
-        title: Check in, check out
+        title: Check in, be out
         subtitle: Post paid ticketing for convinient travel
         imageSource: /img/cases/cico/cico-case-preview.png
         imageDescription: Some alt text goes here
@@ -60,11 +60,11 @@ data:
         subtitle: Only 52 hours to launch
         imageSource: /img/cases/zgc/test-preview-hover.png
         imageDescription: Some alt text goes here
-      - link: /work/osram-1
-        type: Mobile app
-        title: Scan and Go
-        subtitle: Convience when doing grocery shopping
-        imageSource: /img/img3.png
+      - link: /work/lightelligence-apps
+        type: Web apps
+        title: Lightelligence
+        subtitle: Facility management with sensor dashboards
+        imageSource: /img/cases/lightelligence/lightelligence-preview.png
         imageDescription: Some alt text goes here
       - link: /work/osram-1
         type: Mobile app

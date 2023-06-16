@@ -59,7 +59,7 @@ data:
     projects:
       - link: /work/check-in-check-out
         type: Mobile app
-        title: Check in, check out
+        title: Check in, be out
         subtitle: Post paid ticketing for convinient travel
         imageSource: /img/cases/cico/cico-case-preview.png
         imageDescription: Some alt text goes here

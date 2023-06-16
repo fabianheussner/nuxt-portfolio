@@ -10,7 +10,7 @@
       >
         {{ type }}
       </Type>
-      <Type variant="title-small">{{ title }}</Type>
+      <Type variant="title-small" class="mb-1">{{ title }}</Type>
       <Type variant="subline" class="text-onSurfaceSubdued mb-8 md:mb-12">
         {{ subtitle }}
       </Type>

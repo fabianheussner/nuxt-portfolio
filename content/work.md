@@ -58,7 +58,7 @@ data:
         type: Web portal
         title: Zusammen gegen Corona
         subtitle: Only 52 hours to launch
-        imageSource: /img/cases/zgc/test-preview-hover.png
+        imageSource: /img/cases/zgc/zgc-preview.png
         imageDescription: Some alt text goes here
       - link: /work/lightelligence-apps
         type: Web apps
@@ -66,9 +66,9 @@ data:
         subtitle: Facility management with sensor dashboards
         imageSource: /img/cases/lightelligence/lightelligence-preview.png
         imageDescription: Some alt text goes here
-      - link: /work/bookings
+      - link: /work/bookings-the-booking
         type: Mobile app
-        title: Beyond bookings
+        title: Beyond the booking
         subtitle: Some great subline
         imageSource: /img/img3.png
         imageDescription: Some alt text goes here

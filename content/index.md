@@ -33,6 +33,8 @@ secondaryLink: /about
  
 ::services
 ---
+sectionTitle: I'm specialized in
+
 data:
     services:
       - count: '01'

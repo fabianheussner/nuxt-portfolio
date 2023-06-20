@@ -173,9 +173,9 @@ During the project, I was in charge of the entire process. This included first r
 
 ::pagination
 ---
-caseTitle: Check in and out
-url: check-in-check-out
-imageSource: /img/cases/cico/cico-case-preview.png
+caseTitle: Zusammen gegen Corona
+url: zusammen-gegen-corona
+imageSource: /img/cases/zgc/zgc-preview.png
 imageDescription: Some alt text
 ---
 ::

@@ -1,6 +1,10 @@
 <template>
   <div class="service padding__v-medium">
-    <SectionHeader title="I'm specialized in…" v-motion="motionFadeUp" />
+    <SectionHeader
+      :title="sectionTitle"
+      :counter="sectionCounter"
+      v-motion="motionFadeUp"
+    />
     <div
       class="service__overview grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-6"
     >
@@ -29,6 +33,13 @@ import { motionFadeUp } from "./scrollmotion.js";
 
 export default {
   props: {
+    sectionTitle: {
+      type: String,
+      required: true,
+    },
+    sectionCounter: {
+      type: String,
+    },
     data: {
       type: Object,
       required: true,

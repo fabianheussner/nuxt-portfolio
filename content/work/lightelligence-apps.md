@@ -81,9 +81,9 @@ preset: bottom
 
 ::text
 #label
-The solution
+The situation
 #headline 
-Making it accessible to everyone
+Make IoT accessible
 #text 
 Lightelligence is an open IoT platform and ecosystem in the light and building market. It simplifies the development of IoT software and provides clients with a full stack turn key IoT solution that can be applied to a huge range of industries. In order to ensure a quality standard for the design and user experience, we created an open source design system. Tools like Abstract helped us to enable collaborative work and manage the scope of the design system, which can be found on GitHub.
 ::
@@ -126,9 +126,9 @@ images:
 #label
 The challenge
 #headline 
-Showcase what the platform is capable of
+Be as generic as possible and as specific as needed
 #text 
-In order to advertise the product and demonstrate the capabilities of the platform, we developed prototypes and applications cross-teams and worked closely with developers…
+With the rapidly increasing number of components and the further development of the design system to 2.0, an extensive documentation of these components became necessary. In addition to a detailed documentation, we created dedicated Lightelligence Docs website, which was also implemented on the basis of the design system.
 ::
 
 ::image
@@ -137,8 +137,16 @@ images:
   - source: /img/cases/lightelligence/lighteligence-screens-docs.png
     description: Osram Lightelligence official API documentation
 
-preset: top
 ---
+::
+
+::text
+#label
+The solution
+#headline 
+Demonstrating capability
+#text 
+Unfortunately, a product or service doesn't sell itself - at least in most cases. In order to advertise the product and demonstrate the capabilities of the platform, we developed prototypes and applications cross-teams and worked closely with developers…
 ::
 
 ::image
@@ -147,7 +155,6 @@ images:
   - source: /img/cases/lightelligence/lighteligence-screens-building-central.png
     description: Osram Lightelligence official API documentation
 
-preset: bottom
 ---
 ::
 
@@ -162,7 +169,7 @@ The UI/UX team independently took care of the customer's communication and advic
 
 ::pagination
 ---
-caseTitle: Check in and out
+caseTitle: Check in Be out
 url: check-in-check-out
 imageSource: /img/cases/cico/cico-case-preview.png
 imageDescription: Some alt text

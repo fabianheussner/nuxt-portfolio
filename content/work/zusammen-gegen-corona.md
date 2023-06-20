@@ -54,7 +54,7 @@ data:
         secondary: Web portal
         
 company: Test Props Name
-description: Ever shared your apartment with a colleague? I did! Exceptional circumstances require different collaboration. 
+description: Have you ever shared an apartment with a colleague? I did! Exceptional circumstances require different collaborations. Within a day, my living room became a design office and bedroom simultaneously for my surprise roommate. We have taken on the challenge of developing a website for the Bundesministerium f. Gesundheit containing all the information available by then.
 ---
 ::
 
@@ -67,6 +67,15 @@ images:
 ---
 ::
 
+::text
+#label
+The situation
+#headline 
+Cya in a few weeks
+#text 
+Probably most have had similar experiences of what it's like to change work environments from one day to the next and make the shift to home office indefinitely. But did you also get a new briefing an hour before? Our little task force did. Staying home. That's exactly what we were supposed to make a website for - as an extension of the upcoming campaign, to give people the focal point they need for information and at the same time prevent Fake News.
+::
+
 ::image
 ---
 images:
@@ -75,6 +84,14 @@ images:
 ---
 ::
 
+::text
+#label
+The challenge
+#headline 
+From MVP to a fully functional website
+#text 
+To be honest, it was tough to get started - no fonts, no design system or library to draw from. Information was pouring in through a variety of channels. There was only a vague target image - a website divided into "inform" and "act". That's what we took to heart and found our roles in no time. While the lines were running hot in the kitchen and wireframes were being scribbled, we started to build up a first library and pour initial thoughts into UI. And the result was quickly worth a look. 
+::
 
 ::image
 ---
@@ -84,6 +101,15 @@ images:
   - source: /img/cases/zgc/bmg-zgc-screens-3.png
     description: Some alt text
 ---
+::
+
+::text
+#label
+The solution
+#headline 
+An ever growing portal
+#text 
+In no time we built a website that met the initial requirements. From briefing to launch only 52 hours passed. From that point on, the website was constantly evolving and no one could say what it would look like in the days to come. To enable users to become active, we provided a tool to find a suitable initiative. As the knowledge about the virus grew, the information section was also continuously expanded. This information was for everyone and should therefore be accessible to everyone.
 ::
 
 ::image
@@ -106,9 +132,9 @@ It is truly amazing to see what is possible to achieve – and that despite this
 
 ::pagination
 ---
-caseTitle: Check in and out
-url: check-in-check-out
-imageSource: /img/img2.png
+caseTitle: Lightelligence
+url: lightelligence-apps
+imageSource: /img/cases/lightelligence/lightelligence-preview.png
 imageDescription: Some alt text
 ---
 ::

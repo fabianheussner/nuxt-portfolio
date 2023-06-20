@@ -66,10 +66,10 @@ data:
         subtitle: Facility management with sensor dashboards
         imageSource: /img/cases/lightelligence/lightelligence-preview.png
         imageDescription: Some alt text goes here
-      - link: /work/osram-1
+      - link: /work/bookings
         type: Mobile app
-        title: Scan and Go
-        subtitle: Convience when doing grocery shopping
+        title: Beyond bookings
+        subtitle: Some great subline
         imageSource: /img/img3.png
         imageDescription: Some alt text goes here
 

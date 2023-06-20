@@ -33,25 +33,31 @@ employer: Mobimeo GmbH
 ::about-process
 ---
 title: Holistic approach
-message: With my expertise in a diverse set of skills and my holistic approach, I create seamless user experiences and services that work. 
+message: With my expertise in a diverse set of skills and my holistic approach, I create seamless user experiences.
 
 data:
     services:
       - counter: "01"
-        title: Research and Validation
-        body: Lorem ipsum dolor sit amet…
-      - counter: "02"
         title: Design Thinking
-        body: Lorem ipsum dolor sit amet…
+        body: While I recognize that "Design Thinking" may not provide a complete solution, I personally value its methodology and strive to incorporate it as much as possible in my daily work. By embracing empathy, collaboration, and iterative problem-solving, I can better understand user needs and drive innovative solutions. This allows me to approach challenges with a user-centric perspective, leading to more effective and impactful outcomes.
+      - counter: "02"
+        title: Research and Validation
+        body: It is unfortunate that user research often falls to the bottom of the backlog, despite its vital role in developing empathy and understanding users. Luckily, I've had the opportunity to do a lot of user research in the last few years and even conduct a few interviews myself. I've tested many prototypes, UX copies, or generated insights using card sorting during regular research slots, or larger moderated interview sessions.
       - counter: "03"
-        title: UX and Wireframes
-        body: Lorem ipsum dolor sit amet…
+        title: Prototyping
+        body: With my expertise in InVision, ProtoPie and Figma, I have already implemented a wide range of complex prototypes to emulate user experiences. Prototypes are particularly mandatory during user research interviews, as they provide valuable insights through observation. Further, they have been essential for seamless collaboration between development and design by showcasing micro-interactions that improve the overall user interface.
       - counter: "04"
-        title: Design Systems
-        body: Lorem ipsum dolor sit amet…
+        title: UX Writing
+        body: I like writing even though I can't express my poetic side through a product or service. Since there were no dedicated UX writers in the past, I was happy to take on this job - in German and English. In recent years, I have found great fun in UX writing, becoming the user's advocate and providing the necessary assistance. I have gained some experience with localisation software like Phrase to manage a lot of strings.
       - counter: "05"
+        title: Design Systems
+        body: In the past, I have had the opportunity to work on various design systems - from an extended pattern library to a complex white-label platform that has to meet completely different demands. As someone who loves order, I have integrated different approaches and tools to make the management and overview of a complex ecosystem as simple as possible. I have also driven various migrations from Sketch to Figma, using my expertise to train design teams in the new infrastructures through workshops.
+      - counter: "06"
         title: Illustration
-        body: Even though illustrations aren't my main focus, I love creating them when the need arises. Illustrations play a crucial role in enhancing various aspects of design. In particular, they have been incredibly useful in crafting engaging onboarding experiences, transforming empty states into delightful moments, and evoking emotions that resonate with users when interacting with a service or a brand.   
+        body: Even though illustrations aren't my main focus, I love to step in when the need arises. In my opinion illustrations play a vital role in enhancing various aspects of product. In particular, they have been incredibly useful in crafting engaging onboarding experiences, transforming empty states into delightful moments, and evoking emotions that resonate with users when interacting with a service or a brand.   
+      - counter: "07"
+        title: Development
+        body: Although I'm not a developer, I'm fascinated by development and enjoy writing a few lines of code every now and then. Over the years I gathered some experience in React and Vue.js and and tried out SwiftUI too. The understanding I gained allows me to benefit in particular in the close collaboration between development and design.
 ---
 ::
 

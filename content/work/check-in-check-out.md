@@ -1,19 +1,35 @@
 ---
-layout: project
+title: 'Check in Be out · Simply check in and ride'
+description: "Case study for post paid ticketing"
+image:
+  src: '/img/fabian-heussner_og-image.png'
+  alt: 'Fabian Heussner · Portfolio Website Preview'
+  width: 1200
+  height: 630
+head:
+  meta:
+    - name: 'keywords'
+      content: 'case study, ux, ui, ux/ui, wireframes, prototype, figma, mobimeo, portfolio, post paid ticketing, check in check out, check in be out, ticketing, public transport, design, ux-writing, design system, components, screens'
+    - name: 'robots'
+      content: 'index, follow'
+    - name: 'author'
+      content: 'Fabian Heußner'
+    - name: 'copyright'
+      content: '© 2023 Fabian Heußner'
 ---
 
 
 
 ::case-intro
 ---
-title: Check in, be out
+title: Check in Be out
 year: /21-22
 ---
 ::
 
 ::image-full
 ---
-source: /img/testimage.png
+source: /img/cases/cico/cico-stage.png
 description: another alt text
 ---
 ::
@@ -24,7 +40,7 @@ data:
     skills:
       - UX
       - UX Writing
-      - User Testing
+      - User Research
       - UI
       - Design System
 
@@ -39,18 +55,7 @@ data:
         secondary: Mobile App
         
 company: Test Props Name
-description: Lorem ipsum dolor sit amet consectetur. Eros nisl feugiat magna cras facilisis metus cursus dis. Ullamcorper orci fringilla nulla diam senectus. Condimentum viverra est gravida orci id libero pulvinar commodo.
----
-::
-
-
-::image
----
-images:
-  - source: /img/cases/cico/cico-first-concepts.png
-    description: Some alt text
-
-preset: top
+description: Local public transportation plays a vital role in achieving climate goals and making urban environments more livable. Nevertheless, even buying a ticket is a major hurdle for many people - too many transport associations and tariff systems often make convenient travelling impossible. What if all it took was a swipe to travel as long and far as you wanted? Check in Be out makes that possible.
 ---
 ::
 
@@ -62,18 +67,135 @@ images:
   - source: /img/cases/cico/cico-wireframes-2.png
     description: Some alt text
 
-preset: bottom
+background: '#282D37'
+preset: top
 ---
 ::
 
 ::image
 ---
 images:
-  - source: /img/img1.png
+  - source: /img/cases/cico/cico-first-concepts.png
     description: Some alt text
-  - source: /img/img2.png
+
+preset: bottom
+---
+::
+
+::text
+#label
+The situation
+#headline 
+Complexity as an obstacle
+#text 
+The German public transport landscape is challenging due to complicated fare systems and the existence of several associations, especially in larger metropolitan regions. This complexity makes it difficult for occasional travellers to get a clear overview of the available options. It can be daunting, especially when you don't know how the rest of your day will go. Will I still meet friends after work or pick up my kids from school? As part of our white label platform, we therefore introduced "Check in Be out" as a postpaid ticketing method.
+::
+
+::image
+---
+images:
+  - source: /img/cases/cico/cico-screens-1.png
     description: Some alt text
-  - source: /img/img3.png
+  - source: /img/cases/cico/cico-screens-2.png
     description: Some alt text
+
+preset: top
+---
+::
+
+::image
+---
+images:
+  - source: /img/cases/cico/cico-components-1.png
+    description: Some alt text
+  - source: /img/cases/cico/cico-components-2.png
+    description: Some alt text
+
+background: '#282D37'
+preset: bottom
+---
+::
+
+::text
+#label
+The challenge
+#headline 
+Headline lorem…
+#text 
+Lorem ipsum dolor sit amet consectetur. Eros nisl feugiat magna cras facilisis metus cursus dis. Ullamcorper orci fringilla nulla diam senectus. Condimentum viverra est gravida orci id libero pulvinar commodo. Lorem ipsum dolor sit amet consectetur. Eros nisl feugiat magna cras facilisis metus cursus dis. Ullamcorper orci fringilla nulla diam senectus. Condimentum viverra est gravida orci id libero pulvinar commodo.
+::
+
+::image
+---
+images:
+  - source: /img/cases/cico/cico-permissions-1.png
+    description: Some alt text
+  - source: /img/cases/cico/cico-permissions-2.png
+    description: Some alt text
+
+preset: top
+---
+::
+
+::image
+---
+images:
+  - source: /img/cases/cico/cico-screens-3.png
+    description: Some alt text
+  - source: /img/cases/cico/cico-screens-4.png
+    description: Some alt text
+
+background: '#282D37'
+preset: bottom
+---
+::
+
+::text
+#label
+The solution
+#headline 
+Headline lorem…
+#text 
+Lorem ipsum dolor sit amet consectetur. Eros nisl feugiat magna cras facilisis metus cursus dis. Ullamcorper orci fringilla nulla diam senectus. Condimentum viverra est gravida orci id libero pulvinar commodo. Lorem ipsum dolor sit amet consectetur. Eros nisl feugiat magna cras facilisis metus cursus dis. Ullamcorper orci fringilla nulla diam senectus. Condimentum viverra est gravida orci id libero pulvinar commodo.
+::
+
+::image
+---
+images:
+  - source: /img/cases/cico/cico-user-research.png
+    description: Some alt text
+
+preset: top
+---
+::
+
+::image
+---
+images:
+  - source: /img/cases/cico/cico-screens-5.png
+    description: Some alt text
+  - source: /img/cases/cico/cico-screens-6.png
+    description: Some alt text
+
+background: '#282D37'
+preset: bottom
+---
+::
+
+::text
+#label
+My role
+#headline 
+From concept to completion
+#text 
+Being the UX/UI designer in my vertical and cross-functional team, I played an essential role at every stage of feature development. By leveraging my design skills, conducting user research, and collaborating with stakeholders, I contributed to the creation of a user-centric and visually appealing feature. The expertise I possess in UX writing, screen design, and design system integration proved invaluable in delivering a cohesive and engaging user experience. Through effective communication and collaboration with the talented team, I successfully fulfilled my responsibilities and achieved the project's objectives.
+::
+
+::pagination
+---
+caseTitle: Scan and Go
+url: scan-and-go
+imageSource: /img/cases/budni/sco-case-preview.png
+imageDescription: Scan and Go case teaser 
 ---
 ::

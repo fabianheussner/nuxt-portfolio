@@ -9,10 +9,8 @@
     >
       <span class="teaser__add-body px-4 py-8 mx-auto text-center">
         <Icon name="website" class="w-16 h-16 mb-2 text-onSurface" />
-        <Type variant="subline" class="mb-8"
-          >Add your project to the list.</Type
-        >
-        <span class="button__link">Add project </span>
+        <Type variant="subline" class="mb-8">Add your case to the list.</Type>
+        <span class="button__link">Add case</span>
       </span>
     </a>
   </div>

@@ -30,13 +30,14 @@ secondaryLink: /about
 ---
 ::
 
+ 
 ::services
 ---
 data:
     services:
       - count: '01'
         title: Experience Design
-        message: I create services that seamlessly blend user needs and business objectives for impactful experiences.
+        message: I combine research and iterative processes to create immersive experiences for users.
       - count: '02'
         title: Interface Design
         message: I design user interfaces that are stripped down to the essentials and always strive for ease of use.

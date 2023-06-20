@@ -102,7 +102,7 @@ export default {
     transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
     p {
-      @apply lg:px-14 pt-4 pb-10;
+      @apply lg:pl-14 lg:pr-5 pt-4 pb-10;
     }
   }
 }

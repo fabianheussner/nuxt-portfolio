@@ -44,9 +44,15 @@ data:
     projects:
       - link: /work/check-in-check-out
         type: Mobile app
-        title: Check in, be out
+        title: Check in Be out
         subtitle: Post paid ticketing for convinient travel
         imageSource: /img/cases/cico/cico-case-preview.png
+        imageDescription: Some alt text goes here
+      - link: /work/beyond-booking
+        type: Mobile app
+        title: Beyond booking
+        subtitle: Manage bookings and get insights
+        imageSource: /img/cases/bookings/bookings-preview.png
         imageDescription: Some alt text goes here
       - link: /work/scan-and-go
         type: Mobile app
@@ -54,23 +60,17 @@ data:
         subtitle: Adoption to market transformation
         imageSource: /img/cases/budni/sco-case-preview.png
         imageDescription: Some alt text goes here
+      - link: /work/lightelligence-apps
+        type: Web apps
+        title: Lightelligence
+        subtitle: Facility management with sensors
+        imageSource: /img/cases/lightelligence/lightelligence-preview.png
+        imageDescription: Some alt text goes here
       - link: /work/zusammen-gegen-corona
         type: Web portal
         title: Zusammen gegen Corona
         subtitle: Only 52 hours to launch
         imageSource: /img/cases/zgc/zgc-preview.png
-        imageDescription: Some alt text goes here
-      - link: /work/lightelligence-apps
-        type: Web apps
-        title: Lightelligence
-        subtitle: Facility management with sensor dashboards
-        imageSource: /img/cases/lightelligence/lightelligence-preview.png
-        imageDescription: Some alt text goes here
-      - link: /work/bookings-the-booking
-        type: Mobile app
-        title: Beyond the booking
-        subtitle: Some great subline
-        imageSource: /img/img3.png
         imageDescription: Some alt text goes here
 
 ---

@@ -62,13 +62,23 @@ description: Local public transportation plays a vital role in achieving climate
 ::image
 ---
 images:
+  - source: /img/cases/cico/cico-wireframes-scribbles.png
+    description: Some alt text
+
+preset: top
+---
+::
+
+::image
+---
+images:
   - source: /img/cases/cico/cico-wireframes-1.png
     description: Some alt text
   - source: /img/cases/cico/cico-wireframes-2.png
     description: Some alt text
 
 background: '#282D37'
-preset: top
+preset: center
 ---
 ::
 
@@ -120,9 +130,9 @@ preset: bottom
 #label
 The challenge
 #headline 
-Headline lorem…
+About fear and requirements
 #text 
-Lorem ipsum dolor sit amet consectetur. Eros nisl feugiat magna cras facilisis metus cursus dis. Ullamcorper orci fringilla nulla diam senectus. Condimentum viverra est gravida orci id libero pulvinar commodo. Lorem ipsum dolor sit amet consectetur. Eros nisl feugiat magna cras facilisis metus cursus dis. Ullamcorper orci fringilla nulla diam senectus. Condimentum viverra est gravida orci id libero pulvinar commodo.
+Post-paid ticketing offers many benefits but also comes with some obstacles to overcome. As a novel form of ticketing, the challenge was to find out what was the right level of explanation and introduction. As a system strongly coupled to the existing infrastructure, fallbacks had to be found for underground stations which made it challenging to locate the user. The most significant pain point, however, was the large number of permissions required to ensure the highest quality user experience. A series of user research sessions and iterations allowed us to evaluate which permissions would be granted willingly and how much education is needed.
 ::
 
 ::image
@@ -154,9 +164,9 @@ preset: bottom
 #label
 The solution
 #headline 
-Headline lorem…
+Price capping as an incentive
 #text 
-Lorem ipsum dolor sit amet consectetur. Eros nisl feugiat magna cras facilisis metus cursus dis. Ullamcorper orci fringilla nulla diam senectus. Condimentum viverra est gravida orci id libero pulvinar commodo. Lorem ipsum dolor sit amet consectetur. Eros nisl feugiat magna cras facilisis metus cursus dis. Ullamcorper orci fringilla nulla diam senectus. Condimentum viverra est gravida orci id libero pulvinar commodo.
+A respectable result. In a multi-stage process, we developed a feature in several releases that meet users' needs. Education has been stripped down to the bare essentials to minimise the impact on the first launch experience. Based on our results, we developed the most contextual permission requests possible to provide the user with the appropriate experience based on their decisions. To top it all off, a global booking history was introduced that reveals the strongest benefit of the feature - price capping as an incentive. With several journeys per day, users always travel at the best price.
 ::
 
 ::image

@@ -22,33 +22,32 @@ body {
 }
 
 
-[data-content-id="content:imprint.md"],
-[data-content-id="content:privacy-policy.md"] {
-  .page__container {
-    h1 {
-      @apply text-5xl md:text-7xl font-medium leading-none tracking-tighter pb-6;
-    }
-    h2 {
-      @apply text-4xl md:text-6xl font-medium leading-tight tracking-tighter pb-6;
-    }
-    h3 {
-      @apply text-3xl md:text-5xl font-medium leading-tight tracking-tighter pb-4;
-    }
-    h4 {
-      @apply text-2xl md:text-4xl font-medium leading-snug tracking-tighter pb-3;
-    }
-    h5 {
-      @apply text-xl md:text-3xl font-medium leading-snug tracking-tighter pb-2;
-    }
-    p {
-      @apply text-lg leading-normal tracking-tight pb-10;
-    }
-    ul {
-      @apply pb-10;
-    }
-    li {
-      list-style-type: disc;
-      @apply text-lg leading-normal tracking-tight pb-1;
-    }
+ 
+.page__container {
+  h1 {
+    @apply text-5xl md:text-7xl font-medium leading-none tracking-tighter pb-6;
+  }
+  h2 {
+    @apply text-4xl md:text-6xl font-medium leading-tight tracking-tighter pb-6;
+  }
+  h3 {
+    @apply text-3xl md:text-5xl font-medium leading-tight tracking-tighter pb-4;
+  }
+  h4 {
+    @apply text-2xl md:text-4xl font-medium leading-snug tracking-tighter pb-3;
+  }
+  h5 {
+    @apply text-xl md:text-3xl font-medium leading-snug tracking-tighter pb-2;
+  }
+  p {
+    @apply text-lg leading-normal tracking-tight pb-10;
+  }
+  ul {
+    @apply pb-10;
+  }
+  li {
+    list-style-type: disc;
+    @apply text-lg leading-normal tracking-tight pb-1;
   }
 }
+

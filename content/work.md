@@ -21,7 +21,7 @@ head:
 
 ::stage-work
 ---
-subline: I translate intents 💁‍♂️ to interfaces. 
+subline: I translate intents to interfaces. 
 title: I'd the chance to work on a variety of features and services.
 primaryLabel: Discover process
 primaryLink: /about

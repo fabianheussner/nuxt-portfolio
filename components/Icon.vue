@@ -14,6 +14,7 @@ import Add from "~/assets/icons/Add.vue";
 import Plane from "~/assets/icons/Plane.vue";
 
 import Logo from "~/assets/icons/Logo.vue";
+import LogoLarge from "~/assets/icons/LogoLarge.vue";
 
 import Leaf from "~/assets/icons/illustrative/Leaf.vue";
 import Star from "~/assets/icons/illustrative/Star.vue";
@@ -35,6 +36,7 @@ const icons = {
   plane: Plane,
 
   logo: Logo,
+  logoLarge: LogoLarge,
 
   leaf: Leaf,
   star: Star,

@@ -173,9 +173,9 @@ During the project, I was in charge of the entire process. This included first r
 
 ::pagination
 ---
-caseTitle: Zusammen gegen Corona
-url: zusammen-gegen-corona
-imageSource: /img/cases/zgc/zgc-preview.png
+caseTitle: Lightelligence
+url: lightelligence-apps
+imageSource: /img/cases/lightelligence/lightelligence-preview.png
 imageDescription: Some alt text
 ---
 ::

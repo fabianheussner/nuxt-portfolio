@@ -22,7 +22,7 @@ head:
 ::case-intro
 ---
 title: Beyond booking
-year: /21-23
+year: /22-23
 ---
 ::
 
@@ -51,7 +51,7 @@ data:
       - primary: Credits
         secondary: Mobimeo GmbH
       - primary: When
-        secondary: /21-23
+        secondary: /22-23
       - primary: What
         secondary: Mobile apps
         
@@ -64,6 +64,18 @@ description: In most cases, booking is not the end of the story - this is also t
 images:
   - source: /img/cases/bookings/bookings-prototype.png
     description: User research prototype for bookings
+
+preset: top
+---
+::
+
+::image
+---
+images:
+  - source: /img/cases/bookings/bookings-user-research.png
+    description: User research insights for bookings
+
+preset: bottom
 ---
 ::
 
@@ -144,9 +156,12 @@ preset: top
 ::image
 ---
 images:
-  - source: /img/cases/bookings/bookings-user-research.png
-    description: User research insights for bookings
+  - source: /img/cases/bookings/bookings-history-screens-1.png
+    description: Booking history mobile app screens 1
+  - source: /img/cases/bookings/bookings-history-screens-2.png
+    description: Booking history mobile app screens 2
 
+background: '#282D37'
 preset: bottom
 ---
 ::
@@ -163,12 +178,9 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 ::image
 ---
 images:
-  - source: /img/cases/bookings/bookings-subscription-pt-screens-1.png
-    description: User research prototype for bookings
-  - source: /img/cases/bookings/bookings-subscription-pt-screens-2.png
-    description: User research prototype for bookings
+  - source: /img/cases/bookings/bookings-subscriptions-flow.png
+    description: User research insights for bookings
 
-background: '#282D37'
 preset: top
 ---
 ::
@@ -176,9 +188,12 @@ preset: top
 ::image
 ---
 images:
-  - source: /img/cases/bookings/bookings-user-research.png
-    description: User research insights for bookings
+  - source: /img/cases/bookings/bookings-subscription-pt-screens-1.png
+    description: User research prototype for bookings
+  - source: /img/cases/bookings/bookings-subscription-pt-screens-2.png
+    description: User research prototype for bookings
 
+background: '#282D37'
 preset: bottom
 ---
 ::
@@ -190,15 +205,15 @@ My role
 #headline 
 A headline that fits lorem ipsum
 #text 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+I enjoyed working on multiple interconnected features and ensuring a seamless user experience. As a UX/UI Designer, I took on a variety of tasks that came up. Testing various prototypes allowed us to gain valuable insights through user interviews and usability testing. Therefore I worked closely with stakeholders from various teams to refine and create a cohesive experience across all features. I played a key role in benchmarking, conceptualizing ideas, designing intuitive interfaces, and communicating between development and design. Additionally, I utilized my expertise in UX writing to craft clear and concise messaging that guided users through each feature. 
 ::
 
 ::pagination
 ---
-caseTitle: Check in and out
-url: check-in-check-out
-imageSource: /img/cases/cico/cico-case-preview.png
-imageDescription: Some alt text
+caseTitle: Scan and Go
+url: scan-and-go
+imageSource: /img/cases/budni/sco-case-preview.png
+imageDescription: Scan and Go case preview
 ---
 ::
 

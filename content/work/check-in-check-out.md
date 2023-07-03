@@ -104,12 +104,22 @@ The German public transport landscape is challenging due to complicated fare sys
 ::image
 ---
 images:
+  - source: /img/cases/cico/cico-miro-boards-flows.png
+    description: Some alt text
+
+preset: top
+---
+::
+
+::image
+---
+images:
   - source: /img/cases/cico/cico-screens-1.png
     description: Some alt text
   - source: /img/cases/cico/cico-screens-2.png
     description: Some alt text
 
-preset: top
+preset: center
 ---
 ::
 
@@ -166,7 +176,7 @@ The solution
 #headline 
 Price capping as an incentive
 #text 
-A respectable result. In a multi-stage process, we developed a feature in several releases that meet users' needs. Education has been stripped down to the bare essentials to minimise the impact on the first launch experience. Based on our results, we developed the most contextual permission requests possible to provide the user with the appropriate experience based on their decisions. To top it all off, a global booking history was introduced that reveals the strongest benefit of the feature - price capping as an incentive. With several journeys per day, users always travel at the best price.
+A respectable result. In a multi-stage process, we developed a feature in several releases that meets users needs. Education has been stripped down to the bare essentials to minimise the impact on the first launch experience. Based on our results, we developed the most contextual permission requests possible to provide the user with the appropriate experience based on their decisions. To top it all off, a global booking history was introduced that reveals the strongest benefit of the feature - price capping as an incentive. With several journeys per day, users always travel at the best price.
 ::
 
 ::image
@@ -203,9 +213,9 @@ Being the UX/UI designer in my vertical and cross-functional team, I played an e
 
 ::pagination
 ---
-caseTitle: Scan and Go
-url: scan-and-go
-imageSource: /img/cases/budni/sco-case-preview.png
-imageDescription: Scan and Go case teaser 
+caseTitle: Beyond Booking
+url: beyond-booking
+imageSource: /img/cases/bookings/bookings-preview.png
+imageDescription: Beyond Booking case preview 
 ---
 ::

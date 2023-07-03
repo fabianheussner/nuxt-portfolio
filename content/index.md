@@ -19,9 +19,9 @@ head:
 ---
 
 
-::stage-large
+::stage-home
 ---
-subline: I'm Fabian Heußner 👋 Product Designer by heart.
+subline: Hey, I'm Fabian and Product Designer by heart.
 title: I strive to connect people's needs with aesthetics.
 primaryLabel: Discover work
 primaryLink: /work

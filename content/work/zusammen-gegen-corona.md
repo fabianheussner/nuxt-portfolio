@@ -132,9 +132,9 @@ It is truly amazing to see what is possible to achieve – and that despite this
 
 ::pagination
 ---
-caseTitle: Lightelligence
-url: lightelligence-apps
-imageSource: /img/cases/lightelligence/lightelligence-preview.png
-imageDescription: Some alt text
+caseTitle: Check in Be out
+url: check-in-check-out
+imageSource: /img/cases/cico/cico-case-preview.png
+imageDescription: Check in Be out case preview
 ---
 ::

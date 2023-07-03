@@ -169,10 +169,10 @@ The UI/UX team independently took care of the customer's communication and advic
 
 ::pagination
 ---
-caseTitle: Check in Be out
-url: check-in-check-out
-imageSource: /img/cases/cico/cico-case-preview.png
-imageDescription: Some alt text
+caseTitle: Zusammen gegen Corona
+url: zusammen-gegen-corona
+imageSource: /img/cases/zgc/zgc-preview.png
+imageDescription: Zusammen gegen Corona case preview
 ---
 ::
 

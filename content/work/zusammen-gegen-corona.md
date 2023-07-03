@@ -1,6 +1,6 @@
 ---
-title: 'Zusammen gegen Corona · Fabian Heussner Senior UX/UI Designer Hamburg'
-description: "Ever shared your apartment with a colleague? I did! Exceptional circumstances require different collaboration."
+title: 'Zusammen gegen Corona · Only 52 hours to launch'
+description: "Have you ever shared an apartment with a colleague? I did! Exceptional circumstances require different collaborations. Within a day, my living room became a design office and bedroom simultaneously for my surprise roommate. We have taken on the challenge of developing a website for the Bundesministerium f. Gesundheit containing all the information available by then."
 image:
   src: '/img/fabian-heussner_og-image.png'
   alt: 'Fabian Heussner · Portfolio Website Preview'
@@ -9,7 +9,7 @@ image:
 head:
   meta:
     - name: 'keywords'
-      content: 'home, service design, feature, design thinking, design, ux, ui, ux/ui, product design, designer, agile, ux research, wireframes, prototyping, ux writing, design systems, components, figma, hamburg'
+      content: 'case study, project, ux, ui, ux/ui, wireframes, prototype, sketch, bundesministerium für gesundheit, portfolio, corona, zusammen gegen corona, wir bleiben zuhause, web portal, design, pandemic, home office, design system, components, screens'
     - name: 'robots'
       content: 'index, follow'
     - name: 'author'
@@ -29,7 +29,7 @@ year: /20
 ::image-full
 ---
 source: /img/cases/zgc/zgc-case-preview-l.png
-description: Zusammen gegen Corona case preview
+description: Zusammen gegen Corona case hero image
 ---
 ::
 
@@ -53,7 +53,6 @@ data:
       - primary: What
         secondary: Web portal
         
-company: Test Props Name
 description: Have you ever shared an apartment with a colleague? I did! Exceptional circumstances require different collaborations. Within a day, my living room became a design office and bedroom simultaneously for my surprise roommate. We have taken on the challenge of developing a website for the Bundesministerium f. Gesundheit containing all the information available by then.
 ---
 ::
@@ -62,8 +61,20 @@ description: Have you ever shared an apartment with a colleague? I did! Exceptio
 ::image
 ---
 images:
+  - source: /img/cases/zgc/bmg-zgc-entry-point-illustrations.png
+    description: Zusammen gegen Corona entry point illustrations
+
+preset: top
+---
+::
+
+::image
+---
+images:
   - source: /img/cases/zgc/bmg-zgc-screens-1.png
-    description: Some alt text
+    description: Zusammen gegen Corona first basic screens
+
+preset: bottom
 ---
 ::
 
@@ -80,7 +91,7 @@ Probably most have had similar experiences of what it's like to change work envi
 ---
 images:
   - source: /img/cases/zgc/bmg-zgc-components.png
-    description: Some alt text
+    description: Zusammen gegen Corona components
 ---
 ::
 
@@ -97,9 +108,9 @@ To be honest, it was tough to get started - no fonts, no design system or librar
 ---
 images:
   - source: /img/cases/zgc/bmg-zgc-screens-2.png
-    description: Some alt text
+    description: Zusammen gegen Corona screens 2
   - source: /img/cases/zgc/bmg-zgc-screens-3.png
-    description: Some alt text
+    description: Zusammen gegen Corona screens 3
 ---
 ::
 
@@ -116,7 +127,7 @@ In no time we built a website that met the initial requirements. From briefing t
 ---
 images:
   - source: /img/cases/zgc/zgc-case-screens-4.png
-    description: Some alt text
+    description: Zusammen gegen Corona screens 4
 ---
 ::
 

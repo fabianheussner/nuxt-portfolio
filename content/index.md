@@ -9,7 +9,7 @@ image:
 head:
   meta:
     - name: 'keywords'
-      content: 'home, service design, feature, design thinking, design, ux, ui, ux/ui, product design, designer, agile, ux research, wireframes, prototyping, ux writing, design systems, components, figma, hamburg'
+      content: 'home, service design, experience design, design thinking, design, ux, ui, ux/ui, product design, designer, agile, ux research, usability testing, wireframes, prototyping, ux writing, design systems, components, figma, hamburg'
     - name: 'robots'
       content: 'index, follow'
     - name: 'author'
@@ -60,18 +60,18 @@ sectionCounter: (2)
 
 data:
     projects:
-      - link: /work/check-in-check-out
+      - link: /work/check-in-be-out
         type: Mobile app
         title: Check in Be out
-        subtitle: Post paid ticketing for convinient travel
+        subtitle: Postpaid ticketing for convenient travel
         imageSource: /img/cases/cico/cico-case-preview.png
-        imageDescription: Some alt text goes here
+        imageDescription: Check in Be out case preview
       - link: /work/scan-and-go
         type: Mobile app
         title: Scan and Go
-        subtitle: Adoption to market transformation
+        subtitle: Adjustment to market shares
         imageSource: /img/cases/budni/sco-case-preview.png
-        imageDescription: Some alt text goes here
+        imageDescription: Scan and Go case preview
 
 cta: Discover all
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'About · Fabian Heussner Senior UX/UI Designer Hamburg'
-description: "Hey there, I'm Fabian, Product Designer based in sunny Hamburg."
+description: "Hey, I'm Fabian and digital Product Designer by heart. I connect people's needs with aesthetics."
 image:
   src: '/img/fabian-heussner_og-image.png'
   alt: 'Fabian Heussner · Portfolio Website Preview'
@@ -9,7 +9,7 @@ image:
 head:
   meta:
     - name: 'keywords'
-      content: 'about, service design, feature, design thinking, design, ux, ui, ux/ui, product design, designer, agile, ux research, wireframes, prototyping, ux writing, design systems, components, figma, hamburg'
+      content: 'about, skills, cv, software, service design, experience design, design thinking, design, ux, ui, ux/ui, product design, designer, agile, ux research, usability testing, wireframes, prototyping, ux writing, design systems, components, figma, hamburg'
     - name: 'robots'
       content: 'index, follow'
     - name: 'author'
@@ -68,7 +68,7 @@ label: Besides work…
 title: I love cycling, coconut coffee and greenery.
 message: Outside of work you can often meet me on my road bike in the greater Hamburg area or even crossing the Alps. I draw inspiration and strength primarily from nature, my love for mountaineering and the photography of impressive architecture. 
 imageSource: /img/Portrait_BG-Edit-S.png
-imageDescription: Profile picture Fabian Heußner
+imageDescription: Portrait Fabian Heußner
 ---
 ::
 

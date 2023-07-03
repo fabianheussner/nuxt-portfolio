@@ -6,7 +6,7 @@
     <div class="relative flex h-16 items-center">
       <div class="navigation__large-logo absolute left-0">
         <NuxtLink to="/">
-          <Icon name="logoLarge" />
+          <Icon name="logo" />
         </NuxtLink>
       </div>
       <div class="navigation__large-menu mx-auto hidden lg:block">
@@ -70,7 +70,7 @@ export default {
   }
   .navigation__large-logo {
     svg {
-      // @apply w-10 h-10;
+      @apply w-10 h-10;
     }
   }
   .navigation__large-contact {

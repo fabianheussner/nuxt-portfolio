@@ -42,31 +42,31 @@ sectionCounter: (5)
 
 data:
     projects:
-      - link: /work/check-in-be-out
+      - link: check-in-be-out
         type: Mobile app
         title: Check in Be out
         subtitle: Postpaid ticketing for convenient travel
         imageSource: /img/cases/cico/cico-case-preview.png
         imageDescription: Check in Be out case preview
-      - link: /work/beyond-booking
+      - link: beyond-booking
         type: Mobile app
         title: Beyond booking
         subtitle: Booking and expense management
         imageSource: /img/cases/bookings/bookings-preview.png
         imageDescription: Beyond booking case preview
-      - link: /work/scan-and-go
+      - link: scan-and-go
         type: Mobile app
         title: Scan and Go
         subtitle: Adjustment to market shares
         imageSource: /img/cases/budni/sco-case-preview.png
         imageDescription: Scan and Go case preview
-      - link: /work/lightelligence-apps
+      - link: lightelligence-apps
         type: Web apps
         title: Lightelligence
         subtitle: Facility management with sensors
         imageSource: /img/cases/lightelligence/lightelligence-preview.png
         imageDescription: Lightelligence case preview
-      - link: /work/zusammen-gegen-corona
+      - link: zusammen-gegen-corona
         type: Web portal
         title: Zusammen gegen Corona
         subtitle: Only 52 hours to launch

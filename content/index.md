@@ -60,13 +60,13 @@ sectionCounter: (2)
 
 data:
     projects:
-      - link: /work/check-in-be-out
+      - link: check-in-be-out
         type: Mobile app
         title: Check in Be out
         subtitle: Postpaid ticketing for convenient travel
         imageSource: /img/cases/cico/cico-case-preview.png
         imageDescription: Check in Be out case preview
-      - link: /work/scan-and-go
+      - link: scan-and-go
         type: Mobile app
         title: Scan and Go
         subtitle: Adjustment to market shares

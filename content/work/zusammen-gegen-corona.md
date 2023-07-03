@@ -144,7 +144,7 @@ It is truly amazing to see what is possible to achieve – and that despite this
 ::pagination
 ---
 caseTitle: Check in Be out
-url: check-in-check-out
+url: check-in-be-out
 imageSource: /img/cases/cico/cico-case-preview.png
 imageDescription: Check in Be out case preview
 ---

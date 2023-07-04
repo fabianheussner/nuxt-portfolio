@@ -133,7 +133,7 @@ images:
 
 ::text
 #label
-My Role
+My contribution
 #headline 
 From factual to pretty
 #text 

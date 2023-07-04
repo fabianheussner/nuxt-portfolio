@@ -160,7 +160,7 @@ images:
 
 ::text
 #label
-My Role
+My contribution
 #headline 
 Facility and design system management
 #text 

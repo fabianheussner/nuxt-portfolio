@@ -200,7 +200,7 @@ preset: bottom
 
 ::text
 #label
-My role
+My contribution
 #headline 
 Collaboration across teams
 #text 

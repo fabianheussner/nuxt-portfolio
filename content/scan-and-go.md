@@ -164,7 +164,7 @@ background: '#1E3E95'
 
 ::text
 #label
-My Role
+My contribution
 #headline 
 Accompanying the whole process
 #text 

@@ -203,7 +203,7 @@ preset: bottom
 
 ::text
 #label
-My role
+My contribution
 #headline 
 From concept to completion
 #text 

@@ -10,7 +10,7 @@
       <Type variant="display" class="mt-4 mb-12">
         {{ title }}
       </Type>
-      <Button variant="primary" :to="primaryLink" class="mr-4 mb-4">
+      <Button variant="primary" :to="primaryLink" class="mr-4 mb-4 md:mb-0">
         {{ primaryLabel }}
       </Button>
       <Button variant="secondary" :to="secondaryLink">

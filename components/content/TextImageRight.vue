@@ -24,6 +24,8 @@
     <div class="image md:col-span-6 lg:col-span-6 order-1 md:order-2">
       <nuxt-img
         format="webp"
+        sizes="sm:100vw md:100vw lg:1440px"
+        densities="x1 x2"
         :src="imageSource"
         :alt="imageDescription"
         class="md:h-full object-cover"

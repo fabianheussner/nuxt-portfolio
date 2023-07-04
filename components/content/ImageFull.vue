@@ -2,6 +2,8 @@
   <div class="image__full -mx-6 lg:-mx-4" v-motion="motionFadeEnter">
     <nuxt-img
       format="webp"
+      sizes="sm:100vw md:100vw lg:2800px"
+      densities="x1 x2"
       :src="source"
       :alt="description"
       class="lg:rounded-2xl"

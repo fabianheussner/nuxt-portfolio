@@ -7,6 +7,7 @@
   >
     <nuxt-img
       format="webp"
+      densities="x1 x2"
       v-for="(image, index) in images"
       :key="index"
       :src="image.source"

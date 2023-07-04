@@ -11,7 +11,12 @@
         :key="client.name"
         class="client__table-logo col-span-6 md:col-span-3 h-24 md:h-40 flex justify-center items-center"
       >
-        <img :src="client.logo" alt="some alt text" class="logo" />
+        <nuxt-picture
+          format="svg"
+          :src="client.logo"
+          :alt="client.description"
+          class="logo"
+        />
       </div>
     </div>
   </div>

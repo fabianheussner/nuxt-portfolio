@@ -21,7 +21,7 @@ head:
 
 ::page-container
 
-# Imrpint
+# Imprint
 
 Information in accordance with Section 5 TMG
 

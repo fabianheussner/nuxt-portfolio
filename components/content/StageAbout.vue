@@ -1,6 +1,6 @@
 <template>
   <div
-    class="stage__about grid grid-cols-1 md:grid-cols-12 gap-y-12 md:gap-x-8 items-center min-h-[35.5rem] margin__v-large"
+    class="stage__about grid grid-cols-1 md:grid-cols-12 gap-y-12 md:gap-x-8 items-center md:min-h-[35.5rem] margin__v-large"
     v-motion="motionFadeEnter"
   >
     <div class="stage__about-title md:col-span-6">

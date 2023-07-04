@@ -69,6 +69,13 @@ export default defineNuxtConfig({
     },
   },
 
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/', 'sitemap.xml'],
+      ignore: ['/imprint', '/privacy-policy'],
+    },
+  },
   sitemap: {
     siteUrl: 'https://fabianheussner.com',
   },

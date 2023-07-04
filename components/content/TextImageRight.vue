@@ -22,7 +22,8 @@
       </Type>
     </div>
     <div class="image md:col-span-6 lg:col-span-6 order-1 md:order-2">
-      <img
+      <nuxt-img
+        format="webp"
         :src="imageSource"
         :alt="imageDescription"
         class="md:h-full object-cover"

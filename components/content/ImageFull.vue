@@ -1,6 +1,11 @@
 <template>
   <div class="image__full -mx-6 lg:-mx-4" v-motion="motionFadeEnter">
-    <img :src="source" :alt="description" class="lg:rounded-2xl" />
+    <nuxt-img
+      format="webp"
+      :src="source"
+      :alt="description"
+      class="lg:rounded-2xl"
+    />
   </div>
 </template>
 

@@ -2,7 +2,7 @@
   <NuxtLink :to="link" class="case__teaser flex flex-col bg-surface">
     <div class="case__teaser-preview">
       <picture>
-        <img :src="imageSource" :alt="imageDescription" />
+        <nuxt-img format="webp" :src="imageSource" :alt="imageDescription" />
       </picture>
     </div>
     <div class="case__teaser-body flex-grow p-6 sm:p-8 lg:p-12">

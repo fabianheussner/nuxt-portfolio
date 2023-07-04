@@ -21,7 +21,7 @@
     </div>
     <div class="case__teaser-preview order-1 md:order-2">
       <picture>
-        <img :src="imageSource" :alt="imageDescription" />
+        <nuxt-img format="webp" :src="imageSource" :alt="imageDescription" />
       </picture>
     </div>
   </NuxtLink>

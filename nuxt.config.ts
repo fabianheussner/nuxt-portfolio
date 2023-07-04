@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
     '@vueuse/motion/nuxt',
+    '@nuxt/image',
     'nuxt-simple-sitemap',
   ],
 
@@ -23,7 +24,6 @@ export default defineNuxtConfig({
       mode: 'out-in' 
     },
   },
-
 
   content: {
     markdown: {

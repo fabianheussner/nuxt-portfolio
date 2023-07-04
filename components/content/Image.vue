@@ -5,7 +5,8 @@
     :style="{ background }"
     v-motion="motionFadeIn"
   >
-    <img
+    <nuxt-img
+      format="webp"
       v-for="(image, index) in images"
       :key="index"
       :src="image.source"

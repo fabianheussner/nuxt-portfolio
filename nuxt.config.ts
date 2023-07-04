@@ -68,4 +68,8 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  sitemap: {
+    siteUrl: 'https://fabianheussner.com',
+  },
 })

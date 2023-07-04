@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@vueuse/motion/nuxt',
     '@nuxt/image',
     'nuxt-simple-sitemap',
+    '@nuxtjs/robots',
   ],
 
   app: {

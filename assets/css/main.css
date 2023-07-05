@@ -4,11 +4,6 @@ body {
   @apply text-onBackground;
 }
 
-/* html {
-  scroll-behavior: smooth;
-} */
-
-
 @layer {
   .hover-short {
     transition: all 300ms ease-in-out;
@@ -21,8 +16,6 @@ body {
   }
 }
 
-
- 
 .page__container {
   h1 {
     @apply text-5xl md:text-7xl font-medium leading-none tracking-tighter pb-6;

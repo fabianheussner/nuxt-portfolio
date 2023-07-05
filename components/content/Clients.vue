@@ -54,9 +54,9 @@ export default {
           description: "Client Logo - Osram",
         },
         {
-          name: "Ruttkowski 68",
-          logo: "/logos/client-ruttkowski68.svg",
-          description: "Client Logo - Ruttkowski 68",
+          name: "Budni",
+          logo: "/logos/client-budni.svg",
+          description: "Client Logo - Budni",
         },
         {
           name: "Migros",

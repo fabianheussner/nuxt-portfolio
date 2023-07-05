@@ -5,7 +5,10 @@
   >
     <div class="relative flex h-16 items-center">
       <div class="navigation__large-logo absolute left-0">
-        <NuxtLink to="/">
+        <NuxtLink
+          to="/"
+          class="text-onBackground hover:text-onBackgroundSubdued"
+        >
           <Icon name="logo" />
         </NuxtLink>
       </div>
@@ -57,6 +60,10 @@ export default {
   &.scrolled .navigation__large-menu {
     transform: scale(0.9);
     @apply shadow-md rounded-full;
+  }
+
+  .navigation__large-logo a {
+    transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   }
   .navigation__large-logo,
   .navigation__large-contact {

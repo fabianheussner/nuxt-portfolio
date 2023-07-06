@@ -21,7 +21,15 @@
     <div
       class="stage__home-hero md:col-span-6 lg:col-span-5 lg:col-end-13 mx-auto order-1 md:order-2"
     >
-      <video autoplay muted loop playsinline>
+      <video
+        autoplay="autoplay"
+        loop="loop"
+        muted
+        defaultMuted
+        playsinline
+        oncontextmenu="return false;"
+        preload="auto"
+      >
         <source src="/video/hero-video-s.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>

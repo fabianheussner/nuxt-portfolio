@@ -10,7 +10,12 @@
       <Type variant="display" class="mt-4 mb-12">
         {{ title }}
       </Type>
-      <Button variant="primary" :to="primaryLink" class="mr-4">
+      <Button
+        v-if="primaryLabel"
+        variant="primary"
+        :to="primaryLink"
+        class="mr-4"
+      >
         {{ primaryLabel }}
       </Button>
     </div>

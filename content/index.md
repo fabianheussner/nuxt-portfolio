@@ -23,7 +23,7 @@ head:
 ---
 subline: Hey, I'm Fabian and Product Designer by heart.
 title: I strive to connect people's needs with aesthetics.
-primaryLabel: Discover work
+primaryLabel: See work
 primaryLink: /work
 secondaryLabel: Get to know me
 secondaryLink: /about
@@ -73,7 +73,7 @@ data:
         imageSource: /img/cases/budni/sco-case-preview.png
         imageDescription: Scan and Go case preview
 
-cta: Discover all
+cta: Discover more
 ---
 ::
 

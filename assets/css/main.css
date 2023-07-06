@@ -1,4 +1,8 @@
 
+/* html {
+  scroll-behavior: smooth;
+} */
+
 body {
   @apply bg-background;
   @apply text-onBackground;

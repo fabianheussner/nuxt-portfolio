@@ -9,7 +9,6 @@
       </Type>
       <Type variant="display" class="mt-4 mb-12">
         {{ title }}
-        <!-- Ich übersetze Absichten in Schnittstellen -->
       </Type>
       <Button
         v-if="primaryLabel"
@@ -19,6 +18,7 @@
       >
         {{ primaryLabel }}
       </Button>
+      <!-- <a href="#cases">Scroll to test</a> -->
     </div>
   </div>
 </template>

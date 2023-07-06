@@ -1,5 +1,5 @@
 <template>
-  <div class="case__overview padding__v-large">
+  <div :id="sectionId" class="case__overview padding__v-large">
     <SectionHeader
       :title="sectionTitle"
       :counter="sectionCounter"
@@ -35,6 +35,9 @@ import { motionFadeUp } from "./scrollmotion";
 
 export default {
   props: {
+    sectionId: {
+      type: String,
+    },
     sectionTitle: {
       type: String,
       required: true,

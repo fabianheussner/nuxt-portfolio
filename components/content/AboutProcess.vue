@@ -1,5 +1,6 @@
 <template>
   <div
+    :id="sectionId"
     class="grid grid-cols-1 gap-x-8 gap-y-12 lg:grid-cols-12 padding__v-large"
   >
     <div class="lg:col-span-5" v-motion="motionFadeUp">
@@ -25,6 +26,9 @@ import { motionFadeUp } from "./scrollmotion.js";
 
 export default {
   props: {
+    sectionId: {
+      type: String,
+    },
     title: {
       type: String,
       required: true,

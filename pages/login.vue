@@ -12,7 +12,7 @@
             v-model="password" 
             type="password" 
             placeholder="Enter password" 
-            :class="{ 'border-[#BA1A1A] shake' : showError || showEmptyError }"
+            :class="{ 'border-error shake' : showError || showEmptyError }"
             class="p-4 border border-onSurfaceVariantBorder rounded-xl w-full hover:border-onSurface focus:outline-none focus:border-onSurface focus:ring-1 focus:ring-onSurface" 
           />
           <span class="support mt-2 block ">

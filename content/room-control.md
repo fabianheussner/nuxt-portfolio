@@ -71,7 +71,7 @@ The situation
 #headline 
 Awareness and accessibility 
 #text 
-Room controls in the existing app were quite hidden - in fact, so much that many users simply weren't aware of them. Due to their generic group concept, accessing the proper controls was also very tedious. In the course of the new home screen and the contextual retrieval of app permissions, we had the chance to improve this significantly. The anticipated increase in authorizations for camera, location and Bluetooth could enable additional location-based services too. Which ones? That's what we had to validate.
+Room controls in the existing app were quite hidden - in fact, so much that many users simply weren't aware of them. Due to their generic group concept, accessing the proper controls was also very tedious. In the course of the new home screen and the contextual retrieval of app permissions, we had the chance to improve this significantly. The anticipated increase in authorizations for camera, location and Bluetooth could enable additional location-based services too. Which ones? That's what we had to validate…
 ::
 
 ::image

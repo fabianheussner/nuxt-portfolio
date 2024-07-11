@@ -60,18 +60,18 @@ sectionCounter: (2)
 
 data:
     projects:
+      - link: room-control
+        type: Mobile app
+        title: Room control
+        subtitle: Competing with a switch
+        imageSource: /img/cases/room-control/room-control-preview.png
+        imageDescription: Room control case preview
       - link: check-in-be-out
         type: Mobile app
         title: Check in Be out
         subtitle: Postpaid ticketing for convenient travel
         imageSource: /img/cases/cico/cico-case-preview.png
         imageDescription: Check in Be out case preview
-      - link: scan-and-go
-        type: Mobile app
-        title: Scan and Go
-        subtitle: Adjustment to market shares
-        imageSource: /img/cases/budni/sco-case-preview.png
-        imageDescription: Scan and Go case preview
 
 cta: Discover more
 ---

@@ -7,8 +7,8 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@vueuse/motion/nuxt',
     '@nuxt/image',
-    'nuxt-simple-sitemap',
     '@nuxtjs/robots',
+    "@nuxtjs/sitemap"
   ],
 
   app: {

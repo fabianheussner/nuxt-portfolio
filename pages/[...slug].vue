@@ -16,3 +16,9 @@
     </ContentDoc>
   </main>
 </template>
+
+<script setup>
+definePageMeta({
+  middleware: ['auth']
+});
+</script>

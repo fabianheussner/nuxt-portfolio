@@ -38,10 +38,16 @@ sectionTitle: Selected clients
 ::case-overview-small
 ---
 sectionTitle: Selected work
-sectionCounter: (5)
+sectionCounter: (6)
 
 data:
     projects:
+      - link: room-control
+        type: Mobile app
+        title: Room control
+        subtitle: Competing with a switch
+        imageSource: /img/cases/room-control/room-control-preview.png
+        imageDescription: Room control case preview
       - link: check-in-be-out
         type: Mobile app
         title: Check in Be out

@@ -54,9 +54,9 @@ export default {
           description: "Client Logo - Osram",
         },
         {
-          name: "Budni",
-          logo: "/logos/client-budni.svg",
-          description: "Client Logo - Budni",
+          name: "ASML",
+          logo: "/logos/client-asml.svg",
+          description: "Client Logo - ASML",
         },
         {
           name: "Migros",

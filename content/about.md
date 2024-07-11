@@ -26,7 +26,7 @@ subline: More than a decade experience in design.
 title: I've a passion for illustration and enjoy writing some code.
 primaryLabel: Discover work
 primaryLink: /work
-employer: Mobimeo GmbH
+employer: thingit GmbH
 ---
 ::
 
@@ -80,9 +80,12 @@ message: With over a decade of experience in designing, my classic background ha
 
 data:
     employers:
+      - position: Senior Product Designer
+        company: thingit GmbH
+        year: 10/23 - today
       - position: Senior UX / UI Designer
         company: Mobimeo GmbH
-        year: 9/21 - today
+        year: 9/21 - 9/23
       - position: Product Designer
         company: Cellular GmbH
         year: 10/20 - 8/21

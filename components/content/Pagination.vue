@@ -1,7 +1,7 @@
 <template>
   <NuxtLink
     :to="url"
-    class="pagination grid grid-cols-1 sm:grid-cols-12 rounded-2xl overflow-hidden margin__vt-large bg-surface items-center"
+    class="pagination grid grid-cols-1 sm:grid-cols-12 rounded-2xl overflow-hidden margin__v-large bg-surface items-center"
     v-motion="motionFadeUp"
   >
     <div class="pagination__body sm:col-span-6 md:col-span-7 my-4 p-6 md:p-12">

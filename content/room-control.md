@@ -62,7 +62,6 @@ images:
   - source: /img/cases/room-control/room-control-requirements.png
     description: Sticky notes with requirements for new room controls and around you
 
-preset: top
 ---
 ::
 
@@ -73,6 +72,35 @@ Situation
 Awareness and accessibility
 #text 
 Room controls in the existing app were quite hidden - in fact, so much that many users simply weren't aware of them. Due to their generic group concept, accessing the proper controls was also very tedious. In the course of the new home screen and the contextual retrieval of app permissions, we had the chance to improve this significantly. The anticipated increase in authorizations for camera, location and Bluetooth could enable additional location-based services too. Which ones? That's what we had to validate.
+::
+
+::image
+---
+images:
+  - source: /img/cases/room-control/room-control-user-research.png
+    description: Figma prototype for user research and table with insights gained
+
+preset: top
+---
+::
+
+::image
+---
+images:
+  - source: /img/cases/room-control/room-control-insights.png
+    description: Sticky notes with insights gained from user research
+
+preset: bottom
+---
+::
+
+::text
+#label
+Challenge
+#headline 
+Quest for easy access
+#text 
+When working on the new solution, we faced several constraints and challenges. The new room control entry point had to be unobtrusive, as not all users could utilize the feature due to the unavailability of controls in some older buildings. However, employees frequently change buildings during their work day on bigger sites, making accurate localization of users within the building essential for providing the correct controls. Additionally, many employees do not have the mobile app installed, leaving them unable to change the lighting or temperature of their workspace. This highlighted the need to explore alternative solutions that do not require the app – but this had to wait.
 ::
 
 ::image
@@ -92,35 +120,6 @@ preset: top
 images:
   - source: /img/cases/room-control/room-control-wireframes-3.png
     description: Room control wireflow for mobile app 
-
-preset: bottom
----
-::
-
-::text
-#label
-Challenge
-#headline 
-Quest for easy access
-#text 
-When working on the new solution, we faced several constraints and challenges. The new room control entry point had to be unobtrusive, as not all users could utilize the feature due to the unavailability of controls in some older buildings. However, employees frequently change buildings during their work day on bigger sites, making accurate localization of users within the building essential for providing the correct controls. Additionally, many employees do not have the mobile app installed, leaving them unable to change the lighting or temperature of their workspace. This highlighted the need to explore alternative solutions that do not require the app – but this had to wait.
-::
-
-::image
----
-images:
-  - source: /img/cases/room-control/room-control-user-research.png
-    description: Figma prototype for user research and table with insights gained
-
-preset: top
----
-::
-
-::image
----
-images:
-  - source: /img/cases/room-control/room-control-insights.png
-    description: Sticky notes with insights gained from user research
 
 preset: bottom
 ---

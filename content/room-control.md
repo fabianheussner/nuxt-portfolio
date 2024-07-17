@@ -1,6 +1,6 @@
 ---
-title: 'About · Fabian Heussner Senior UX/UI Designer Hamburg'
-description: "Hey, I'm Fabian and digital Product Designer by heart. I connect people's needs with aesthetics."
+title: 'Room Control · Competing with a switch'
+description: "In recent years, the work environment has undergone significant transformations. Driven by the pandemic, workplace dynamics have changed considerably. As remote work becomes more prevalent, the demand for smart office solutions has increased. Modern offices, utilizing booking systems and space analysis, are increasingly tech-driven. To save costs, some offices are now even built without physical switches for lighting and blinds. So, how do you try to compete with a switch?"
 image:
   src: '/img/fabian-heussner_og-image.png'
   alt: 'Fabian Heussner · Portfolio Website Preview'
@@ -9,7 +9,7 @@ image:
 head:
   meta:
     - name: 'keywords'
-      content: 'about, skills, cv, software, service design, experience design, design thinking, design, ux, ui, ux/ui, product design, designer, agile, ux research, usability testing, wireframes, prototyping, ux writing, design systems, components, figma, hamburg'
+      content: 'case study, project, ux, ui, ux/ui, wireframes, prototype, figma, portfolio, smart office, iot, room controls, smart home, mobile app, design, ux-writing, design system, components, screens'
     - name: 'robots'
       content: 'index, follow'
     - name: 'author'

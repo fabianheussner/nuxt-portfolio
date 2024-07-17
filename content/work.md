@@ -1,5 +1,5 @@
 ---
-title: 'Work · Fabian Heussner Senior UX/UI Designer Hamburg'
+title: 'Work · Fabian Heussner | Product Designer Hamburg'
 description: "Hey, I'm Fabian and digital Product Designer by heart. I connect people's needs with aesthetics."
 image:
   src: '/img/fabian-heussner_og-image.png'

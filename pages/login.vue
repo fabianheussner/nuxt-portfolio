@@ -22,7 +22,7 @@
         </span>
         <div class="button-group flex flex-col flex-col-reverse md:flex-row justify-end gap-x-2 gap-y-2">
           <button @click="goBack" type="submit" class="button button-secondary">Go back</button>
-          <button type="submit" class="button button-primary">Submit</button>
+          <button type="submit" class="button button-primary">Log in</button>
         </div>
       </form>
     </div>

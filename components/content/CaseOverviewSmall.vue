@@ -15,6 +15,7 @@
         :subtitle="project.subtitle"
         :imageSource="project.imageSource"
         :imageDescription="project.imageDescription"
+        :confidential="project.confidential"
         v-motion="motionFadeUp"
       />
       <AddTeaser />

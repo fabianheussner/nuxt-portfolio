@@ -5,9 +5,12 @@
     v-motion="motionFadeUp"
   >
     <div class="pagination__body sm:col-span-6 md:col-span-7 my-4 p-6 md:p-12">
-      <Type variant="subline" class="text-onSurfaceSubdued mb-2">
-        Next project
-      </Type>
+      <div class="labels flex items-center justify-between md:justify-start h-9 mb-2">
+        <Type variant="subline" class="text-onSurfaceSubdued">
+          Next project
+        </Type>
+        <Chip v-if="confidential" variant="chip-statusError" class="ml-6">Confidential</Chip>
+      </div>
       <Type variant="title-small" class="mb-4 md:mb-8">{{ caseTitle }}</Type>
       <div class="read-more inline-flex items-center">
         <Icon name="arrowright" class="w-8 h-8" />
@@ -23,6 +26,7 @@
 </template>
 
 <script>
+import Chip from './Chip.vue'; // New part
 import { motionFadeUp } from "./scrollmotion";
 
 export default {
@@ -42,6 +46,10 @@ export default {
     imageDescription: {
       type: String,
       required: true,
+    },
+    confidential: {
+      type: Boolean,
+      default: false,
     },
   },
   data() {

@@ -147,5 +147,6 @@ caseTitle: Room control
 url: room-control
 imageSource: /img/cases/room-control/room-control-preview.png
 imageDescription: Room control thumbnail
+confidential: true
 ---
 ::

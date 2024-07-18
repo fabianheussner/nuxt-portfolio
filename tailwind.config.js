@@ -4,21 +4,6 @@ module.exports = {
   theme: {
     extend: {},
     colors: {
-      accentBlue: '#23608C',
-      onAccentBlue: '#FFFFFF',
-      accentBlueContainer: '#BFE4FF',
-      onAccentBlueContainer: '#093859',
-
-      accentPurple: '#69468C',
-      onAccentPurple: '#FFFFFF',
-      accentPurpleContainer: '#E7DBF3',
-      onAccentPurpleContainer: '#32174D',
-
-      accentGreen: '#398080',
-      onAccentGreen: '#FFFFFF',
-      accentGreenContainer: '#CEF2EC',
-      onAccentGreenContainer: '#124D59',
-
       background: '#FFFFFF',
       onBackground: '#1B1C1D',
       onBackgroundSubdued: '#585F66',
@@ -39,10 +24,20 @@ module.exports = {
       onSurfaceVariantSubdued: '#585F66',
       onSurfaceVariantBorder: '#D2D2D7',
 
+      accentBlue: '#23608C',
+      onAccentBlue: '#FFFFFF',
+      accentBlueContainer: '#BFE4FF',
+      onAccentBlueContainer: '#093859',
+
+      warning: '#FBBF24',
+      onWarning: '#1B1C1D',
+      warningContainer: '#FEF3C7',
+      onWarningContainer: '#B45309',
+
       error: '#BA1A1A',
       onError: '#FFFFFF',
-      onErrorSubdued: '#FFDAD6',
-      onErrorBorder: '#410002',
+      errorContainer: '#FFDAD6',
+      onErrorContainer: '#410002',
     },
     fontFamily: {
       sans: [

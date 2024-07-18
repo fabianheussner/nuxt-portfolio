@@ -12,9 +12,12 @@
       </picture>
     </div>
     <div class="case__teaser-body flex-grow p-6 sm:p-8 lg:p-12">
-      <Type variant="body-medium" class="mb-4 text-onSurfaceSubdued">
-        {{ type }}
-      </Type>
+      <div class="labels flex items-center justify-between h-9 mb-4">
+        <Type variant="body-medium" class="text-onSurfaceSubdued">
+          {{ type }}
+        </Type>
+        <Chip v-if="confidential" variant="chip-statusError" class="ml-6">Confidential</Chip>
+      </div>
       <Type variant="title-small" class="mb-1">{{ title }}</Type>
       <Type variant="subline" class="text-onSurfaceSubdued mb-8 md:mb-12">
         {{ subtitle }}
@@ -28,6 +31,8 @@
 </template>
 
 <script>
+import Chip from './Chip.vue'; // New part
+
 export default {
   props: {
     link: {
@@ -53,6 +58,10 @@ export default {
     imageDescription: {
       type: String,
       required: true,
+    },
+    confidential: {
+      type: Boolean,
+      default: false,
     },
   },
 };

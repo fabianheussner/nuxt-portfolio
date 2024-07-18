@@ -66,6 +66,7 @@ data:
         subtitle: Competing with a switch
         imageSource: /img/cases/room-control/room-control-preview.png
         imageDescription: Room control case preview
+        confidential: true 
       - link: check-in-be-out
         type: Mobile app
         title: Check in Be out

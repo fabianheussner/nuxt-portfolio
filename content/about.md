@@ -23,7 +23,7 @@ head:
 ::stage-about
 ---
 subline: More than a decade experience in design.
-title: I've a passion for illustration and enjoy writing some code.
+title: I have a passion for illustration and enjoy writing some code.
 primaryLabel: Discover work
 primaryLink: /work
 employer: thingit GmbH
